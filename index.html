@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
+ *
+ *  Use of this source code is governed by a BSD-style license
+ *  that can be found in the LICENSE file in the root of the source
+ *  tree.
+-->
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="WebRTC code samples">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+    <meta itemprop="description" content="Client-side WebRTC code samples">
+    <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">
+    <meta itemprop="name" content="WebRTC code samples">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#ffffff">
+
+    <base target="_blank">
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <h1>神器语音系统WebRTC
+        </h1>
+
+        <div id="sources">
+            <div class="phrase-boxes">
+                <div class="box">
+                    <button class="phrase">喂</button>
+                    <audio preload="auto" src="./audio/hello.mp3"></audio>
+                </div class="box">
+                <div class="box">
+                    <button class="phrase">你好</button>
+                    <audio preload="auto" src="./audio/how_are_you.mp3"></audio>
+                </div>
+                <div class="box">
+                    <button class="phrase">新年快樂</button>
+                    <audio preload="auto" src="./audio/happy_new_year.mp3"></audio>
+                </div>
+                <div class="box">
+                    <button class="phrase">打擾一下</button>
+                    <audio preload="auto" src="./audio/excuse_me.mp3"></audio>
+                </div>
+                <div class="box">
+                    <button class="phrase">很高興和您通話</button>
+                    <audio preload="auto" src="./audio/glad_to_talk_with_you.mp3"></audio>
+                </div>
+            </div>
+            <div class="outputSelector">
+                <label>Select audio output: </label>
+                <select></select>
+            </div>
+        </div>
+    </div>
+
+    <div>This demo must be run from localhost or over HTTPS Chrome 49 or later, Firefox is not supported yet.</div>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/main.js" async></script>
+</body>
+
+</html>
