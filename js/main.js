@@ -93,13 +93,15 @@ const getAudioSelectElements = () => (
 
 const setDeviceIdToCookie = (deviceId) => {
   const _deviceId = deviceId || getAudioSelectElement().value
-
-  document.cookie = `deviceId=${_deviceId}`;
+  let expirationDate = new Date();
+  expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+  document.cookie = `deviceId=${_deviceId};expires=${expirationDate.toUTCString()};`;
 }
 
-const getDeviceIdFromCookie = () => (
-  document.cookie && document.cookie.split('=')[1]
-)
+const getDeviceIdFromCookie = () => {
+  const deviceKeyPair = document.cookie && document.cookie.split(';')[0];
+  return deviceKeyPair.split('=')[1];
+}
 
 const chooseDeviceForAllAudio = (deviceId) => {
   const elements = document.querySelectorAll('audio');
@@ -112,8 +114,8 @@ const useDefaultDevice = () => {
   const deviceId = getDeviceIdFromCookie();
   if (deviceId) {
     getAudioSelectElement().value = deviceId;
+    chooseDeviceForAllAudio(deviceId);
   } else {
     getAudioSelectElement().selectedIndex = 0;
   }
-  chooseDeviceForAllAudio(deviceId);
 }
