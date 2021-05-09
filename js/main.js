@@ -7,11 +7,15 @@
  */
 
 'use strict';
-import loadPhraseButtons from './load_buttons.js';
+import PhraseButtons from './phrase_buttons.js';
+import ReactDOM from 'react-dom';
+import React from 'react';
 
 const init = () => {
   navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
-  loadPhraseButtons();
+  ReactDOM.render(
+    <PhraseButtons />, document.querySelector(".dynamic-phrases-boxes")
+  );
 }
 
 const phraseButtons = () => document.querySelectorAll('button.phrase');
