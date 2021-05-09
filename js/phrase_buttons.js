@@ -1,13 +1,23 @@
 import mp3List from '../mp3_list.json';
 import React from 'react';
+import groupBy from 'lodash/groupBy';
+import reduce from 'lodash/reduce';
+import sortBy from 'lodash/sortBy';
+import ButtonGroup from './button_group';
 
 const PhraseButtons = () => {
-  console.log(mp3List);
+  let groupedButtons = groupBy(mp3List, mp3 => 
+    mp3.key[0]
+  );
+  groupedButtons = reduce(groupedButtons, (result, buttons, indexLetter) => (
+    result.concat({ indexLetter: indexLetter, buttonGroup: <ButtonGroup indexLetter={indexLetter} buttons={buttons} /> })
+  ), []);
+  groupedButtons = sortBy(groupedButtons, 'indexLetter');
 
-  return <div class="box">
-    <button class="phrase">喂</button>
-    <audio preload="auto" src="./audio/hello.mp3"></audio>
-  </div>
+  console.log(groupedButtons);
+  return groupedButtons.map(group => (
+    group.buttonGroup
+  ), []);
 }
 
 export default PhraseButtons;
