@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<!--
- *  Copyright (c) 2015 The WebRTC project authors. All Rights Reserved.
- *
- *  Use of this source code is governed by a BSD-style license
- *  that can be found in the LICENSE file in the root of the source
- *  tree.
--->
 <html>
 
 <head>
@@ -51,6 +44,9 @@
                     <audio preload="auto" src="./audio/glad_to_talk_with_you.mp3"></audio>
                 </div>
             </div>
+            <div class='dynamic-phrases-boxes'>
+
+            </div>
             <div class="outputSelector">
                 <label>Select audio output: </label>
                 <select></select>
@@ -60,7 +56,9 @@
 
     <div>This demo must be run from localhost or over HTTPS Chrome 49 or later, Firefox is not supported yet.</div>
 
-    <script src="js/main.js" async></script>
+    <script src='./js/app.bundle.js' async>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js" async></script>
 </body>
 
 </html>

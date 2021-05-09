@@ -7,9 +7,15 @@
  */
 
 'use strict';
+import loadPhraseButtons from './load_buttons.js';
 
-const phraseButtons = document.querySelectorAll('button.phrase');
-phraseButtons.forEach(button => {
+const init = () => {
+  navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
+  loadPhraseButtons();
+}
+
+const phraseButtons = () => document.querySelectorAll('button.phrase');
+phraseButtons().forEach(button => {
   button.addEventListener('click', () => {
     const audio = button.nextElementSibling;
     audio.volume = 1;
@@ -48,8 +54,6 @@ function gotDevices(deviceInfos) {
 
   useDefaultDevice();
 }
-
-navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
 
 // Attach audio output device to the provided media element using the deviceId.
 function attachSinkId(element, sinkId) {
@@ -119,3 +123,5 @@ const useDefaultDevice = () => {
     getAudioSelectElement().selectedIndex = 0;
   }
 }
+
+init();
