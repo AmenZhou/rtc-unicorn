@@ -8,6 +8,8 @@
 
 #container {
   min-height: 10em;
+  max-width: 90%;
+  margin: 1em auto;
 }
 
 .phrase-boxes {
