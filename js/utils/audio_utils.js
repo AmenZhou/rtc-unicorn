@@ -46,6 +46,20 @@ export const gotDevices = (deviceInfos) => {
   useDefaultDevice()
 }
 
+export const stopPreviousAudio = () => {
+  if (global.currentAudioElement) {
+    global.currentAudioElement.currentTime = 0;
+    global.currentAudioElement.pause();
+  }
+}
+
+export const playCurrentAudio = (audio) => {
+  attachSinkId(audio);
+  audio.volume = 1;
+  audio.play();
+  global.currentAudioElement = audio;
+}
+
 const changeAudioDestination = event => {
   const deviceId = event.target.value;
 

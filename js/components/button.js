@@ -1,17 +1,16 @@
 import React from 'react'
-import { attachSinkId } from '../utils/audio_utils';
+import { playCurrentAudio, stopPreviousAudio } from '../utils/audio_utils';
 
-const Button = ({ key, src, text }) => {
+const Button = ({ phraseKey, src, text, id }) => {
   const buttonHandler = e => {
     const audio = e.target.nextElementSibling;
 
-    attachSinkId(audio);
-    audio.volume = 1;
-    audio.play();
+    stopPreviousAudio();
+    playCurrentAudio(audio)
   }
 
-  return <div className="box" key={key} >
-    <button className="phrase" onClick={buttonHandler}>{text}</button>
+  return <div className="box" key={id} >
+    <button className="phrase" onClick={buttonHandler}>{phraseKey}&nbsp;&nbsp;{text}</button>
     <audio preload="auto" src={src}></audio>
   </div>
 }

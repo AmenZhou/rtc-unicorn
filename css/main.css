@@ -7,7 +7,7 @@
  */
 
 #container {
-  height: 10em;
+  min-height: 10em;
 }
 
 .phrase-boxes {
@@ -16,11 +16,27 @@
 }
 
 .outputSelector {
-  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2em 0
 }
 
 .group {
   display: flex;
   flex-wrap: wrap;
   margin: 2em 0;
+}
+
+.phrase {
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.2em;
+}
+
+.index-letter-box {
+  border: thin solid black;
+  font-size: 20px;
+  padding: 0.5em 1.5em;
+  background: cornflowerblue;
+  text-transform: uppercase;
 }

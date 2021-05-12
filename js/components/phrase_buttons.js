@@ -1,4 +1,4 @@
-import mp3List from '../../mp3_list.json';
+import mp3List from '../../config/mp3_list.json';
 import React from 'react';
 import groupBy from 'lodash/groupBy';
 import reduce from 'lodash/reduce';

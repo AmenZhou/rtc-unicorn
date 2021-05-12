@@ -19,6 +19,8 @@ const init = () => {
   );
 }
 
+global.currentAudioElement;
+
 function handleError(error) {
   console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
 }
