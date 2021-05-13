@@ -26,7 +26,7 @@
   {
     "id": 109,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_0909a9efef.mp3",
+    "src": "audio/5_0909a9efef.mp3",
     "ttp": "我打这个电话是想告诉你一件重要的事情就几分钟时间可以吗",
     "key": "a5",
     "title": "这电话很重要",
@@ -38,7 +38,7 @@
   {
     "id": 111,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_XY_a2d4f0b3b3.mp3",
+    "src": "audio/1_XY_a2d4f0b3b3.mp3",
     "ttp": "大姐",
     "key": "ae",
     "title": "大姐",
@@ -50,7 +50,7 @@
   {
     "id": 112,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_XY_9889eb1665.mp3",
+    "src": "audio/2_XY_9889eb1665.mp3",
     "ttp": "大哥",
     "key": "af",
     "title": "大哥",
@@ -62,7 +62,7 @@
   {
     "id": 113,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_XY_302e21ef09.mp3",
+    "src": "audio/3_XY_302e21ef09.mp3",
     "ttp": "先生",
     "key": "ac",
     "title": "先生",
@@ -74,7 +74,7 @@
   {
     "id": 114,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/4_XY_0ae30ea209.mp3",
+    "src": "audio/4_XY_0ae30ea209.mp3",
     "ttp": "这位女士啊",
     "key": "ad",
     "title": "女士",
@@ -86,7 +86,7 @@
   {
     "id": 115,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_XY_78aff3fd8b.mp3",
+    "src": "audio/5_XY_78aff3fd8b.mp3",
     "ttp": "您请说",
     "key": "b0",
     "title": "您请说",
@@ -98,7 +98,7 @@
   {
     "id": 116,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_XY_88473055e9.mp3",
+    "src": "audio/6_XY_88473055e9.mp3",
     "ttp": "谢谢您",
     "key": "b5",
     "title": "谢谢您",
@@ -110,7 +110,7 @@
   {
     "id": 117,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B7_XY_8f1fa4e986.mp3",
+    "src": "audio/B7_XY_8f1fa4e986.mp3",
     "ttp": "什麼",
     "key": "b6",
     "title": "什麼",
@@ -122,7 +122,7 @@
   {
     "id": 118,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B8_XY_17d72fe0da.mp3",
+    "src": "audio/B8_XY_17d72fe0da.mp3",
     "ttp": "好吗",
     "key": "b7",
     "title": "好吗",
@@ -134,7 +134,7 @@
   {
     "id": 119,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B9_XY_02c3ef0871.mp3",
+    "src": "audio/B9_XY_02c3ef0871.mp3",
     "ttp": "可以",
     "key": "b3",
     "title": "可以",
@@ -146,7 +146,7 @@
   {
     "id": 120,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B10_XY_2254fb4579.mp3",
+    "src": "audio/B10_XY_2254fb4579.mp3",
     "ttp": "啊?",
     "key": "z1",
     "title": "啊?",
@@ -158,7 +158,7 @@
   {
     "id": 121,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B11_XY_f17ce8f7e7.mp3",
+    "src": "audio/B11_XY_f17ce8f7e7.mp3",
     "ttp": "好",
     "key": "b1",
     "title": "好",
@@ -170,7 +170,7 @@
   {
     "id": 122,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/B12_XY_1920f35188.mp3",
+    "src": "audio/B12_XY_1920f35188.mp3",
     "ttp": "能",
     "key": "b2",
     "title": "能",
@@ -182,7 +182,7 @@
   {
     "id": 123,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/b0_b02d0a6bbf.mp3",
+    "src": "audio/b0_b02d0a6bbf.mp3",
     "ttp": "請問你是嗎",
     "key": "cm",
     "title": "請問你是嗎",
@@ -194,7 +194,7 @@
   {
     "id": 124,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/A7_XY_90c5633189.mp3",
+    "src": "audio/A7_XY_90c5633189.mp3",
     "ttp": "您聽說過三退保平安嗎",
     "key": "a7",
     "title": "聽說過三退嗎",
@@ -206,7 +206,7 @@
   {
     "id": 125,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C1_3b079cb8fb.mp3",
+    "src": "audio/C1_3b079cb8fb.mp3",
     "ttp": "我用的這个号是微信上的好友",
     "key": "c1",
     "title": "我們是微信好友",
@@ -218,7 +218,7 @@
   {
     "id": 126,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C2_XY_04372f3ed2.mp3",
+    "src": "audio/C2_XY_04372f3ed2.mp3",
     "ttp": "请您不要介意 这个是网路电话这个是网络电话，我随机拨打的",
     "key": "c2",
     "title": "这是网络电话",
@@ -230,7 +230,7 @@
   {
     "id": 127,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C3_XY_383f10ae62.mp3",
+    "src": "audio/C3_XY_383f10ae62.mp3",
     "ttp": "我是谁一点都不重要重要的是我跟你说的内容您听明白了吗",
     "key": "c3",
     "title": "我是谁不重要",
@@ -242,7 +242,7 @@
   {
     "id": 128,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/14_3142adef01.mp3",
+    "src": "audio/14_3142adef01.mp3",
     "ttp": "我是三退義工是專門幫中國人退黨的",
     "key": "c0",
     "title": "我是三退義工",
@@ -254,7 +254,7 @@
   {
     "id": 129,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C5_XY_ad1162b33b.mp3",
+    "src": "audio/C5_XY_ad1162b33b.mp3",
     "ttp": "我今天给您打这个电话是因为电视报纸 啊很多消息不是透明的，我就是想告诉 您一些真实的情况。就几分钟时间好 吗？",
     "key": "c5",
     "title": "问干什么",
@@ -266,7 +266,7 @@
   {
     "id": 130,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C6_62ec9d20b5.mp3",
+    "src": "audio/C6_62ec9d20b5.mp3",
     "ttp": "录 音 我是真人在跟您打电话，但是我是海外華人，我的普通话並不很好，如果这次通话我没有有回答清楚您的问 题，您别介意啊。",
     "key": "c6",
     "title": "是真人嗎?",
@@ -278,7 +278,7 @@
   {
     "id": 131,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C7_X_65c1a4bfcf.mp3",
+    "src": "audio/C7_X_65c1a4bfcf.mp3",
     "ttp": "听的见吗？请问您能听到我说话吗？",
     "key": "c7",
     "title": "能听见吗",
@@ -290,7 +290,7 @@
   {
     "id": 132,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C8_X_5626ce8a9b.mp3",
+    "src": "audio/C8_X_5626ce8a9b.mp3",
     "ttp": "哦 那可能还是我没有给您讲清楚，我再给 您讲一下。",
     "key": "c8",
     "title": "没讲清再讲",
@@ -302,7 +302,7 @@
   {
     "id": 133,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/C9_X_0089c2f4df.mp3",
+    "src": "audio/C9_X_0089c2f4df.mp3",
     "ttp": "您在忙是吧？那我就长话短说。 ",
     "key": "c9",
     "title": "您在忙是吧",
@@ -314,7 +314,7 @@
   {
     "id": 134,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/CA_X_97488aa14b.mp3",
+    "src": "audio/CA_X_97488aa14b.mp3",
     "ttp": "不好意思，我听不太清楚您说什么，请问您可以再说一遍吗？",
     "key": "ca",
     "title": "没听清您说什么",
@@ -326,7 +326,7 @@
   {
     "id": 135,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/CB_XY_72704ffd9a.mp3",
+    "src": "audio/CB_XY_72704ffd9a.mp3",
     "ttp": "还有问题吗.",
     "key": "cb",
     "title": "还有问题吗.",
@@ -338,7 +338,7 @@
   {
     "id": 136,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/CD_XY_0d9363e807.mp3",
+    "src": "audio/CD_XY_0d9363e807.mp3",
     "ttp": "您先别着 急，您先听我讲。",
     "key": "cd",
     "title": "别急，听我说",
@@ -350,7 +350,7 @@
   {
     "id": 137,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/CE_XY_e5ff24e065.mp3",
+    "src": "audio/CE_XY_e5ff24e065.mp3",
     "ttp": "朋友，您在听吗？",
     "key": "ce",
     "title": "您在听吗？",
@@ -362,7 +362,7 @@
   {
     "id": 138,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/CF_XY_28affe3ce9.mp3",
+    "src": "audio/CF_XY_28affe3ce9.mp3",
     "ttp": "我刚刚跟您讲的话，您听明白了 吗？",
     "key": "c4",
     "title": "明白了吗",
@@ -374,7 +374,7 @@
   {
     "id": 139,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_141ccaaaac.mp3",
+    "src": "audio/1_141ccaaaac.mp3",
     "ttp": "打這個電話來啊就是告訴我們中國的老百姓去年2020年是一個不同尋常的一年,天災人禍，南澇北旱，武漢肺炎,非洲豬瘟.很多事情我們左右不了。我們也左右不了。 但是不管發生什麼事情,好人總是會有善報。",
     "key": "d1",
     "title": "灾祸多好人善報",
@@ -386,7 +386,7 @@
   {
     "id": 140,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_4c8d270e9e.mp3",
+    "src": "audio/2_4c8d270e9e.mp3",
     "ttp": "打電話就是希望您平安吉祥 現在這個形 勢變化真的非常的大.所以大家都在互 相提醒.要保護好自己非常重要，朋 友，您看今年是個不尋常的年,天災人 禍不斷 但是不管 將來再發生什麼事， 我就是希望朋友您好，希望您走到哪 裡，有老天神佛護佑您，您平安了我就 放心了，咱們走到哪裡平安到哪裡。",
     "key": "d2",
     "title": "形势变化",
@@ -398,7 +398,7 @@
   {
     "id": 141,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/bd_cf9396c693.mp3",
+    "src": "audio/bd_cf9396c693.mp3",
     "ttp": "是的",
     "key": "b4",
     "title": "是的",
@@ -410,7 +410,7 @@
   {
     "id": 144,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_d0_04f957ccfe.mp3",
+    "src": "audio/xy_d0_04f957ccfe.mp3",
     "ttp": "因为2020年发生了很多的事情，國外很多媒体都在报道 印度神童  推背圖 和刘伯温的预言，這些预言说的很多都應驗了。   您看现在病毒這麼厲害全世界死了多少人,  疫苗出来了也沒有什麼作用,病毒還变异了。我們人的智慧远远赶不上老天爷的智慧，咱們中国人自古都讲顺天意才能得福報真正平安。您說對嗎?",
     "key": "d0",
     "title": "顺天意才正平",
@@ -422,7 +422,7 @@
   {
     "id": 145,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_e0_1_76606d085d.mp3",
+    "src": "audio/xy_e0_1_76606d085d.mp3",
     "ttp": "现在已经有3亿7千万的中国人退出党团队组织了，希望您也顺天意保平安 咱們好人可千萬别落下呀。其實這個三退很简单，用小名，化名，真名就可以退，三退呢 是从心里真正和邪黨劃清界線 讓老天爷看到。",
     "key": "e0",
     "title": "直接劝退1",
@@ -434,7 +434,7 @@
   {
     "id": 146,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_e1_fbe5ab6f1a.mp3",
+    "src": "audio/xy_e1_fbe5ab6f1a.mp3",
     "ttp": "您說，咱們发过的毒誓不退能行吗？我 们以前无意中都曾经发过毒誓，很多人 都做三退保护了自己。那這個三退很簡 單，用化名小名从心里退出黨團隊組 織，就是希望您得到老天的護佑。",
     "key": "e1",
     "title": "抹毒誓三退",
@@ -446,7 +446,7 @@
   {
     "id": 147,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_E2_c83d72c6c8.mp3",
+    "src": "audio/xy_E2_c83d72c6c8.mp3",
     "ttp": "喂有句话叫做“宁可信其有，不可信其 无”。现在三退这个事情也是一样的，很多人做了三退后在危難的時候真的保 了平安那這個三退很簡單，用化名小名 从心里退出黨團隊組織，就是希望您得 到老天的護佑。",
     "key": "e2",
     "title": "宁可信其有",
@@ -458,7 +458,7 @@
   {
     "id": 148,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_e3_33cb772b54.mp3",
+    "src": "audio/xy_e3_33cb772b54.mp3",
     "ttp": "我打这个电话，就是为了您好，希望您 也三退。那這個三退很簡單，用化名小 名从心里退出黨團隊組織，就是希望您平安。",
     "key": "e7",
     "title": "三退为您好",
@@ -470,7 +470,7 @@
   {
     "id": 150,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_6fbc5f15d4.mp3",
+    "src": "audio/3_6fbc5f15d4.mp3",
     "ttp": "因为在我们中国，绝大多数的人都加入过少.先.队、共.青.团，有人还入过供铲谠。 在加入的时候每个人都曾发誓要把自己的一生献给供铲谠，为邪谠奋斗终生， 您知道吗? 发誓是不能随便发的,更何况是发毒誓,这是一个要命的毒誓。 这意味着您愿意把生命交给这个政谠，承认是它的一份子，如果它是邪恶的,将来您要承担中供所犯下的一切罪行 这是多么可怕的一件事情啊 不出能行吗",
     "key": "e5",
     "title": "為什麼要三退",
@@ -482,7 +482,7 @@
   {
     "id": 151,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/xy_e4_34d3c3fa73.mp3",
+    "src": "audio/xy_e4_34d3c3fa73.mp3",
     "ttp": "天为了救咱们这些好人，叫咱们赶快退 出来，很多聪明人都做过了三退。那這 個三退很簡單，用化名小名从心里退出 黨團隊組織，就是希望您得到老天的護 佑。",
     "key": "e4",
     "title": "聪明人都三退",
@@ -494,7 +494,7 @@
   {
     "id": 152,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F0_64d0f70a27.mp3",
+    "src": "audio/XY_F0_64d0f70a27.mp3",
     "ttp": "永福",
     "key": "f0",
     "title": "送男化名",
@@ -506,7 +506,7 @@
   {
     "id": 153,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F1_4637fbf9f1.mp3",
+    "src": "audio/XY_F1_4637fbf9f1.mp3",
     "ttp": "康順",
     "key": "f1",
     "title": "送男化名",
@@ -518,7 +518,7 @@
   {
     "id": 154,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F2_bc1375dd14.mp3",
+    "src": "audio/XY_F2_bc1375dd14.mp3",
     "ttp": "康福",
     "key": "f2",
     "title": "送男化名",
@@ -530,7 +530,7 @@
   {
     "id": 155,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F3_1bd3072f52.mp3",
+    "src": "audio/XY_F3_1bd3072f52.mp3",
     "ttp": "永康",
     "key": "f3",
     "title": "送男化名",
@@ -542,7 +542,7 @@
   {
     "id": 156,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F4_ae225b8b2d.mp3",
+    "src": "audio/XY_F4_ae225b8b2d.mp3",
     "ttp": "文智",
     "key": "f4",
     "title": "送男化名",
@@ -554,7 +554,7 @@
   {
     "id": 157,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G0_ecf802d36b.mp3",
+    "src": "audio/XY_G0_ecf802d36b.mp3",
     "ttp": "天美",
     "key": "g0",
     "title": "送女化名",
@@ -566,7 +566,7 @@
   {
     "id": 158,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G1_36a612cf11.mp3",
+    "src": "audio/XY_G1_36a612cf11.mp3",
     "ttp": "天慧",
     "key": "g1",
     "title": "送女化名",
@@ -578,7 +578,7 @@
   {
     "id": 159,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G2_3e61910e3e.mp3",
+    "src": "audio/XY_G2_3e61910e3e.mp3",
     "ttp": "美慧",
     "key": "g2",
     "title": "送女化名",
@@ -590,7 +590,7 @@
   {
     "id": 160,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G3_fcbda76d25.mp3",
+    "src": "audio/XY_G3_fcbda76d25.mp3",
     "ttp": "美如",
     "key": "g3",
     "title": "送女化名",
@@ -602,7 +602,7 @@
   {
     "id": 161,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G4_c926ea153e.mp3",
+    "src": "audio/XY_G4_c926ea153e.mp3",
     "ttp": "慧如",
     "key": "g4",
     "title": "送女化名",
@@ -614,7 +614,7 @@
   {
     "id": 225,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/h0_da63f803e3.mp3",
+    "src": "audio/h0_da63f803e3.mp3",
     "ttp": "请问你以前入过党是党员吗",
     "key": "h0",
     "title": "是党员吗",
@@ -626,7 +626,7 @@
   {
     "id": 226,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_122756bc64.mp3",
+    "src": "audio/2_122756bc64.mp3",
     "ttp": "那冒昧的问一下您以前因为工作的关系入过党是党员吗",
     "key": "h1",
     "title": "冒昧问入过党 吗",
@@ -638,7 +638,7 @@
   {
     "id": 227,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_e04ca5d055.mp3",
+    "src": "audio/3_e04ca5d055.mp3",
     "ttp": "那您就记住刚才这个化名，帮您退党保 平安，只要退一次就够了，以后不要退 重复了好吗？",
     "key": "h3",
     "title": "记住化名退党",
@@ -650,7 +650,7 @@
   {
     "id": 228,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/D3_ff888b9ba1.mp3",
+    "src": "audio/D3_ff888b9ba1.mp3",
     "ttp": "现在有疫苗了，但是上海杨浦区中医医院超过9成医护人员拒绝接种疫苗。去年12月22日，病毒专家张文宏教授直接说： 要领导先打。咱们不能当小白鼠啊！现在很多地方又来第二波，真要得上了，只能靠人体自身免疫力扛，说白了就是听天由命了。所以很多人都明白，就是人类道德败坏的时候就好有灾难，从古到今都是一样的。",
     "key": "d3",
     "title": "疫苗-切入.",
@@ -662,7 +662,7 @@
   {
     "id": 229,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/D4_aaf242df6c.mp3",
+    "src": "audio/D4_aaf242df6c.mp3",
     "ttp": "其实就是想把这个咨询传递给您，希望您多听多看，保护好自己和家人。现在天灾异象那么多,很多聪明人，都在找自救的办法。其实您也知道，咱们中国也叫神州大地，有5千年的神传文化，老人都讲善恶有报啊，要敬天信神啊。很多人都意识到了：要想得到平安，只有守住我们的善良，求得上天神佛的护佑了。",
     "key": "d4",
     "title": "神州大地",
@@ -674,7 +674,7 @@
   {
     "id": 230,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_6a4115ce8d.mp3",
+    "src": "audio/5_6a4115ce8d.mp3",
     "ttp": "哦，太恭喜您了，退一次就行了，您以 后就不用再退了哦。",
     "key": "h5",
     "title": "三退结束语",
@@ -686,7 +686,7 @@
   {
     "id": 231,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_f33baaac7d.mp3",
+    "src": "audio/6_f33baaac7d.mp3",
     "ttp": "那您是我们这种打电话给您退的吗？ ",
     "key": "h6",
     "title": "是电话退的吗",
@@ -698,7 +698,7 @@
   {
     "id": 232,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/7_bcb53986fd.mp3",
+    "src": "audio/7_bcb53986fd.mp3",
     "ttp": "朋友，那您退过了是吗？是法輪功學員帮 您做三退的对吧？",
     "key": "h7",
     "title": "是大法弟子退的吗？",
@@ -710,7 +710,7 @@
   {
     "id": 233,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/8_1d7e78b7b3.mp3",
+    "src": "audio/8_1d7e78b7b3.mp3",
     "ttp": "好的 那太恭喜您了 你如果退了 就不用再重複退了.另外我們 都知道法輪大法在救人，您记住“法轮 大法好，真善忍好”，常念得福报，天 安门自焚那是造假的新闻，咱可别相信 它。",
     "key": "i7",
     "title": "已退不用重複退",
@@ -722,7 +722,7 @@
   {
     "id": 234,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_98f48b23cb.mp3",
+    "src": "audio/0_98f48b23cb.mp3",
     "ttp": "那太好了，那您上中学的时候有入过团 吗？",
     "key": "i0",
     "title": "好,入过团吗",
@@ -734,7 +734,7 @@
   {
     "id": 235,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_749783b0d9.mp3",
+    "src": "audio/2_749783b0d9.mp3",
     "ttp": "那您就只是上中学的时候入过团是吗?",
     "key": "i1",
     "title": "只入过团是吗",
@@ -746,7 +746,7 @@
   {
     "id": 236,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_161c437a6e.mp3",
+    "src": "audio/3_161c437a6e.mp3",
     "ttp": "那您就记住刚刚那个化名，帮您退团保 平安好吧？",
     "key": "i2",
     "title": "化名退团好吗",
@@ -758,7 +758,7 @@
   {
     "id": 237,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/4_e53b1cbf9a.mp3",
+    "src": "audio/4_e53b1cbf9a.mp3",
     "ttp": "年龄大自动退是不算的，发的毒誓可是 人忘天不忘啊。",
     "key": "i4",
     "title": "年龄大了退不算",
@@ -770,7 +770,7 @@
   {
     "id": 238,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_2_16945b7c5a.mp3",
+    "src": "audio/5_2_16945b7c5a.mp3",
     "ttp": "那就恭喜您了，真为您感到高兴! 您已经退了,将来不需要再重复退了.",
     "key": "i6",
     "title": "三退结束语 2",
@@ -782,7 +782,7 @@
   {
     "id": 239,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_360ff4823d.mp3",
+    "src": "audio/1_360ff4823d.mp3",
     "ttp": "那您只是上小学的时候入过少先队，是 吧？那您就记住刚刚这个化名，我帮您 退队保平安，希望您走到哪里都能得到 神佛老天的护佑好吗？",
     "key": "j0",
     "title": "默认队,化名退吧",
@@ -794,7 +794,7 @@
   {
     "id": 240,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_4620bd2337.mp3",
+    "src": "audio/2_4620bd2337.mp3",
     "ttp": "您不是党员、团员非常好，那您小时候 肯定戴过红领巾，是吗？",
     "key": "j1",
     "title": "好，只入过队吗?",
@@ -806,7 +806,7 @@
   {
     "id": 241,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_2_6796f7b522.mp3",
+    "src": "audio/3_2_6796f7b522.mp3",
     "ttp": " 你還記得嗎 当初加入少先队戴红领巾的时候 咱们不 也发过誓嘛：要为它奋斗终生做它的接 班人，是吧？那个毒誓对咱不吉利，如果你還沒有退出 也是它一份子,也會受到他的牽連,當它的陪葬品.您就记住刚刚这个化名，退出少先好嗎?",
     "key": "j2",
     "title": "化名退队好吗?",
@@ -818,7 +818,7 @@
   {
     "id": 242,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/4_6a40007a37.mp3",
+    "src": "audio/4_6a40007a37.mp3",
     "ttp": "那個時候都入少先隊 的，這個退不是讓您去組織退，您放 心！您只要記住剛剛這個化名，答應一 聲好，就生效了，因为三尺头上有神灵心到佛知，對您工作生活都不影響的， 好吗？",
     "key": "j3",
     "title": "真没入吗",
@@ -830,7 +830,7 @@
   {
     "id": 243,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_a4cec7490a.mp3",
+    "src": "audio/5_a4cec7490a.mp3",
     "ttp": "戴过一天都要退/没有戴过红领巾对 吗？哪怕戴过一天都算数啊。",
     "key": "j4",
     "title": "戴过一天都要退",
@@ -842,7 +842,7 @@
   {
     "id": 244,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_a2c0f941a8.mp3",
+    "src": "audio/6_a2c0f941a8.mp3",
     "ttp": "您真的沒有加入過邪黨的任何組織嗎?上小學的時候不都是要帶紅領巾嗎?如果是超齡自動退了那個不算退,還要退喔",
     "key": "j5",
     "title": "超齡退不算",
@@ -854,7 +854,7 @@
   {
     "id": 245,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_163c8dd701.mp3",
+    "src": "audio/0_163c8dd701.mp3",
     "ttp": "您听过退党保平安吗?每个中国人都要在这件事情上表态,虽然你没有入过任何组织,但是为了您的未来能够平安,还是建议您声明主动与邪党划清界线!这个声明是发自内心的，从思想上真正认识到共产党的邪恶.代表共产党所做的一切坏事与你没有关系",
     "key": "k2",
     "title": "虽然没有加入",
@@ -866,7 +866,7 @@
   {
     "id": 246,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_93fad648ba.mp3",
+    "src": "audio/1_93fad648ba.mp3",
     "ttp": "請您放心,是在大紀元網站上幫您做聲明的 對你的生活沒有任何影響我",
     "key": "k1",
     "title": "我是在大紀元網站上幫您做聲明的",
@@ -878,7 +878,7 @@
   {
     "id": 247,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_1f47a3f95e.mp3",
+    "src": "audio/0_1f47a3f95e.mp3",
     "ttp": "您回憶一下是不是這樣，入黨團隊的時 候是不是要舉著拳頭，入黨就是隨時為 黨犧牲一切，入團就是時刻準備著做共 產主義接班人，這其實是一個很不吉利 的誓言，等於把咱们自己的生命都交給 它了，您帶著它對您也沒有好處，趁這 個機會退出來抹掉毒誓，以後走到哪裡 都平安，您說好嗎？",
     "key": "k0",
     "title": "再詢問劝退",
@@ -890,7 +890,7 @@
   {
     "id": 248,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_937e655efa.mp3",
+    "src": "audio/1_937e655efa.mp3",
     "ttp": "您答应一声好我也就不再打给您了，好 吧!",
     "key": "l0",
     "title": "说声好就退了",
@@ -902,7 +902,7 @@
   {
     "id": 249,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_43c8932a35.mp3",
+    "src": "audio/2_43c8932a35.mp3",
     "ttp": "您退出也是为了你自己，你知道为什么吗？",
     "key": "l1",
     "title": "劝退是为了你",
@@ -914,7 +914,7 @@
   {
     "id": 250,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_6fbc5f15d4.mp3",
+    "src": "audio/3_6fbc5f15d4.mp3",
     "ttp": "因为在我们中国，绝大多数的人都加入过少.先.队、共.青.团，有人还入过供铲谠。 在加入的时候每个人都曾发誓要把自己的一生献给供铲谠，为邪谠奋斗终生， 您知道吗? 发誓是不能随便发的,更何况是发毒誓,这是一个要命的毒誓。 这意味着您愿意把生命交给这个政谠，承认是它的一份子，如果它是邪恶的,将来您要承担中供所犯下的一切罪行。",
     "key": "l2",
     "title": "因為有发毒誓",
@@ -926,7 +926,7 @@
   {
     "id": 251,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/4_19ca4592d7.mp3",
+    "src": "audio/4_19ca4592d7.mp3",
     "ttp": "中共自从1949年建政以来，在历次运动中害死了八千万中国人，比两次世界大战死亡人数的总和还要多，这包括五十年代的三反、五反、肃反、反右；六十年代的全国大饥荒和文化大革命；八九年6.4屠杀大学生；1999年迫害信仰“真、善、忍”的法轮功修炼群体，甚至在法轮功学员活着的时候摘取他们的身体器官贩卖牟取暴利！干出了这个地球上前所未有的罪恶，令人神共愤。杀人要偿命，一个政党害死了那么多的人，不会报应吗？中国历史上每一朝都会改朝换代,又有哪一个政权会长久永远不会倒台吗？",
     "key": "l3",
     "title": "中共是邪党政权",
@@ -938,7 +938,7 @@
   {
     "id": 252,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/5_2f953acf15.mp3",
+    "src": "audio/5_2f953acf15.mp3",
     "ttp": "现在中共贪腐严重，人们生存环境恶化，喝的水被污染，吃的食品有毒，呼吸的空气也有毒，当官的不顾老百姓的死活，只顾自己，把钱存在外国，子女送到国外，自己出国考察不回来。这样一个邪党政权我们还要维护他吗",
     "key": "l4",
     "title": "还要维护邪党吗",
@@ -950,7 +950,7 @@
   {
     "id": 253,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_380c3615f1.mp3",
+    "src": "audio/6_380c3615f1.mp3",
     "ttp": "贵州省平塘县掌布乡有个藏字石风景区，石头上显示的是“中国供铲谠亡”几个字，据科学家考察是天然形成的，也可说是天意吧！所以现在都在讲“天灭中供，三,.退保平安”，为了你的未来，赶快退出谠 .团. 队。",
     "key": "l5",
     "title": "天要滅中共",
@@ -962,7 +962,7 @@
   {
     "id": 254,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_fa30bc001b.mp3",
+    "src": "audio/0_fa30bc001b.mp3",
     "ttp": "您知道法輪功嗎 法轮功是佛家修煉大法， 教人按照“真、善、忍”做好人。我給您舉幾個例子做生意的法轮功学员决不会欺诈、卖假货，反而是公平交易。做医生的决不会收病人的红包，不拿药厂的回扣，而是一心一意救治病人；做法官的决不会吃了原告吃被告，收当事人的红包，而是秉公办案；做老师的决不会收家长的红包，而是认认真真教导孩子。",
     "key": "m0",
     "title": "您知道法輪功嗎",
@@ -974,7 +974,7 @@
   {
     "id": 255,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_c2b5796ac7.mp3",
+    "src": "audio/1_c2b5796ac7.mp3",
     "ttp": "您知道吗法輪功創始人李洪志先生在93年北京东方健康博览会上，获博览会最高奖 “边缘科学进步奖” 和“特别金奖”，以及 “受欢迎的气功师” 称号，是在该届博览会上获奖最多的气功师。92到94年，各地气功科学研究会邀请李洪志先生在中国23个城市举办了56期传法班。现已洪传世界100多个国家和地区，《转法轮》被翻译成40多种语言出版。是中华五千年历史中被翻译外文最多的一本书!《道德经》涉及30多种语言，但已传世二千多年。 95年3月，李洪志先生受中共驻法大使馆邀请，在巴黎中使馆文化处举行了讲法，拉开了海外传法的序幕。获得各国政府的褒奖、支持决议和信函4800多项。",
     "key": "m1",
     "title": "給大法的褒奖",
@@ -986,7 +986,7 @@
   {
     "id": 256,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_0fffc4a26c.mp3",
+    "src": "audio/0_0fffc4a26c.mp3",
     "ttp": "跟您说了这么多呢，是让您明白法轮 功确实是非常好的，希望您明白真相与 跟佛法結個善緣，请您记住“法轮大法 好，真善忍好！”真的在有困难的时候 您就真心念动这九个字，就会得到上天 的护佑。",
     "key": "v0",
     "title": "说了很多送真言",
@@ -998,7 +998,7 @@
   {
     "id": 303,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_cf13eff598.mp3",
+    "src": "audio/0_cf13eff598.mp3",
     "ttp": "这个是网路电话非常安全的请您不用担心",
     "key": "p3",
     "title": "怕不安全1",
@@ -1010,7 +1010,7 @@
   {
     "id": 304,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_09bc2c9b05.mp3",
+    "src": "audio/_09bc2c9b05.mp3",
     "ttp": "我們打電話給中國大陸退黨已經有10多年了 都沒有出現任何問題 請您不用擔心",
     "key": "p4",
     "title": "怕不安全2",
@@ -1022,7 +1022,7 @@
   {
     "id": 305,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_e95b2760a9.mp3",
+    "src": "audio/2_e95b2760a9.mp3",
     "ttp": "每天有很多中國人通過電話退黨三退保平安,您根本就不用擔心這個問題.而且現在有很多中共高官都偷偷的自己退黨,為自己留後路,你还担心什么呢",
     "key": "p5",
     "title": "怕不安全3",
@@ -1034,7 +1034,7 @@
   {
     "id": 306,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_0b539b6369.mp3",
+    "src": "audio/_0b539b6369.mp3",
     "ttp": "您可以听我说几句话吗",
     "key": "ci",
     "title": "可以听我说几句话吗",
@@ -1046,7 +1046,7 @@
   {
     "id": 307,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_fe0c96db95.mp3",
+    "src": "audio/_fe0c96db95.mp3",
     "ttp": "再見",
     "key": "v5",
     "title": "再見",
@@ -1058,7 +1058,7 @@
   {
     "id": 308,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_85bbf90e81.mp3",
+    "src": "audio/1_85bbf90e81.mp3",
     "ttp": "另外您可能也听说了，其实 2001 年的 天安門自焚是造假的，那完全是由中共 一手导演的假新闻。您想，那个叫王进 东的自焚者，脸烧成那样了，头发还好 好的，而两腿之间装汽油的雪碧瓶还完好无损，还有那个 12 岁的小女孩，做 了气管切开手术还能唱歌呢，破绽百 出！其实我这只是跟您简单说了几点， 还有更多疑点您可以自己去看。",
     "key": "m2",
     "title": "自焚真相1",
@@ -1070,7 +1070,7 @@
   {
     "id": 309,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_56f27d9f3d.mp3",
+    "src": "audio/2_56f27d9f3d.mp3",
     "ttp": "一个美国的调查组织称，许多证据显示，2001年一月在北京天安门广场发生的法轮功学员自焚案，是中国政府为加强镇压所制造出来的。下面是自由亚洲电台记者石山的报道。其实那个是造假新闻，自焚的那 5 個人都不是法輪功學員。 這個證據特別多，我跟您簡單說一兩 個，您馬上就知道這個是事先策劃好的 了。當時官方报道，那些自焚者點火之 後一分半钟之内警察就把火给扑灭了， 从画面上看到每个自焚者身边都有三到 四个警察拿著灭火器和灭火毯在滅火， 天安门广场有 61 个足球场那么大，您 想想，警察怎么可能在十几秒钟之内找 來二十几个专业灭火器？而且灭火器一 般放在人民大会堂或者长安街的地下通 道里，有人做过试验，跑步一个来回就 要十分钟，就算是单程，至少也要 5、6 分钟，那這些灭火器从何而来？ 醫生說給「自焚」的女孩劉思影做了氣 管切開手術。按照醫學常識，手术后至 少幾天时间內都没办法說話，可電視上 劉思影卻帶著插管，底氣十足地唱歌， 這根本就是不可能的事情。另外，燒傷 病人最怕感染，而当时採訪她的記者既 没穿隔離衣，又没戴口罩、帽子，直接 近距離採訪，这是嚴重違反醫學常識 的。 2001 年 8 月 14 日，在第 53 届联合国会 议上，國際教育發展組織代表就“天安 门事件”谴责了中共的国家恐怖主义行 为，面对联合国列出的种种证据，在场 的中共代表哑口无言，没有任何辩词， 这个声明已经被联合国备案了。",
     "key": "m3",
     "title": "自焚真相2",
@@ -1082,7 +1082,7 @@
   {
     "id": 310,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_f713140a86.mp3",
+    "src": "audio/3_f713140a86.mp3",
     "ttp": "天安门自焚是由中共自编自导自演的造 假新闻，就是为了煽动人们仇恨佛法。您想，一个突发的自焚事件，又是在最 敏感、戒备森严的天安门广场，而且， 只烧了 1-2 分钟，记者怎么赶到现场 的？全程录像，远镜头、近镜头、特写 镜头，拍的那么清楚完整！？而且警察 拿着灭火毯、灭火器在现场同步灭火。 这样多方面，全方位临时合作成功急 救，没有事先安排，可能吗？！在反复 播放的录像过程中，由于暴 露出越来越 多的疑点，人们纷纷指出了这些破绽， 质疑这是一场骗局，于 是一年以后中央 电视台在从新录制自焚节目时把外界指 出的所有破绽统统删除。",
     "key": "m4",
     "title": "自焚真相3",
@@ -1094,7 +1094,7 @@
   {
     "id": 311,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_4e9c8726c8.mp3",
+    "src": "audio/1_4e9c8726c8.mp3",
     "ttp": "很高兴您能了解到这些真相，在危难的 时候，心诚则灵，诚心地念 9 字真言， “法轮大法好，真善忍好”。常念得福 报，是千真万确的，要记得啊，再见。",
     "key": "v1",
     "title": "含九字真言再见",
@@ -1106,7 +1106,7 @@
   {
     "id": 312,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_910f488bf5.mp3",
+    "src": "audio/2_910f488bf5.mp3",
     "ttp": "朋友，跟你說了這麼多真相，也希望您认真思考一下 3 退保平 安，那就不多说了，請您記得法輪大法好 祝福您，再见。",
     "key": "v2",
     "title": "对方没表態再见",
@@ -1118,7 +1118,7 @@
   {
     "id": 313,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_460f5df590.mp3",
+    "src": "audio/3_460f5df590.mp3",
     "ttp": "也希望您把這些信息告訴給您身邊的親 戚朋友，您這樣做是在救他們，也是做 了一件功德無量的大好事。",
     "key": "v4",
     "title": "真言转告家人",
@@ -1130,7 +1130,7 @@
   {
     "id": 314,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_85d7332496.mp3",
+    "src": "audio/_85d7332496.mp3",
     "ttp": "不好意思剛剛斷線了",
     "key": "cj",
     "title": "剛剛斷線了",
@@ -1142,7 +1142,7 @@
   {
     "id": 315,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_ebecc5de7f.mp3",
+    "src": "audio/_ebecc5de7f.mp3",
     "ttp": "喂 這樣聽得到嗎",
     "key": "ch",
     "title": "這樣聽得到嗎",
@@ -1154,7 +1154,7 @@
   {
     "id": 317,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/4_adf0adfe69.mp3",
+    "src": "audio/4_adf0adfe69.mp3",
     "ttp": "现在大家都明白了这件事情，神佛老天 救人是有标准的，入过党团队的人要不 退出来是一个都不救的，因为共产党做 的很多坏事是这个星球上从没有发生过 的，多可怕呀，谁还把命交给它啊。朋 友，我可以帮您把那个毒誓抹去，什么 都不影响，您升官发财照旧，不讓您花 錢，不讓您出力，就是希望把這个福分 送給您",
     "key": "d5",
     "title": "老天救人有标准",
@@ -1166,7 +1166,7 @@
   {
     "id": 318,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_ec792f39b4.mp3",
+    "src": "audio/_ec792f39b4.mp3",
     "ttp": "您聽說法輪功啊",
     "key": "cf",
     "title": "您聽說法輪功啊",
@@ -1178,7 +1178,7 @@
   {
     "id": 319,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_b4ad0ca4df.mp3",
+    "src": "audio/_b4ad0ca4df.mp3",
     "ttp": "你以前有學過法輪功啊",
     "key": "cg",
     "title": "你以前有學過法輪功啊",
@@ -1190,7 +1190,7 @@
   {
     "id": 320,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_a22af219ff.mp3",
+    "src": "audio/_a22af219ff.mp3",
     "ttp": "我是海外華人我愛中國就是因為我還中國所以我不希望我們老百姓被共產黨欺騙",
     "key": "cc",
     "title": "我是海外華人",
@@ -1202,7 +1202,7 @@
   {
     "id": 321,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_11dcbf7aa6.mp3",
+    "src": "audio/_11dcbf7aa6.mp3",
     "ttp": "朋友我现在在海外。我用自己省吃俭用的钱给你打这个国际长途电话，并不是一个开玩笑的事情。谁也不会吃饱了撑着没有事干，花钱去开别人的玩笑，对不对？因为这个事情真的对你很重要。我也不知道你是谁，你今天能够接到我这个电话，也是你的缘分。希望你能够珍惜这次机缘。我们中国有一句话叫做：\"宁可信其有，不可信其无\"。现在中供的武汉肺炎数据都是假的，真正病死的人非常多,而且无药可治. 瘟疫面前只有真心念\" 法 轮 大 法 好 \"或退出中供邪谠的人才能得救. 希望你做出明智的选择!赶快3退吧!",
     "key": "p0",
     "title": "針對要钱的",
@@ -1214,7 +1214,7 @@
   {
     "id": 322,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_2527557fbc.mp3",
+    "src": "audio/_2527557fbc.mp3",
     "ttp": "等一下我給你一個好用的免費的翻牆神器\"網必通\",  這個軟件非常的好用它有安卓版和電腦版.安裝了網比通 以後呢就算 我們失去聯絡了你還是可以自由的安全的觀看國外的新聞資訊",
     "key": "n0",
     "title": "給網必通",
@@ -1226,7 +1226,7 @@
   {
     "id": 323,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_a44c9d9f1d.mp3",
+    "src": "audio/0_a44c9d9f1d.mp3",
     "ttp": "请问您的手机是苹果还是安卓",
     "key": "n1",
     "title": "问手机是苹果或安卓",
@@ -1238,7 +1238,7 @@
   {
     "id": 324,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_8593ece774.mp3",
+    "src": "audio/1_8593ece774.mp3",
     "ttp": "等一下 我发给你一个手机安卓版的 網必通 apk安装包安装它以后就可以看到我们很多国外的新闻而且非常安全方便.",
     "key": "n2",
     "title": "给網必通手机版",
@@ -1250,7 +1250,7 @@
   {
     "id": 325,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_fb807920b5.mp3",
+    "src": "audio/2_fb807920b5.mp3",
     "ttp": "你的手机是苹果版的 好我稍后会发给您一个网址您直接打开了可以了",
     "key": "n3",
     "title": "给苹果手机网址",
@@ -1262,7 +1262,7 @@
   {
     "id": 326,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_24d3a0dc90.mp3",
+    "src": "audio/_24d3a0dc90.mp3",
     "ttp": "朋友，你是基督教徒啊，共產黨可是邪党组织，邪党宣傳无神论它是反对神佛的，您知道嗎共產邪党的老祖宗是馬克斯,它是撒旦教徒,是信仰撒旦魔鬼的極端份子.他早期是基督教徒後來背叛了基督轉信撒旦，所以你想一想如果你不退出共產黨組織的話,你不就是他的一份子嗎?當初在加入共產邪党組織的時候不是都要宣誓把生命獻給它嗎?您不退出邪党組織能行嗎?這樣對得起您信仰的神嗎?只有退出党团队才是真正正確的選擇.",
     "key": "p1",
     "title": "針對基督教徒",
@@ -1274,7 +1274,7 @@
   {
     "id": 327,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_02126f1f46.mp3",
+    "src": "audio/_02126f1f46.mp3",
     "ttp": "朋友，我講這些并不是要您加入我们修炼法轮功，只是希望您明白真相.顺顺利利地躲过灾难，有个美好的未来。",
     "key": "p2",
     "title": "不感興趣的",
@@ -1286,7 +1286,7 @@
   {
     "id": 328,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/sorry_e034c04817.mp3",
+    "src": "audio/sorry_e034c04817.mp3",
     "ttp": "對不起可以 打擾一下嗎",
     "key": "a3",
     "title": "打擾一下",
@@ -1298,7 +1298,7 @@
   {
     "id": 329,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_886541aaa0.mp3",
+    "src": "audio/_886541aaa0.mp3",
     "ttp": "到今天为止有3亿7千万人以上声明退出供铲谠团队了 .请你也快3退吧!中供已经快完蛋了，很多高官都纷纷跟其划清界线自保, 现在中供的武*汉\\肺/炎数据都是假的，真正病死的人非常多,而且无药可治. 瘟/疫面前只有真心念法_轮_大_法_好或退出中供邪谠的人才能得救. 希望你做出明智的选择!赶快3退吧! ",
     "key": "e6",
     "title": "做明智选择",
@@ -1310,7 +1310,7 @@
   {
     "id": 330,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/7_c073045159.mp3",
+    "src": "audio/7_c073045159.mp3",
     "ttp": "我们的祖先刘伯温早就预言2020大劫来临 十愁难过猪鼠年,不就是指现在的武汉肺炎吗?在这一场强大瘟疫疾病中淘汰人类,凡是跟共产党走的人都会被淘汰掉刘伯温看到大劫难发生在猪、鼠年间。巧合的是，2019年和2020年正是猪、鼠年，中国爆发了一连串的瘟疫，包括非洲猪瘟、鼠疫、武汉肺炎等疫情，扎堆来到中国大地。这似乎验证了刘伯温的预言，面对各种灾难，刘伯温碑记中也告诫了人们怎样脱离危险",
     "key": "l6",
     "title": "刘伯温预言",
@@ -1322,7 +1322,7 @@
   {
     "id": 331,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/8_ee9f149b2b.mp3",
+    "src": "audio/8_ee9f149b2b.mp3",
     "ttp": "如果你退了，假如真的有劫难的话，你不就可以躲过了.如果你退了，但没有劫难的话，别人也不知道你退了，你不也没事.不要认为你小小的声明没什么!清算共产党的那一天, 您就不会有事, 明白吗?因为只要加入过的人,就是它的成员要主动声明退出才能在清算共产党的那一天平安我用剛剛的那個化名幫您退出好吗?",
     "key": "l7",
     "title": "如果你退了",
@@ -1334,7 +1334,7 @@
   {
     "id": 332,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_03265c0a3a.mp3",
+    "src": "audio/_03265c0a3a.mp3",
     "ttp": "請問你有上過小學嗎",
     "key": "j6",
     "title": "有上過小學嗎",
@@ -1346,7 +1346,7 @@
   {
     "id": 333,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_3c2f197411.mp3",
+    "src": "audio/1_3c2f197411.mp3",
     "ttp": "還有一個您可能不知道的事實中國共產黨在活摘法輪功學員的器官賺黑心錢。從中國大陸的移民及難民中不斷傳出消息，說是無辜民眾被活生生未施麻醉就摘取器官，而中共一些官員則靠販賣器官牟取暴利，很少人相信這些都是真實發生的。然而，一些獨立的研究人員和學者們開始就事實真相展開調查，經過全面的分析得出了令人遺憾的結論：活摘和販賣器官牟利的暴行都是事實，那些家庭基督徒、維族人、西藏人，特別是法輪功學員，都是活摘器官的受害群體。這場從2000年開始的反人類暴行不僅亙古未有，更可怖的是暴行還在繼續。2006年，人權律師大衛·麥塔斯和加拿大前議員大衛·喬高對中國的活摘器官禁聞進行了獨立調查，他們在調查報告《血腥活摘》中例舉60多條證據得出結論：中共政府一直在系統地殺害良心犯，摘取並販賣受害人的器官而牟利。兩名大衛因這項調查而獲得諾貝爾和平獎提名，國際社會也開始認真關注活摘器官的惡行。",
     "key": "m5",
     "title": "活摘器官真相1",
@@ -1358,7 +1358,7 @@
   {
     "id": 334,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_c098bb1e3f.mp3",
+    "src": "audio/2_c098bb1e3f.mp3",
     "ttp": "有一個非常震驚的活摘案例還拍成了電影《心殤》其中有這樣的一幕：一名女性被中國警察和醫務人員動手術開膛破肚，她的器官被野蠻摘取，並高價販賣給根本不知情的移植病人，其實這樣的活摘器官案例早有發生，你或許不敢相信這一幕是真的，但其背後隱藏的真相更令人驚駭不已。2009年，一位目擊者良心難安，終於勇敢的站出來指證活摘器官的暴行。事件發生於2002年4月9日，在瀋陽軍區總醫院15樓的一間手術室，證人當時作為一名持槍警衛目擊了手術的整個過程，在未施麻醉的情況下，兩名軍醫從一位30多歲的中學女教師身上摘取了多個器官，受害女教師此前因為修煉法輪功 而被非法關押。她在被軍醫殺害之前的一個月內，曾慘遭強迫洗腦、酷刑折磨、性侵、甚至強姦 令人驚駭不已。",
     "key": "m6",
     "title": "活摘器官真相2",
@@ -1370,7 +1370,7 @@
   {
     "id": 335,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_1820e93f0b.mp3",
+    "src": "audio/_1820e93f0b.mp3",
     "ttp": "我這裡有一些您不知道的國外真相新聞廣播,我現在可以給您聽一下",
     "key": "m7",
     "title": "給真相廣播",
@@ -1382,7 +1382,7 @@
   {
     "id": 336,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_37521b3c8e.mp3",
+    "src": "audio/_37521b3c8e.mp3",
     "ttp": "你好請問是小朋友嗎叔叔跟你這樣說話你能聽得清嗎嗎",
     "key": "a8",
     "title": "小朋友嗎",
@@ -1394,7 +1394,7 @@
   {
     "id": 337,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_77caeb87a3.mp3",
+    "src": "audio/_77caeb87a3.mp3",
     "ttp": "请问是老人家吗 我这样讲你听得清楚吗",
     "key": "a9",
     "title": "老人家吗",
@@ -1406,7 +1406,7 @@
   {
     "id": 338,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_ba8cb252de.mp3",
+    "src": "audio/_ba8cb252de.mp3",
     "ttp": "小朋友啊",
     "key": "ag",
     "title": "小朋友啊",
@@ -1418,7 +1418,7 @@
   {
     "id": 339,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_9e1649c6d8.mp3",
+    "src": "audio/_9e1649c6d8.mp3",
     "ttp": "對  沒錯",
     "key": "z3",
     "title": "對",
@@ -1430,7 +1430,7 @@
   {
     "id": 340,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G5_1b643c1b25.mp3",
+    "src": "audio/XY_G5_1b643c1b25.mp3",
     "ttp": "美蓮",
     "key": "g5",
     "title": "美蓮",
@@ -1442,7 +1442,7 @@
   {
     "id": 341,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F5_81f215a2fd.mp3",
+    "src": "audio/XY_F5_81f215a2fd.mp3",
     "ttp": "福强",
     "key": "f5",
     "title": "福强",
@@ -1454,7 +1454,7 @@
   {
     "id": 342,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G6_3d4fca8d8e.mp3",
+    "src": "audio/XY_G6_3d4fca8d8e.mp3",
     "ttp": "秀美",
     "key": "g6",
     "title": "秀美",
@@ -1466,7 +1466,7 @@
   {
     "id": 343,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F6_2276e86b66.mp3",
+    "src": "audio/XY_F6_2276e86b66.mp3",
     "ttp": "榮生",
     "key": "f6",
     "title": "榮生",
@@ -1478,7 +1478,7 @@
   {
     "id": 344,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_F7_b4f90b0f87.mp3",
+    "src": "audio/XY_F7_b4f90b0f87.mp3",
     "ttp": "福榮",
     "key": "f7",
     "title": "福榮",
@@ -1490,7 +1490,7 @@
   {
     "id": 345,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/XY_G7_b5c3c7c6bf.mp3",
+    "src": "audio/XY_G7_b5c3c7c6bf.mp3",
     "ttp": "秀丽",
     "key": "g7",
     "title": "秀丽",
@@ -1502,7 +1502,7 @@
   {
     "id": 346,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_7b57f9bf71.mp3",
+    "src": "audio/_7b57f9bf71.mp3",
     "ttp": "您是党员，那么请问你有加入过共青团少先队吗？",
     "key": "h2",
     "title": "是党问团队",
@@ -1514,7 +1514,7 @@
   {
     "id": 347,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_c32b282ac1.mp3",
+    "src": "audio/6_c32b282ac1.mp3",
     "ttp": "我再跟您确认一下喔 我说的这个退可不是指您超龄自动退了，超龄自动退都是不算的，您就记住刚刚起的这个化名，只要答应一声好，就生效了，这是退给神看的，从思想上真正的认清共产党的邪恶与其划清界线，3退对您的工作生活都不影响请您放心",
     "key": "i5",
     "title": "超龄不算退",
@@ -1526,7 +1526,7 @@
   {
     "id": 348,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/0_33d1e8de14.mp3",
+    "src": "audio/0_33d1e8de14.mp3",
     "ttp": "朋友 你有在听我讲话吗？咱可别拿自己的生命开玩笑！我讲的这些东西都非常重要关系你的未来喔",
     "key": "co",
     "title": "别开玩笑",
@@ -1538,7 +1538,7 @@
   {
     "id": 349,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_23d571470b.mp3",
+    "src": "audio/_23d571470b.mp3",
     "ttp": "喔, 原来你是這樣 啊 ! 那就不打擾了  再见.",
     "key": "w6",
     "title": "遇見同修",
@@ -1550,7 +1550,7 @@
   {
     "id": 350,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_4c77ab3064.mp3",
+    "src": "audio/_4c77ab3064.mp3",
     "ttp": "跟您通上电话真是太好了",
     "key": "aa",
     "title": "通电话真好",
@@ -1562,7 +1562,7 @@
   {
     "id": 351,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_5dba96c93b.mp3",
+    "src": "audio/_5dba96c93b.mp3",
     "ttp": "我打電話就是想跟你說一件事情",
     "key": "ab",
     "title": "跟你說件事情",
@@ -1574,7 +1574,7 @@
   {
     "id": 352,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_4566c6452b.mp3",
+    "src": "audio/_4566c6452b.mp3",
     "ttp": "請你們不要生氣啊我打這個電話並沒有什麼惡意",
     "key": "ck",
     "title": "不要生氣啊",
@@ -1586,7 +1586,7 @@
   {
     "id": 353,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_fb626c31cb.mp3",
+    "src": "audio/_fb626c31cb.mp3",
     "ttp": "您是误会我了吧我打个电话就是为了您好为了您将来能够平安",
     "key": "cl",
     "title": "您是误会我了",
@@ -1598,7 +1598,7 @@
   {
     "id": 354,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_3dd10be260.mp3",
+    "src": "audio/_3dd10be260.mp3",
     "ttp": "你有看到我们在群里经常发达聊天记录吗",
     "key": "o4",
     "title": "聊天记录看沒",
@@ -1610,7 +1610,7 @@
   {
     "id": 355,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_72b1f18025.mp3",
+    "src": "audio/_72b1f18025.mp3",
     "ttp": "我们的群组里面有很多国内看不到的真相新闻如果您需要的话我可以把你加到我们的群组里面.mp3",
     "key": "o5",
     "title": "拉您進群组",
@@ -1622,7 +1622,7 @@
   {
     "id": 356,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_dd3169986f.mp3",
+    "src": "audio/_dd3169986f.mp3",
     "ttp": "可以給我一些群吗",
     "key": "o6",
     "title": "跟网友要群",
@@ -1634,7 +1634,7 @@
   {
     "id": 357,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_aac3801167.mp3",
+    "src": "audio/_aac3801167.mp3",
     "ttp": "请不要担心这个退呢是用化名小名三退对你的工作生活没有任何影响 ，你退了别人都不会知道的",
     "key": "h4",
     "title": "请不要担心",
@@ -1646,7 +1646,7 @@
   {
     "id": 358,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_613f54d6ce.mp3",
+    "src": "audio/_613f54d6ce.mp3",
     "ttp": "请问您的家人有办理过三退了吗?如果还没有我可以帮他办理!可以把您的电话给家人接听一下好吗?",
     "key": "k6",
     "title": "帮家人三退",
@@ -1658,7 +1658,7 @@
   {
     "id": 359,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_d7cc8cb0a9.mp3",
+    "src": "audio/_d7cc8cb0a9.mp3",
     "ttp": "另外您也知道现在天灾人祸这么多,一下是瘟疫(中供武#汉肺#炎),一下又是三/峡\\大/坝|崩/溃危机 .供铲邪谠现在政权不稳,什么时候倒台?可能说哪天倒就倒台了我们老百姓哪一个不希望自己和家人都平安呢如果您家人(亲朋好友)曾经有加入过的 也要都要让他们三|褪保平安喔？",
     "key": "k4",
     "title": "再劝家人三退",
@@ -1670,7 +1670,7 @@
   {
     "id": 360,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_c51b49ba05.mp3",
+    "src": "audio/_c51b49ba05.mp3",
     "ttp": "您的家人如果要三退的話必須要經過他本人同意才可以做三退喔",
     "key": "k5",
     "title": "须本人同意退",
@@ -1682,7 +1682,7 @@
   {
     "id": 361,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_adfc66bf7c.mp3",
+    "src": "audio/_adfc66bf7c.mp3",
     "ttp": "上小学不都是要戴红领巾吗",
     "key": "j7",
     "title": "小学都戴红领巾吗",
@@ -1694,7 +1694,7 @@
   {
     "id": 362,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/6_1e7f5c7c4e.mp3",
+    "src": "audio/6_1e7f5c7c4e.mp3",
     "ttp": "你知道吗这个疫情现在非常严重全国各地很多地方都封城了,而且病毒都变异了,口罩都没用.尤其再加上无症状感染者和潜伏期长，那身边有没有这样的人，我们是不知道的。所以我们身边很多人都在做三退， 都在保护自己。",
     "key": "d6",
     "title": "病毒劝退",
@@ -1706,7 +1706,7 @@
   {
     "id": 363,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/8_264b8bb3b4.mp3",
+    "src": "audio/8_264b8bb3b4.mp3",
     "ttp": "因为现在形势变化大，我们面对这个疫情，不管怎么预防也没用，因为只能治标，不能治本。那你看我们人类科学现在怎么发达，目前也没有特效药，所以很多人都明白啊，就是人类道德败坏的时候啊，它就会有大灾难，因为从古到今啊，不管哪一朝哪一代，只要迫害了正信，造了毁佛谤佛之罪都是没有未来的，所以我打这通电话也是希望您心中一定要有杆秤，我们就是善恶要分清。您看 20 年来打压迫害信仰真善忍的修佛的好人，这个罪啊，我们绝对不要去承担，就是善待好人，将来会给你带来平安吉祥还有福分的。",
     "key": "d7",
     "title": "疫情切入",
@@ -1718,7 +1718,7 @@
   {
     "id": 364,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_8e1a7075aa.mp3",
+    "src": "audio/_8e1a7075aa.mp3",
     "ttp": "前一阵我看到韩国医生做的调查，打疫苗后又染疫的死亡率，比没打高，我的朋友告诉我现在小区 在动员大家打。我是告诉您啊，咱可要三思，中间试验过程都省了，说了为咱们早点接种，疫苗的有效率是多少都不清楚，这不是把咱当小白鼠了吗？中共什么时候这么好心关心起咱百姓的死活了？其实还是让咱们给它卖命，咱可得三思。 尤其当初咱们加入的时候还宣誓，为其奋斗终身、牺牲生命。命是父母给的，可不能为共产主义献身。现在超过3亿7千多万人都退出了中共的一切组织，如果你没退赶快退啊，保护好自己。退呢很简单，用小名化名就行，心到佛知。尤其当初咱们加入的时候还宣誓，为其奋斗终身、牺牲生命。命是父母给的，可不能为共产主义献身。现在超过3亿7千多万人都退出了中共的一切组织，如果你没退赶快退啊，保护好自己。退呢很简单，用小名化名就行，心到佛知。",
     "key": "e3",
     "title": "疫苗-劝退",
@@ -1730,7 +1730,7 @@
   {
     "id": 365,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_6b883a5104.mp3",
+    "src": "audio/_6b883a5104.mp3",
     "ttp": "我再跟您确认一下您真的没有加入任何共产党组织吗",
     "key": "k7",
     "title": "再跟您确认",
@@ -1742,7 +1742,7 @@
   {
     "id": 366,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/3_0d584890d9.mp3",
+    "src": "audio/3_0d584890d9.mp3",
     "ttp": "请问一下你以前有 办理过3退吗",
     "key": "i3",
     "title": "以前有退吗",
@@ -1754,7 +1754,7 @@
   {
     "id": 367,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/2_c117b769e7.mp3",
+    "src": "audio/2_c117b769e7.mp3",
     "ttp": "您好啊",
     "key": "a1",
     "title": "您好",
@@ -1766,7 +1766,7 @@
   {
     "id": 368,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/1_0fdd452f75.mp3",
+    "src": "audio/1_0fdd452f75.mp3",
     "ttp": "喂",
     "key": "a0",
     "title": "喂",
@@ -1778,7 +1778,7 @@
   {
     "id": 369,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/7_a35d8d1b50.mp3",
+    "src": "audio/7_a35d8d1b50.mp3",
     "ttp": "疫情希望你平安",
     "key": "a6",
     "title": "疫情希望你平安",
@@ -1790,7 +1790,7 @@
   {
     "id": 370,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/0_059969f9de.mp3",
+    "src": "audio/0_059969f9de.mp3",
     "ttp": "喂",
     "key": "a0",
     "title": "喂",
@@ -1802,7 +1802,7 @@
   {
     "id": 371,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A1_86ea946965.mp3",
+    "src": "audio/A1_86ea946965.mp3",
     "ttp": "您好啊",
     "key": "a1",
     "title": "您好",
@@ -1814,7 +1814,7 @@
   {
     "id": 372,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A2_2207bdc752.mp3",
+    "src": "audio/A2_2207bdc752.mp3",
     "ttp": "给您拜年了，祝您新的一年，身体健康，一切顺利",
     "key": "a2",
     "title": "新年快樂",
@@ -1826,7 +1826,7 @@
   {
     "id": 373,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A3_ca9c973401.mp3",
+    "src": "audio/A3_ca9c973401.mp3",
     "ttp": "对不起，打扰一下",
     "key": "a3",
     "title": "打扰一下",
@@ -1838,7 +1838,7 @@
   {
     "id": 374,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A4_7c1ec3d9b8.mp3",
+    "src": "audio/A4_7c1ec3d9b8.mp3",
     "ttp": "很高兴和您通话",
     "key": "a4",
     "title": "通话很高兴",
@@ -1850,7 +1850,7 @@
   {
     "id": 375,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A5_4156c68248.mp3",
+    "src": "audio/A5_4156c68248.mp3",
     "ttp": "我打这个电话是想告诉你一件重要的事情就几分钟时间可以吗",
     "key": "a5",
     "title": "这电话很重要",
@@ -1862,7 +1862,7 @@
   {
     "id": 376,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A6_7bbc540ed4.mp3",
+    "src": "audio/A6_7bbc540ed4.mp3",
     "ttp": "各地疫情严重希望您能平安",
     "key": "a6",
     "title": "疫情望平安",
@@ -1874,7 +1874,7 @@
   {
     "id": 377,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A7_6a1ec1763a.mp3",
+    "src": "audio/A7_6a1ec1763a.mp3",
     "ttp": "您聽說過三退保平安嗎",
     "key": "a7",
     "title": "聽說過三退嗎",
@@ -1886,7 +1886,7 @@
   {
     "id": 378,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A8_7b9208e7bf.mp3",
+    "src": "audio/A8_7b9208e7bf.mp3",
     "ttp": "请问你是小朋友吗？阿姨这样说话你听的清楚吗？",
     "key": "a8",
     "title": "小朋友吗",
@@ -1898,7 +1898,7 @@
   {
     "id": 379,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/A9_d05c15cc49.mp3",
+    "src": "audio/A9_d05c15cc49.mp3",
     "ttp": "请问是人家吗？我这样说话您能听的清吗？",
     "key": "a9",
     "title": "老人家吗",
@@ -1910,7 +1910,7 @@
   {
     "id": 380,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AA_75e3810fe4.mp3",
+    "src": "audio/AA_75e3810fe4.mp3",
     "ttp": "能跟您通上电话真是太好了",
     "key": "aa",
     "title": "通电话真好",
@@ -1922,7 +1922,7 @@
   {
     "id": 381,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AB_8655114017.mp3",
+    "src": "audio/AB_8655114017.mp3",
     "ttp": "打电话就是跟您说件事",
     "key": "ab",
     "title": "跟您说件事",
@@ -1934,7 +1934,7 @@
   {
     "id": 382,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AC_e48aa446f2.mp3",
+    "src": "audio/AC_e48aa446f2.mp3",
     "ttp": "先生",
     "key": "ac",
     "title": "先生",
@@ -1946,7 +1946,7 @@
   {
     "id": 383,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AD_d293e6fdaf.mp3",
+    "src": "audio/AD_d293e6fdaf.mp3",
     "ttp": "这位女士啊",
     "key": "ad",
     "title": "女士",
@@ -1958,7 +1958,7 @@
   {
     "id": 384,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AE_8b786da26f.mp3",
+    "src": "audio/AE_8b786da26f.mp3",
     "ttp": "大姐",
     "key": "ae",
     "title": "大姐",
@@ -1970,7 +1970,7 @@
   {
     "id": 385,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AF_bf52b821da.mp3",
+    "src": "audio/AF_bf52b821da.mp3",
     "ttp": "大哥",
     "key": "af",
     "title": "大哥",
@@ -1982,7 +1982,7 @@
   {
     "id": 386,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/AG_957c9f98dc.mp3",
+    "src": "audio/AG_957c9f98dc.mp3",
     "ttp": "小朋友啊 ",
     "key": "ag",
     "title": "小朋友啊",
@@ -1994,7 +1994,7 @@
   {
     "id": 387,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B0_f669ed3d2b.mp3",
+    "src": "audio/B0_f669ed3d2b.mp3",
     "ttp": "您请说",
     "key": "b0",
     "title": "您请说",
@@ -2006,7 +2006,7 @@
   {
     "id": 388,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B1_f92eb01949.mp3",
+    "src": "audio/B1_f92eb01949.mp3",
     "ttp": "好",
     "key": "b1",
     "title": "好",
@@ -2018,7 +2018,7 @@
   {
     "id": 389,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B2_dbd1e33945.mp3",
+    "src": "audio/B2_dbd1e33945.mp3",
     "ttp": "能",
     "key": "b2",
     "title": "能",
@@ -2030,7 +2030,7 @@
   {
     "id": 390,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B3_6ac9e78849.mp3",
+    "src": "audio/B3_6ac9e78849.mp3",
     "ttp": "可以",
     "key": "b3",
     "title": "可以",
@@ -2042,7 +2042,7 @@
   {
     "id": 391,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B4_661d545caf.mp3",
+    "src": "audio/B4_661d545caf.mp3",
     "ttp": "是的",
     "key": "b4",
     "title": "是的",
@@ -2054,7 +2054,7 @@
   {
     "id": 392,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B5_27afe6541b.mp3",
+    "src": "audio/B5_27afe6541b.mp3",
     "ttp": "谢谢您",
     "key": "b5",
     "title": "谢谢您",
@@ -2066,7 +2066,7 @@
   {
     "id": 393,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B6_f890f3d569.mp3",
+    "src": "audio/B6_f890f3d569.mp3",
     "ttp": "什麼",
     "key": "b6",
     "title": "什麼",
@@ -2078,7 +2078,7 @@
   {
     "id": 394,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/B7_5e7177318c.mp3",
+    "src": "audio/B7_5e7177318c.mp3",
     "ttp": "好吗",
     "key": "b7",
     "title": "好吗",
@@ -2090,7 +2090,7 @@
   {
     "id": 395,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C0_b8a0039dbc.mp3",
+    "src": "audio/C0_b8a0039dbc.mp3",
     "ttp": "我是老百姓，我在海外，知道一些真实的消息，所以想告诉您",
     "key": "c0",
     "title": "我是老百姓",
@@ -2102,7 +2102,7 @@
   {
     "id": 396,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C1_b0a8e89790.mp3",
+    "src": "audio/C1_b0a8e89790.mp3",
     "ttp": "我用的這个号是微信上的好友",
     "key": "c1",
     "title": "我們是微信好友",
@@ -2114,7 +2114,7 @@
   {
     "id": 397,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C2_f16f93e83e.mp3",
+    "src": "audio/C2_f16f93e83e.mp3",
     "ttp": "请您不要介意 这个是网路电话这个是网络电话，我随机拨打的",
     "key": "c2",
     "title": "这是网络电话",
@@ -2126,7 +2126,7 @@
   {
     "id": 398,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C3_d5e2f68821.mp3",
+    "src": "audio/C3_d5e2f68821.mp3",
     "ttp": "我是谁一点都不重要重要的是我跟你说的内容您听明白了吗",
     "key": "c3",
     "title": "我是谁不重要",
@@ -2138,7 +2138,7 @@
   {
     "id": 399,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C4_4a979b1352.mp3",
+    "src": "audio/C4_4a979b1352.mp3",
     "ttp": "我刚才跟您讲的这些，您听明白了吗？",
     "key": "c4",
     "title": "明白了吗？",
@@ -2150,7 +2150,7 @@
   {
     "id": 400,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C5_669aa90901.mp3",
+    "src": "audio/C5_669aa90901.mp3",
     "ttp": "我今天给您打这个电话是因为电视报纸 啊很多消息不是透明的，我就是想告诉 您一些真实的情况。就几分钟时间好 吗？",
     "key": "c5",
     "title": "问干什么",
@@ -2162,7 +2162,7 @@
   {
     "id": 401,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C6_d597ded1ff.mp3",
+    "src": "audio/C6_d597ded1ff.mp3",
     "ttp": "录 音 我是真人在跟您打电话，但是我是海外華人，我的普通话並不很好，如果这次通话我没有有回答清楚您的问 题，您别介意啊。",
     "key": "c6",
     "title": "是真人嗎?",
@@ -2174,7 +2174,7 @@
   {
     "id": 402,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C7_6802167d08.mp3",
+    "src": "audio/C7_6802167d08.mp3",
     "ttp": "听的见吗？请问您能听到我说话吗？",
     "key": "c7",
     "title": "能听见吗",
@@ -2186,7 +2186,7 @@
   {
     "id": 403,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C8_137a780688.mp3",
+    "src": "audio/C8_137a780688.mp3",
     "ttp": "哦 那可能还是我没有给您讲清楚，我再给 您讲一下。",
     "key": "c8",
     "title": "没讲清再讲",
@@ -2198,7 +2198,7 @@
   {
     "id": 404,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/C9_bdbfdece82.mp3",
+    "src": "audio/C9_bdbfdece82.mp3",
     "ttp": "您在忙是吧？那我就长话短说。 ",
     "key": "c9",
     "title": "您在忙是吧",
@@ -2210,7 +2210,7 @@
   {
     "id": 405,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CA_de06c0c493.mp3",
+    "src": "audio/CA_de06c0c493.mp3",
     "ttp": "不好意思，我听不太清楚您说什么，请问您可以再说一遍吗？",
     "key": "ca",
     "title": "没听清您说什么",
@@ -2222,7 +2222,7 @@
   {
     "id": 406,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CB_eace6d2413.mp3",
+    "src": "audio/CB_eace6d2413.mp3",
     "ttp": "请问您还有问题吗？",
     "key": "cb",
     "title": "还有问题吗?",
@@ -2234,7 +2234,7 @@
   {
     "id": 407,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CC_e03735f984.mp3",
+    "src": "audio/CC_e03735f984.mp3",
     "ttp": "我在海外，我是海外的华人，我爱中国那是我土生土长的地方，就是因为我爱中国，我才不希望我的手足同胞们被中共欺骗",
     "key": "cc",
     "title": "我是海外华人",
@@ -2246,7 +2246,7 @@
   {
     "id": 409,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CE_ae0c28f683.mp3",
+    "src": "audio/CE_ae0c28f683.mp3",
     "ttp": "朋友，您在听吗？",
     "key": "ce",
     "title": "您在听吗？",
@@ -2258,7 +2258,7 @@
   {
     "id": 410,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CF_08443f8490.mp3",
+    "src": "audio/CF_08443f8490.mp3",
     "ttp": "哦 ，您听说过法轮功啊",
     "key": "cf",
     "title": "您听说过法轮功啊",
@@ -2270,7 +2270,7 @@
   {
     "id": 411,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CG_943ae5bf7f.mp3",
+    "src": "audio/CG_943ae5bf7f.mp3",
     "ttp": "您以前有学过法轮功啊",
     "key": "cg",
     "title": "您以前有学过法轮功啊",
@@ -2282,7 +2282,7 @@
   {
     "id": 412,
     "speaker": "tina ",
-    "src": "http://sowetalk.cf:1338/uploads/CH_11d1194dce.mp3",
+    "src": "audio/CH_11d1194dce.mp3",
     "ttp": "喂，这样听得到吗？",
     "key": "ch",
     "title": "这样听得到吗",
@@ -2294,7 +2294,7 @@
   {
     "id": 413,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CI_8335a001fa.mp3",
+    "src": "audio/CI_8335a001fa.mp3",
     "ttp": "请问您可以听我说几句吗？",
     "key": "ci",
     "title": "可以听我说吗",
@@ -2306,7 +2306,7 @@
   {
     "id": 414,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CJ_31f0a28cac.mp3",
+    "src": "audio/CJ_31f0a28cac.mp3",
     "ttp": "不好意思刚刚断线了 ",
     "key": "cj",
     "title": "刚刚断线了",
@@ -2318,7 +2318,7 @@
   {
     "id": 415,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CK_90df20ef16.mp3",
+    "src": "audio/CK_90df20ef16.mp3",
     "ttp": "请您不要生气，我打电话并没有什么恶意",
     "key": "ck",
     "title": "请您不要生气",
@@ -2330,7 +2330,7 @@
   {
     "id": 416,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CL_3757a4e0c2.mp3",
+    "src": "audio/CL_3757a4e0c2.mp3",
     "ttp": "我觉得您可能误会我了，我打电话就是希望您好，希望您能平安",
     "key": "cl",
     "title": "您是误会我了",
@@ -2342,7 +2342,7 @@
   {
     "id": 417,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CM_7008326968.mp3",
+    "src": "audio/CM_7008326968.mp3",
     "ttp": "请问你是吗？",
     "key": "cm",
     "title": "请问你是吗？",
@@ -2354,7 +2354,7 @@
   {
     "id": 418,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D0_008eb17792.mp3",
+    "src": "audio/D0_008eb17792.mp3",
     "ttp": "因为2020年发生了很多的事情，國外很多媒体都在报道 印度神童  推背圖 和刘伯温的预言，這些预言说的很多都應驗了。   您看现在病毒這麼厲害全世界死了多少人,  疫苗出来了也沒有什麼作用,病毒還变异了。我們人的智慧远远赶不上老天爷的智慧，咱們中国人自古都讲顺天意才能得福報真正平安。您說對嗎?",
     "key": "d0",
     "title": "顺天意才正平",
@@ -2366,7 +2366,7 @@
   {
     "id": 419,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D1_70962d3160.mp3",
+    "src": "audio/D1_70962d3160.mp3",
     "ttp": "打這個電話來啊就是告訴我們中國的老百姓去年2020年是一個不同尋常的一年,天災人禍，南澇北旱，武漢肺炎,非洲豬瘟.很多事情我們左右不了。我們也左右不了。 但是不管發生什麼事情,好人總是會有善報。",
     "key": "d1",
     "title": "灾祸多好人善報",
@@ -2378,7 +2378,7 @@
   {
     "id": 420,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D2_af3056d0bf.mp3",
+    "src": "audio/D2_af3056d0bf.mp3",
     "ttp": "打電話就是希望您平安吉祥 現在這個形 勢變化真的非常的大.所以大家都在互 相提醒.要保護好自己非常重要，朋 友，您看今年是個不尋常的年,天災人 禍不斷 但是不管 將來再發生什麼事， 我就是希望朋友您好，希望您走到哪 裡，有老天神佛護佑您，您平安了我就 放心了，咱們走到哪裡平安到哪裡。",
     "key": "d2",
     "title": "形势变化",
@@ -2390,7 +2390,7 @@
   {
     "id": 421,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D3_007eb7e3de.mp3",
+    "src": "audio/D3_007eb7e3de.mp3",
     "ttp": "前一阵我看到韩国医生做的调查，打疫苗后又染疫的死亡率，比没打高。。。。，我的朋友告诉我现在小区 在动员大家打。我是告诉您啊，咱可要三思，中间试验过程都省了，说了为咱们早点接种，疫苗的有效率是多少都不清楚，这不是把咱当小白鼠了吗？中共什么时候这么好心关心起咱百姓的死活了？其实还是让咱们给它卖命，咱可得三思。 ",
     "key": "d3",
     "title": "疫苗-切入",
@@ -2402,7 +2402,7 @@
   {
     "id": 422,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D4_52e8db3dc2.mp3",
+    "src": "audio/D4_52e8db3dc2.mp3",
     "ttp": "其实就是想把这个咨询传递给您，希望您多听多看，保护好自己和家人。现在天灾异象那么多,很多聪明人，都在找自救的办法。其实您也知道，咱们中国也叫神州大地，有5千年的神传文化，老人都讲善恶有报啊，要敬天信神啊。很多人都意识到了：要想得到平安，只有守住我们的善良，求得上天神佛的护佑了。",
     "key": "d4",
     "title": "神州大地",
@@ -2414,7 +2414,7 @@
   {
     "id": 423,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D5_3f3406b126.mp3",
+    "src": "audio/D5_3f3406b126.mp3",
     "ttp": "现在大家都明白了这件事情，神佛老天 救人是有标准的，入过党团队的人要不 退出来是一个都不救的，因为共产党做 的很多坏事是这个星球上从没有发生过 的，多可怕呀，谁还把命交给它啊。朋 友，我可以帮您把那个毒誓抹去，什么 都不影响，您升官发财照旧，不讓您花 錢，不讓您出力，就是希望把這个福分 送給您",
     "key": "d5",
     "title": "老天救人有标准",
@@ -2426,7 +2426,7 @@
   {
     "id": 424,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D6_fdb4f22a8e.mp3",
+    "src": "audio/D6_fdb4f22a8e.mp3",
     "ttp": "你知道吗这个疫情现在非常严重全国各地很多地方都封城了,而且病毒都变异了,口罩都没用.尤其再加上无症状感染者和潜伏期长，那身边有没有这样的人，我们是不知道的。所以我们身边很多人都在做三退， 都在保护自己。",
     "key": "d6",
     "title": "病毒劝退",
@@ -2438,7 +2438,7 @@
   {
     "id": 425,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/D7_f15c2938d2.mp3",
+    "src": "audio/D7_f15c2938d2.mp3",
     "ttp": "因为现在形势变化大，我们面对这个疫情，不管怎么预防也没用，因为只能治标，不能治本。那你看我们人类科学现在怎么发达，目前也没有特效药，所以很多人都明白啊，就是人类道德败坏的时候啊，它就会有大灾难，因为从古到今啊，不管哪一朝哪一代，只要迫害了正信，造了毁佛谤佛之罪都是没有未来的，所以我打这通电话也是希望您心中一定要有杆秤，我们就是善恶要分清。您看 20 年来打压迫害信仰真善忍的修佛的好人，这个罪啊，我们绝对不要去承担，就是善待好人，将来会给你带来平安吉祥还有福分的。",
     "key": "d7",
     "title": "疫情切入",
@@ -2450,7 +2450,7 @@
   {
     "id": 426,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E0_9565240335.mp3",
+    "src": "audio/E0_9565240335.mp3",
     "ttp": "现在已经有3亿7千万的中国人退出党团队组织了，希望您也顺天意保平安 咱們好人可千萬别落下呀。其實這個三退很简单，用小名，化名，真名就可以退，三退呢 是从心里真正和邪黨劃清界線 讓老天爷看到。",
     "key": "e0",
     "title": "直接劝退1",
@@ -2462,7 +2462,7 @@
   {
     "id": 427,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E1_90a3b645cf.mp3",
+    "src": "audio/E1_90a3b645cf.mp3",
     "ttp": "您說，咱們发过的毒誓不退能行吗？我 们以前无意中都曾经发过毒誓，很多人 都做三退保护了自己。那這個三退很簡 單，用化名小名从心里退出黨團隊組 織，就是希望您得到老天的護佑。",
     "key": "e1",
     "title": "抹毒誓三退",
@@ -2474,7 +2474,7 @@
   {
     "id": 428,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E2_34b931a2c8.mp3",
+    "src": "audio/E2_34b931a2c8.mp3",
     "ttp": "有句话叫做“宁可信其有，不可信其 无”。现在三退这个事情也是一样的，很多人做了三退后在危難的時候真的保 了平安那這個三退很簡單，用化名小名 从心里退出黨團隊組織，就是希望您得 到老天的護佑。",
     "key": "e2",
     "title": "宁可信其有",
@@ -2486,7 +2486,7 @@
   {
     "id": 429,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E3_a9b94b8651.mp3",
+    "src": "audio/E3_a9b94b8651.mp3",
     "ttp": "尤其当初咱们加入的时候还宣誓，为其奋斗终身、牺牲生命。命是父母给的，可不能为共产主义献身。现在超过3亿7千多万人都退出了中共的一切组织，如果你没退赶快退啊，保护好自己。退呢很简单，用小名化名就行，心到佛知。",
     "key": "e3",
     "title": "疫苗-劝退",
@@ -2498,7 +2498,7 @@
   {
     "id": 430,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E4_ee042e8e6b.mp3",
+    "src": "audio/E4_ee042e8e6b.mp3",
     "ttp": "天为了救咱们这些好人，叫咱们赶快退 出来，很多聪明人都做过了三退。那這 個三退很簡單，用化名小名从心里退出 黨團隊組織，就是希望您得到老天的護 佑。",
     "key": "e4",
     "title": "聪明人都三退",
@@ -2510,7 +2510,7 @@
   {
     "id": 431,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E5_d8aa08e54c.mp3",
+    "src": "audio/E5_d8aa08e54c.mp3",
     "ttp": "因为在我们中国，绝大多数的人都加入过少.先.队、共.青.团，有人还入过供铲谠。 在加入的时候每个人都曾发誓要把自己的一生献给供铲谠，为邪谠奋斗终生， 您知道吗? 发誓是不能随便发的,更何况是发毒誓,这是一个要命的毒誓。 这意味着您愿意把生命交给这个政谠，承认是它的一份子，如果它是邪恶的,将来您要承担中供所犯下的一切罪行 这是多么可怕的一件事情啊 不出能行吗",
     "key": "e5",
     "title": "為什麼要三退",
@@ -2522,7 +2522,7 @@
   {
     "id": 432,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E6_e239b12370.mp3",
+    "src": "audio/E6_e239b12370.mp3",
     "ttp": "到今天为止有3亿7千万人以上声明退出供铲谠团队了 .请你也快3退吧!中供已经快完蛋了，很多高官都纷纷跟其划清界线自保, 现在中供的武*汉\\肺/炎数据都是假的，真正病死的人非常多,而且无药可治. 瘟/疫面前只有真心念法_轮_大_法_好或退出中供邪谠的人才能得救. 希望你做出明智的选择!赶快3退吧! ",
     "key": "e6",
     "title": "做明智选择",
@@ -2534,7 +2534,7 @@
   {
     "id": 433,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/E7_c6013a456c.mp3",
+    "src": "audio/E7_c6013a456c.mp3",
     "ttp": "我打这个电话，就是为了您好，希望您 也三退。那這個三退很簡單，用化名小 名从心里退出黨團隊組織，就是希望您平安。",
     "key": "e7",
     "title": "三退为您好",
@@ -2546,7 +2546,7 @@
   {
     "id": 434,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F0_c7749a1966.mp3",
+    "src": "audio/F0_c7749a1966.mp3",
     "ttp": "我送您个化名叫永福，永远的永，幸福的福，也希望您能永远幸福",
     "key": "f0",
     "title": "永福",
@@ -2558,7 +2558,7 @@
   {
     "id": 435,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F1_9e0af8cf66.mp3",
+    "src": "audio/F1_9e0af8cf66.mp3",
     "ttp": "我送您个化名叫永顺，也希望您能永远顺利",
     "key": "f1",
     "title": "永顺",
@@ -2570,7 +2570,7 @@
   {
     "id": 436,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F2_ce70f8d29d.mp3",
+    "src": "audio/F2_ce70f8d29d.mp3",
     "ttp": "我送您歌好听的化名叫永康，也希望您能永远健康",
     "key": "f2",
     "title": "永康",
@@ -2582,7 +2582,7 @@
   {
     "id": 437,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F3_6899d14803.mp3",
+    "src": "audio/F3_6899d14803.mp3",
     "ttp": "我送您个化名叫永祥，也希望您能永远吉祥",
     "key": "f3",
     "title": "永祥",
@@ -2594,7 +2594,7 @@
   {
     "id": 438,
     "speaker": "tina ",
-    "src": "http://sowetalk.cf:1338/uploads/F4_90d69d2871.mp3",
+    "src": "audio/F4_90d69d2871.mp3",
     "ttp": "我送您个化名叫天顺，也希望您能天天顺利",
     "key": "f4",
     "title": "天顺",
@@ -2606,7 +2606,7 @@
   {
     "id": 439,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F5_a8d3ffedd6.mp3",
+    "src": "audio/F5_a8d3ffedd6.mp3",
     "ttp": "我送您个化名叫天福，也希望您能天天幸福",
     "key": "f5",
     "title": "天福",
@@ -2618,7 +2618,7 @@
   {
     "id": 440,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F6_d4323fc5d6.mp3",
+    "src": "audio/F6_d4323fc5d6.mp3",
     "ttp": "我送您个化名叫天祥，也希望您能天天吉祥",
     "key": "f6",
     "title": "天祥",
@@ -2630,7 +2630,7 @@
   {
     "id": 441,
     "speaker": "tina ",
-    "src": "http://sowetalk.cf:1338/uploads/F7_b52c394ebd.mp3",
+    "src": "audio/F7_b52c394ebd.mp3",
     "ttp": "我送您个化名叫福康，也希望您能幸福健康",
     "key": "f7",
     "title": "福康",
@@ -2642,7 +2642,7 @@
   {
     "id": 442,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G0_83a0b017e9.mp3",
+    "src": "audio/G0_83a0b017e9.mp3",
     "ttp": "我送您个化名叫永美，也希望您能永远美丽",
     "key": "g0",
     "title": "永美",
@@ -2654,7 +2654,7 @@
   {
     "id": 443,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G1_65ffa2df98.mp3",
+    "src": "audio/G1_65ffa2df98.mp3",
     "ttp": "我送您个化名叫永慧，也希望您能永远幸福有智慧",
     "key": "g1",
     "title": "永慧",
@@ -2666,7 +2666,7 @@
   {
     "id": 444,
     "speaker": "tina ",
-    "src": "http://sowetalk.cf:1338/uploads/G2_92c7d4826f.mp3",
+    "src": "audio/G2_92c7d4826f.mp3",
     "ttp": "我送您个化名叫天美，也希望您能天天美丽幸福",
     "key": "g2",
     "title": "天美",
@@ -2678,7 +2678,7 @@
   {
     "id": 445,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G3_1362b4903f.mp3",
+    "src": "audio/G3_1362b4903f.mp3",
     "ttp": "我送您个化名叫天慧，也希望您能天天幸福有智慧",
     "key": "g3",
     "title": "天慧",
@@ -2690,7 +2690,7 @@
   {
     "id": 446,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G4_ffc2bb286d.mp3",
+    "src": "audio/G4_ffc2bb286d.mp3",
     "ttp": "我送您个化名叫美慧，也希望您美丽有智慧",
     "key": "g4",
     "title": "美慧",
@@ -2702,7 +2702,7 @@
   {
     "id": 447,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G5_53ca4cd4bd.mp3",
+    "src": "audio/G5_53ca4cd4bd.mp3",
     "ttp": "我送您个化名叫美如，也希望您能美丽如意",
     "key": "g5",
     "title": "美如",
@@ -2714,7 +2714,7 @@
   {
     "id": 448,
     "speaker": "tina ",
-    "src": "http://sowetalk.cf:1338/uploads/G6_19e4a92fe9.mp3",
+    "src": "audio/G6_19e4a92fe9.mp3",
     "ttp": "我送您个化名叫雅如，也希望您能如意幸福",
     "key": "g6",
     "title": "雅如",
@@ -2726,7 +2726,7 @@
   {
     "id": 449,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G7_88974839e3.mp3",
+    "src": "audio/G7_88974839e3.mp3",
     "ttp": "我送您个化名叫美玉",
     "key": "g7",
     "title": "美玉",
@@ -2738,7 +2738,7 @@
   {
     "id": 450,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H0_08c143bd8e.mp3",
+    "src": "audio/H0_08c143bd8e.mp3",
     "ttp": "请问你以前入过党是党员吗",
     "key": "h0",
     "title": "是党员吗",
@@ -2750,7 +2750,7 @@
   {
     "id": 451,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G2_92c7d4826f.mp3",
+    "src": "audio/G2_92c7d4826f.mp3",
     "ttp": "我送您个化名叫天美，也希望您能天天美丽幸福",
     "key": "g2",
     "title": "天美",
@@ -2762,7 +2762,7 @@
   {
     "id": 452,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/G6_19e4a92fe9.mp3",
+    "src": "audio/G6_19e4a92fe9.mp3",
     "ttp": "我送您个化名叫雅如，也希望您能如意幸福",
     "key": "g6",
     "title": "雅如",
@@ -2774,7 +2774,7 @@
   {
     "id": 453,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F4_90d69d2871.mp3",
+    "src": "audio/F4_90d69d2871.mp3",
     "ttp": "我送您个化名叫天顺，也希望您能天天顺利",
     "key": "f4",
     "title": "天顺",
@@ -2786,7 +2786,7 @@
   {
     "id": 454,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/F7_b52c394ebd.mp3",
+    "src": "audio/F7_b52c394ebd.mp3",
     "ttp": "我送您个化名叫福康，也希望您能幸福健康",
     "key": "f7",
     "title": "福康",
@@ -2798,7 +2798,7 @@
   {
     "id": 455,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H1_dcb64e5ede.mp3",
+    "src": "audio/H1_dcb64e5ede.mp3",
     "ttp": "那冒昧的问一下您以前因为工作的关系入过党是党员吗",
     "key": "h1",
     "title": "冒昧问入过党 吗",
@@ -2810,7 +2810,7 @@
   {
     "id": 456,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H2_4338ecedfa.mp3",
+    "src": "audio/H2_4338ecedfa.mp3",
     "ttp": "您是党员，那么请问你有加入过共青团少先队吗？",
     "key": "h2",
     "title": "是党问团队",
@@ -2822,7 +2822,7 @@
   {
     "id": 457,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H3_9afc927414.mp3",
+    "src": "audio/H3_9afc927414.mp3",
     "ttp": "那您就记住刚才这个化名，帮您退党保 平安，只要退一次就够了，以后不要退 重复了好吗？",
     "key": "h3",
     "title": "记住化名退党",
@@ -2834,7 +2834,7 @@
   {
     "id": 458,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H4_072c01d9bf.mp3",
+    "src": "audio/H4_072c01d9bf.mp3",
     "ttp": "请不要担心这个退呢是用化名小名三退对你的工作生活没有任何影响 ，你退了别人都不会知道的",
     "key": "h4",
     "title": "请不要担心",
@@ -2846,7 +2846,7 @@
   {
     "id": 459,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H5_3ed66d27b4.mp3",
+    "src": "audio/H5_3ed66d27b4.mp3",
     "ttp": "那太恭喜您了，退一次就行，那再问一下之前退过吧？退一次就行了，您以 后就不用再退了哦。",
     "key": "h5",
     "title": "之前退过吗",
@@ -2858,7 +2858,7 @@
   {
     "id": 460,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H6_f03b217dff.mp3",
+    "src": "audio/H6_f03b217dff.mp3",
     "ttp": "那您是我们这种打电话给您退的吗？ ",
     "key": "h6",
     "title": "是电话退的吗",
@@ -2870,7 +2870,7 @@
   {
     "id": 461,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/H7_cd4569dfca.mp3",
+    "src": "audio/H7_cd4569dfca.mp3",
     "ttp": "朋友，那您退过了是吗？是法輪功學員帮 您做三退的对吧？",
     "key": "h7",
     "title": "是大法弟子退的吗？",
@@ -2882,7 +2882,7 @@
   {
     "id": 462,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I0_0fe7489299.mp3",
+    "src": "audio/I0_0fe7489299.mp3",
     "ttp": "那太好了，那您上中学的时候有入过团 吗？",
     "key": "i0",
     "title": "好,入过团吗",
@@ -2894,7 +2894,7 @@
   {
     "id": 463,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I1_a734d42d44.mp3",
+    "src": "audio/I1_a734d42d44.mp3",
     "ttp": "那您就只是上中学的时候入过团是吗?",
     "key": "i1",
     "title": "只入过团是吗",
@@ -2906,7 +2906,7 @@
   {
     "id": 464,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I2_da10a110e1.mp3",
+    "src": "audio/I2_da10a110e1.mp3",
     "ttp": "那您就记住刚刚那个化名，帮您退团保 平安好吧？",
     "key": "i2",
     "title": "化名退团好吗",
@@ -2918,7 +2918,7 @@
   {
     "id": 467,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I5_32a0228e36.mp3",
+    "src": "audio/I5_32a0228e36.mp3",
     "ttp": "我再跟您确认一下喔 我说的这个退可不是指您超龄自动退了，超龄自动退都是不算的，您就记住刚刚起的这个化名，只要答应一声好，就生效了，这是退给神看的，从思想上真正的认清共产党的邪恶与其划清界线，3退对您的工作生活都不影响请您放心",
     "key": "i5",
     "title": "超龄不算退",
@@ -2930,7 +2930,7 @@
   {
     "id": 468,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I6_b2091aa2cb.mp3",
+    "src": "audio/I6_b2091aa2cb.mp3",
     "ttp": "那就恭喜您了，真为您感到高兴! 您已经退了,将来不需要再重复退了.",
     "key": "i6",
     "title": "三退结束语 2",
@@ -2942,7 +2942,7 @@
   {
     "id": 469,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I7_1e2c8751a7.mp3",
+    "src": "audio/I7_1e2c8751a7.mp3",
     "ttp": "好的 那太恭喜您了 你如果退了 就不用再重複退了.另外我們 都知道法輪大法在救人，您记住“法轮 大法好，真善忍好”，常念得福报，天 安门自焚那是造假的新闻，咱可别相信 它。",
     "key": "i7",
     "title": "已退不用重複退",
@@ -2954,7 +2954,7 @@
   {
     "id": 470,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J0_6f80256db0.mp3",
+    "src": "audio/J0_6f80256db0.mp3",
     "ttp": "那您只是上小学的时候入过少先队，是 吧？那您就记住刚刚这个化名，我帮您 退队保平安，希望您走到哪里都能得到 神佛老天的护佑好吗？",
     "key": "j0",
     "title": "默认队,化名退吧",
@@ -2966,7 +2966,7 @@
   {
     "id": 471,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J1_5dce41f8c9.mp3",
+    "src": "audio/J1_5dce41f8c9.mp3",
     "ttp": "您不是党员、团员非常好，那您小时候 肯定戴过红领巾，是吗？",
     "key": "j1",
     "title": "好，只入过队吗?",
@@ -2978,7 +2978,7 @@
   {
     "id": 472,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J2_08a2502335.mp3",
+    "src": "audio/J2_08a2502335.mp3",
     "ttp": " 你還記得嗎 当初加入少先队戴红领巾的时候 咱们不 也发过誓嘛：要为它奋斗终生做它的接 班人，是吧？那个毒誓对咱不吉利，如果你還沒有退出 也是它一份子,也會受到他的牽連,當它的陪葬品.您就记住刚刚这个化名，退出少先好嗎?",
     "key": "j2",
     "title": "化名退队好吗?",
@@ -2990,7 +2990,7 @@
   {
     "id": 473,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J3_e4d427957b.mp3",
+    "src": "audio/J3_e4d427957b.mp3",
     "ttp": "那個時候都入少先隊 的，這個退不是讓您去組織退，您放 心！您只要記住剛剛這個化名，答應一 聲好，就生效了，因为三尺头上有神灵心到佛知，對您工作生活都不影響的， 好吗？",
     "key": "j3",
     "title": "真没入吗",
@@ -3002,7 +3002,7 @@
   {
     "id": 474,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J4_cf7a88af92.mp3",
+    "src": "audio/J4_cf7a88af92.mp3",
     "ttp": "戴过一天都要退/没有戴过红领巾对 吗？哪怕戴过一天都算数啊。",
     "key": "j4",
     "title": "戴过一天都要退",
@@ -3014,7 +3014,7 @@
   {
     "id": 475,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J5_4b971cfd34.mp3",
+    "src": "audio/J5_4b971cfd34.mp3",
     "ttp": "您真的沒有加入過邪黨的任何組織嗎?上小學的時候不都是要帶紅領巾嗎?如果是超齡自動退了那個不算退,還要退喔",
     "key": "j5",
     "title": "超齡退不算",
@@ -3026,7 +3026,7 @@
   {
     "id": 476,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J6_157cd0f106.mp3",
+    "src": "audio/J6_157cd0f106.mp3",
     "ttp": "請問你有上過小學嗎",
     "key": "j6",
     "title": "有上過小學嗎",
@@ -3038,7 +3038,7 @@
   {
     "id": 477,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/J7_51f968da93.mp3",
+    "src": "audio/J7_51f968da93.mp3",
     "ttp": "上小学不都是要戴红领巾吗",
     "key": "j7",
     "title": "小学都戴红领巾吗",
@@ -3050,7 +3050,7 @@
   {
     "id": 478,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K0_d0f9783dd2.mp3",
+    "src": "audio/K0_d0f9783dd2.mp3",
     "ttp": "您回憶一下是不是這樣，入黨團隊的時 候是不是要舉著拳頭，入黨就是隨時為 黨犧牲一切，入團就是時刻準備著做共 產主義接班人，這其實是一個很不吉利 的誓言，等於把咱们自己的生命都交給 它了，您帶著它對您也沒有好處，趁這 個機會退出來抹掉毒誓，以後走到哪裡 都平安，您說好嗎？",
     "key": "k0",
     "title": "再詢問劝退",
@@ -3062,7 +3062,7 @@
   {
     "id": 480,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K2_5ba45a6223.mp3",
+    "src": "audio/K2_5ba45a6223.mp3",
     "ttp": "您听过退党保平安吗?每个中国人都要在这件事情上表态,虽然你没有入过任何组织,但是为了您的未来能够平安,还是建议您声明主动与邪党划清界线!这个声明是发自内心的，从思想上真正认识到共产党的邪恶.代表共产党所做的一切坏事与你没有关系",
     "key": "k2",
     "title": "虽然没有加入",
@@ -3074,7 +3074,7 @@
   {
     "id": 481,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K3_607d232df4.mp3",
+    "src": "audio/K3_607d232df4.mp3",
     "ttp": "请问您的家人有办理过三退了吗?如果还没有我可以帮他办理!可以把您的电话给家人接听一下好吗?",
     "key": "k6",
     "title": "帮家人三退",
@@ -3086,7 +3086,7 @@
   {
     "id": 482,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K7_cd417a5530.mp3",
+    "src": "audio/K7_cd417a5530.mp3",
     "ttp": "我再跟您确认一下您真的没有加入任何共产党组织吗",
     "key": "k7",
     "title": "再跟您确认",
@@ -3098,7 +3098,7 @@
   {
     "id": 483,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K6_8c0b03ab34.mp3",
+    "src": "audio/K6_8c0b03ab34.mp3",
     "ttp": "朋友 你有在听我讲话吗？咱可别拿自己的生命开玩笑！我讲的这些东西都非常重要关系你的未来喔",
     "key": "co",
     "title": "别开玩笑",
@@ -3110,7 +3110,7 @@
   {
     "id": 484,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K5_cd3e18ed8c.mp3",
+    "src": "audio/K5_cd3e18ed8c.mp3",
     "ttp": "您的家人如果要三退的話必須要經過他本人同意才可以做三退喔",
     "key": "k5",
     "title": "须本人同意退",
@@ -3122,7 +3122,7 @@
   {
     "id": 485,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K4_fe6ae64ec0.mp3",
+    "src": "audio/K4_fe6ae64ec0.mp3",
     "ttp": "另外您也知道现在天灾人祸这么多,一下是瘟疫(中供武#汉肺#炎),一下又是三/峡\\大/坝|崩/溃危机 .供铲邪谠现在政权不稳,什么时候倒台?可能说哪天倒就倒台了我们老百姓哪一个不希望自己和家人都平安呢如果您家人(亲朋好友)曾经有加入过的 也要都要让他们三|褪保平安喔？",
     "key": "k4",
     "title": "再劝家人三退",
@@ -3134,7 +3134,7 @@
   {
     "id": 486,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L0_a6f06a2c39.mp3",
+    "src": "audio/L0_a6f06a2c39.mp3",
     "ttp": "您答应一声好我也就不再打给您了，好 吧!",
     "key": "l0",
     "title": "说声好就退了",
@@ -3146,7 +3146,7 @@
   {
     "id": 487,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L1_17a0776fc0.mp3",
+    "src": "audio/L1_17a0776fc0.mp3",
     "ttp": "您退出也是为了你自己，你知道为什么吗？",
     "key": "l1",
     "title": "劝退是为了你",
@@ -3158,7 +3158,7 @@
   {
     "id": 488,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L2_b2c2b614b0.mp3",
+    "src": "audio/L2_b2c2b614b0.mp3",
     "ttp": "因为在我们中国，绝大多数的人都加入过少.先.队、共.青.团，有人还入过供铲谠。 在加入的时候每个人都曾发誓要把自己的一生献给供铲谠，为邪谠奋斗终生， 您知道吗? 发誓是不能随便发的,更何况是发毒誓,这是一个要命的毒誓。 这意味着您愿意把生命交给这个政谠，承认是它的一份子，如果它是邪恶的,将来您要承担中供所犯下的一切罪行。",
     "key": "l2",
     "title": "因為有发毒誓",
@@ -3170,7 +3170,7 @@
   {
     "id": 489,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L3_b2f424491c.mp3",
+    "src": "audio/L3_b2f424491c.mp3",
     "ttp": "中共自从1949年建政以来，在历次运动中害死了八千万中国人，比两次世界大战死亡人数的总和还要多，这包括五十年代的三反、五反、肃反、反右；六十年代的全国大饥荒和文化大革命；八九年6.4屠杀大学生；1999年迫害信仰“真、善、忍”的法轮功修炼群体，甚至在法轮功学员活着的时候摘取他们的身体器官贩卖牟取暴利！干出了这个地球上前所未有的罪恶，令人神共愤。杀人要偿命，一个政党害死了那么多的人，不会报应吗？中国历史上每一朝都会改朝换代,又有哪一个政权会长久永远不会倒台吗？",
     "key": "l3",
     "title": "中共是邪党政权",
@@ -3182,7 +3182,7 @@
   {
     "id": 490,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L4_7a7800ff3c.mp3",
+    "src": "audio/L4_7a7800ff3c.mp3",
     "ttp": "现在中共贪腐严重，人们生存环境恶化，喝的水被污染，吃的食品有毒，呼吸的空气也有毒，当官的不顾老百姓的死活，只顾自己，把钱存在外国，子女送到国外，自己出国考察不回来。这样一个邪党政权我们还要维护他吗",
     "key": "l4",
     "title": "还要维护邪党吗",
@@ -3194,7 +3194,7 @@
   {
     "id": 491,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L5_103845d6bd.mp3",
+    "src": "audio/L5_103845d6bd.mp3",
     "ttp": "贵州省平塘县掌布乡有个藏字石风景区，石头上显示的是“中国供铲谠亡”几个字，据科学家考察是天然形成的，也可说是天意吧！所以现在都在讲“天灭中供，三,.退保平安”，为了你的未来，赶快退出谠 .团. 队。",
     "key": "l5",
     "title": "天要滅中共",
@@ -3206,7 +3206,7 @@
   {
     "id": 492,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L6_accc55ceb2.mp3",
+    "src": "audio/L6_accc55ceb2.mp3",
     "ttp": "我们的祖先刘伯温早就预言2020大劫来临 十愁难过猪鼠年,不就是指现在的武汉肺炎吗?在这一场强大瘟疫疾病中淘汰人类,凡是跟共产党走的人都会被淘汰掉刘伯温看到大劫难发生在猪、鼠年间。巧合的是，2019年和2020年正是猪、鼠年，中国爆发了一连串的瘟疫，包括非洲猪瘟、鼠疫、武汉肺炎等疫情，扎堆来到中国大地。这似乎验证了刘伯温的预言，面对各种灾难，刘伯温碑记中也告诫了人们怎样脱离危险",
     "key": "l6",
     "title": "刘伯温预言",
@@ -3218,7 +3218,7 @@
   {
     "id": 493,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/L7_78d79686ce.mp3",
+    "src": "audio/L7_78d79686ce.mp3",
     "ttp": "如果你退了，假如真的有劫难的话，你不就可以躲过了.如果你退了，但没有劫难的话，别人也不知道你退了，你不也没事.不要认为你小小的声明没什么!清算共产党的那一天, 您就不会有事, 明白吗?因为只要加入过的人,就是它的成员要主动声明退出才能在清算共产党的那一天平安我用剛剛的那個化名幫您退出好吗?",
     "key": "l7",
     "title": "如果你退了",
@@ -3230,7 +3230,7 @@
   {
     "id": 494,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M0_3d9d74716e.mp3",
+    "src": "audio/M0_3d9d74716e.mp3",
     "ttp": "您知道法輪功嗎 法轮功是佛家修煉大法， 教人按照“真、善、忍”做好人。我給您舉幾個例子做生意的法轮功学员决不会欺诈、卖假货，反而是公平交易。做医生的决不会收病人的红包，不拿药厂的回扣，而是一心一意救治病人；做法官的决不会吃了原告吃被告，收当事人的红包，而是秉公办案；做老师的决不会收家长的红包，而是认认真真教导孩子。",
     "key": "m0",
     "title": "您知道法輪功嗎",
@@ -3242,7 +3242,7 @@
   {
     "id": 495,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M1_231bc88600.mp3",
+    "src": "audio/M1_231bc88600.mp3",
     "ttp": "您知道吗法輪功創始人李洪志先生在93年北京东方健康博览会上，获博览会最高奖 “边缘科学进步奖” 和“特别金奖”，以及 “受欢迎的气功师” 称号，是在该届博览会上获奖最多的气功师。92到94年，各地气功科学研究会邀请李洪志先生在中国23个城市举办了56期传法班。现已洪传世界100多个国家和地区，《转法轮》被翻译成40多种语言出版。是中华五千年历史中被翻译外文最多的一本书!《道德经》涉及30多种语言，但已传世二千多年。 95年3月，李洪志先生受中共驻法大使馆邀请，在巴黎中使馆文化处举行了讲法，拉开了海外传法的序幕。获得各国政府的褒奖、支持决议和信函4800多项。",
     "key": "m1",
     "title": "給大法的褒奖",
@@ -3254,7 +3254,7 @@
   {
     "id": 496,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M2_1a26d4c5bf.mp3",
+    "src": "audio/M2_1a26d4c5bf.mp3",
     "ttp": "另外您可能也听说了，其实 2001 年的 天安門自焚是造假的，那完全是由中共 一手导演的假新闻。您想，那个叫王进 东的自焚者，脸烧成那样了，头发还好 好的，而两腿之间装汽油的雪碧瓶还完好无损，还有那个 12 岁的小女孩，做 了气管切开手术还能唱歌呢，破绽百 出！其实我这只是跟您简单说了几点， 还有更多疑点您可以自己去看。",
     "key": "m2",
     "title": "自焚真相1",
@@ -3266,7 +3266,7 @@
   {
     "id": 497,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M3_f82e523612.mp3",
+    "src": "audio/M3_f82e523612.mp3",
     "ttp": "一个美国的调查组织称，许多证据显示，2001年一月在北京天安门广场发生的法轮功学员自焚案，是中国政府为加强镇压所制造出来的。下面是自由亚洲电台记者石山的报道。其实那个是造假新闻，自焚的那 5 個人都不是法輪功學員。 這個證據特別多，我跟您簡單說一兩 個，您馬上就知道這個是事先策劃好的 了。當時官方报道，那些自焚者點火之 後一分半钟之内警察就把火给扑灭了， 从画面上看到每个自焚者身边都有三到 四个警察拿著灭火器和灭火毯在滅火， 天安门广场有 61 个足球场那么大，您 想想，警察怎么可能在十几秒钟之内找 來二十几个专业灭火器？而且灭火器一 般放在人民大会堂或者长安街的地下通 道里，有人做过试验，跑步一个来回就 要十分钟，就算是单程，至少也要 5、6 分钟，那這些灭火器从何而来？ 醫生說給「自焚」的女孩劉思影做了氣 管切開手術。按照醫學常識，手术后至 少幾天时间內都没办法說話，可電視上 劉思影卻帶著插管，底氣十足地唱歌， 這根本就是不可能的事情。另外，燒傷 病人最怕感染，而当时採訪她的記者既 没穿隔離衣，又没戴口罩、帽子，直接 近距離採訪，这是嚴重違反醫學常識 的。 2001 年 8 月 14 日，在第 53 届联合国会 议上，國際教育發展組織代表就“天安 门事件”谴责了中共的国家恐怖主义行 为，面对联合国列出的种种证据，在场 的中共代表哑口无言，没有任何辩词， 这个声明已经被联合国备案了。",
     "key": "m3",
     "title": "自焚真相2",
@@ -3278,7 +3278,7 @@
   {
     "id": 498,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M4_16265d1ae7.mp3",
+    "src": "audio/M4_16265d1ae7.mp3",
     "ttp": "天安门自焚是由中共自编自导自演的造 假新闻，就是为了煽动人们仇恨佛法。您想，一个突发的自焚事件，又是在最 敏感、戒备森严的天安门广场，而且， 只烧了 1-2 分钟，记者怎么赶到现场 的？全程录像，远镜头、近镜头、特写 镜头，拍的那么清楚完整！？而且警察 拿着灭火毯、灭火器在现场同步灭火。 这样多方面，全方位临时合作成功急 救，没有事先安排，可能吗？！在反复 播放的录像过程中，由于暴 露出越来越 多的疑点，人们纷纷指出了这些破绽， 质疑这是一场骗局，于 是一年以后中央 电视台在从新录制自焚节目时把外界指 出的所有破绽统统删除。",
     "key": "m4",
     "title": "自焚真相3",
@@ -3290,7 +3290,7 @@
   {
     "id": 499,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M5_e2c0838db5.mp3",
+    "src": "audio/M5_e2c0838db5.mp3",
     "ttp": "還有一個您可能不知道的事實中國共產黨在活摘法輪功學員的器官賺黑心錢。從中國大陸的移民及難民中不斷傳出消息，說是無辜民眾被活生生未施麻醉就摘取器官，而中共一些官員則靠販賣器官牟取暴利，很少人相信這些都是真實發生的。然而，一些獨立的研究人員和學者們開始就事實真相展開調查，經過全面的分析得出了令人遺憾的結論：活摘和販賣器官牟利的暴行都是事實，那些家庭基督徒、維族人、西藏人，特別是法輪功學員，都是活摘器官的受害群體。這場從2000年開始的反人類暴行不僅亙古未有，更可怖的是暴行還在繼續。2006年，人權律師大衛·麥塔斯和加拿大前議員大衛·喬高對中國的活摘器官禁聞進行了獨立調查，他們在調查報告《血腥活摘》中例舉60多條證據得出結論：中共政府一直在系統地殺害良心犯，摘取並販賣受害人的器官而牟利。兩名大衛因這項調查而獲得諾貝爾和平獎提名，國際社會也開始認真關注活摘器官的惡行。",
     "key": "m5",
     "title": "活摘器官真相1",
@@ -3302,7 +3302,7 @@
   {
     "id": 500,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M6_22b69a6175.mp3",
+    "src": "audio/M6_22b69a6175.mp3",
     "ttp": "有一個非常震驚的活摘案例還拍成了電影《心殤》其中有這樣的一幕：一名女性被中國警察和醫務人員動手術開膛破肚，她的器官被野蠻摘取，並高價販賣給根本不知情的移植病人，其實這樣的活摘器官案例早有發生，你或許不敢相信這一幕是真的，但其背後隱藏的真相更令人驚駭不已。2009年，一位目擊者良心難安，終於勇敢的站出來指證活摘器官的暴行。事件發生於2002年4月9日，在瀋陽軍區總醫院15樓的一間手術室，證人當時作為一名持槍警衛目擊了手術的整個過程，在未施麻醉的情況下，兩名軍醫從一位30多歲的中學女教師身上摘取了多個器官，受害女教師此前因為修煉法輪功 而被非法關押。她在被軍醫殺害之前的一個月內，曾慘遭強迫洗腦、酷刑折磨、性侵、甚至強姦 令人驚駭不已。",
     "key": "m6",
     "title": "活摘器官真相2",
@@ -3314,7 +3314,7 @@
   {
     "id": 501,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/M7_6379b0c713.mp3",
+    "src": "audio/M7_6379b0c713.mp3",
     "ttp": "我這裡有一些您不知道的國外真相新聞廣播,我現在可以給您聽一下",
     "key": "m7",
     "title": "給真相廣播",
@@ -3326,7 +3326,7 @@
   {
     "id": 502,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/N0_f336625301.mp3",
+    "src": "audio/N0_f336625301.mp3",
     "ttp": "等一下我給你一個好用的免費的翻牆神器\"網必通\",  這個軟件非常的好用它有安卓版和電腦版.安裝了網比通 以後呢就算 我們失去聯絡了你還是可以自由的安全的觀看國外的新聞資訊",
     "key": "n0",
     "title": "給網必通",
@@ -3338,7 +3338,7 @@
   {
     "id": 503,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/N1_4734b7ba9f.mp3",
+    "src": "audio/N1_4734b7ba9f.mp3",
     "ttp": "请问您的手机是苹果还是安卓",
     "key": "n1",
     "title": "问手机是苹果或安卓",
@@ -3350,7 +3350,7 @@
   {
     "id": 504,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/N2_cfee13cc6f.mp3",
+    "src": "audio/N2_cfee13cc6f.mp3",
     "ttp": "等一下 我发给你一个手机安卓版的 網必通 apk安装包安装它以后就可以看到我们很多国外的新闻而且非常安全方便.",
     "key": "n2",
     "title": "给網必通手机版",
@@ -3362,7 +3362,7 @@
   {
     "id": 505,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/N3_7afb1b592d.mp3",
+    "src": "audio/N3_7afb1b592d.mp3",
     "ttp": "你的手机是苹果版的 好我稍后会发给您一个网址您直接打开了可以了",
     "key": "n3",
     "title": "给苹果手机网址",
@@ -3374,7 +3374,7 @@
   {
     "id": 506,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/O4_003396adac.mp3",
+    "src": "audio/O4_003396adac.mp3",
     "ttp": "你有看到我们在群里经常发达聊天记录吗",
     "key": "o4",
     "title": "聊天记录看沒",
@@ -3386,7 +3386,7 @@
   {
     "id": 507,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/O5_7cafb62c6c.mp3",
+    "src": "audio/O5_7cafb62c6c.mp3",
     "ttp": "我们的群组里面有很多国内看不到的真相新闻如果您需要的话我可以把你加到我们的群组里面.mp3",
     "key": "o5",
     "title": "拉您進群组",
@@ -3398,7 +3398,7 @@
   {
     "id": 508,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/O6_b511b00f70.mp3",
+    "src": "audio/O6_b511b00f70.mp3",
     "ttp": "可以給我一些群吗",
     "key": "o6",
     "title": "跟网友要群",
@@ -3410,7 +3410,7 @@
   {
     "id": 509,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P0_346227b8b7.mp3",
+    "src": "audio/P0_346227b8b7.mp3",
     "ttp": "朋友我现在在海外。我用自己省吃俭用的钱给你打这个国际长途电话，并不是一个开玩笑的事情。谁也不会吃饱了撑着没有事干，花钱去开别人的玩笑，对不对？因为这个事情真的对你很重要。我也不知道你是谁，你今天能够接到我这个电话，也是你的缘分。希望你能够珍惜这次机缘。我们中国有一句话叫做：\"宁可信其有，不可信其无\"。现在中供的武汉肺炎数据都是假的，真正病死的人非常多,而且无药可治. 瘟疫面前只有真心念\" 法 轮 大 法 好 \"或退出中供邪谠的人才能得救. 希望你做出明智的选择!赶快3退吧!",
     "key": "p0",
     "title": "針對要钱的",
@@ -3422,7 +3422,7 @@
   {
     "id": 510,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P1_6afa422849.mp3",
+    "src": "audio/P1_6afa422849.mp3",
     "ttp": "朋友，你是基督教徒啊，共產黨可是邪党组织，邪党宣傳无神论它是反对神佛的，您知道嗎共產邪党的老祖宗是馬克斯,它是撒旦教徒,是信仰撒旦魔鬼的極端份子.他早期是基督教徒後來背叛了基督轉信撒旦，所以你想一想如果你不退出共產黨組織的話,你不就是他的一份子嗎?當初在加入共產邪党組織的時候不是都要宣誓把生命獻給它嗎?您不退出邪党組織能行嗎?這樣對得起您信仰的神嗎?只有退出党团队才是真正正確的選擇.",
     "key": "p1",
     "title": "針對基督教徒",
@@ -3434,7 +3434,7 @@
   {
     "id": 511,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P2_8aacd34d47.mp3",
+    "src": "audio/P2_8aacd34d47.mp3",
     "ttp": "朋友，我講這些并不是要您加入我们修炼法轮功，只是希望您明白真相.顺顺利利地躲过灾难，有个美好的未来。",
     "key": "p2",
     "title": "不感興趣的",
@@ -3446,7 +3446,7 @@
   {
     "id": 512,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P3_498a3f38b5.mp3",
+    "src": "audio/P3_498a3f38b5.mp3",
     "ttp": "这个是网路电话非常安全的请您不用担心",
     "key": "p3",
     "title": "怕不安全1",
@@ -3458,7 +3458,7 @@
   {
     "id": 513,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P4_b545948e19.mp3",
+    "src": "audio/P4_b545948e19.mp3",
     "ttp": "我們打電話給中國大陸退黨已經有10多年了 都沒有出現任何問題 請您不用擔心",
     "key": "p4",
     "title": "怕不安全2",
@@ -3470,7 +3470,7 @@
   {
     "id": 514,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/P5_e5b1eac58a.mp3",
+    "src": "audio/P5_e5b1eac58a.mp3",
     "ttp": "每天有很多中國人通過電話退黨三退保平安,您根本就不用擔心這個問題.而且現在有很多中共高官都偷偷的自己退黨,為自己留後路,你还担心什么呢",
     "key": "p5",
     "title": "怕不安全3",
@@ -3482,7 +3482,7 @@
   {
     "id": 515,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/V1_a12498e1b7.mp3",
+    "src": "audio/V1_a12498e1b7.mp3",
     "ttp": "很高兴您能了解到这些真相，在危难的 时候，心诚则灵，诚心地念 9 字真言， “法轮大法好，真善忍好”。常念得福 报，是千真万确的，要记得啊，再见。",
     "key": "v1",
     "title": "含九字真言再见",
@@ -3494,7 +3494,7 @@
   {
     "id": 516,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/V0_ba776500de.mp3",
+    "src": "audio/V0_ba776500de.mp3",
     "ttp": "跟您说了这么多呢，是让您明白法轮 功确实是非常好的，希望您明白真相与 跟佛法結個善緣，请您记住“法轮大法 好，真善忍好！”真的在有困难的时候 您就真心念动这九个字，就会得到上天 的护佑。",
     "key": "v0",
     "title": "说了很多送真言",
@@ -3506,7 +3506,7 @@
   {
     "id": 517,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/V2_31eaeb5e70.mp3",
+    "src": "audio/V2_31eaeb5e70.mp3",
     "ttp": "朋友，跟你說了這麼多真相，也希望您认真思考一下 3 退保平 安，那就不多说了，請您記得法輪大法好 祝福您，再见。",
     "key": "v2",
     "title": "对方没表態再见",
@@ -3518,7 +3518,7 @@
   {
     "id": 518,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/W6_7f25781646.mp3",
+    "src": "audio/W6_7f25781646.mp3",
     "ttp": "哦，是吗？您好啊！我这里是播放语音，不太方便说话，就不多聊了，希望您保重啊，我们一起加油，再见",
     "key": "w6",
     "title": "遇見同修",
@@ -3530,7 +3530,7 @@
   {
     "id": 519,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/V4_1262ab8892.mp3",
+    "src": "audio/V4_1262ab8892.mp3",
     "ttp": "再见",
     "key": "v4",
     "title": "再见",
@@ -3542,7 +3542,7 @@
   {
     "id": 520,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/V3_fee226df82.mp3",
+    "src": "audio/V3_fee226df82.mp3",
     "ttp": "也希望您把這些信息告訴給您身邊的親 戚朋友，您這樣做是在救他們，也是做 了一件功德無量的大好事。",
     "key": "v3",
     "title": "真言转告家人",
@@ -3554,7 +3554,7 @@
   {
     "id": 522,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CH_11d1194dce.mp3",
+    "src": "audio/CH_11d1194dce.mp3",
     "ttp": "喂，这样听得到吗？",
     "key": "ch",
     "title": "这样听得到吗",
@@ -3566,7 +3566,7 @@
   {
     "id": 524,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CD_98f4b2a1a2.mp3",
+    "src": "audio/CD_98f4b2a1a2.mp3",
     "ttp": "您先别急，您先听我讲",
     "key": "cd",
     "title": "别急，听我说",
@@ -3578,7 +3578,7 @@
   {
     "id": 525,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I3_56cd67323f.mp3",
+    "src": "audio/I3_56cd67323f.mp3",
     "ttp": "请问您之前有退过吗？",
     "key": "i3",
     "title": "请问您之前有退过吗？",
@@ -3590,7 +3590,7 @@
   {
     "id": 526,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/I4_1d458c2bb0.mp3",
+    "src": "audio/I4_1d458c2bb0.mp3",
     "ttp": "年龄大自动退是不算的，发的毒誓可是人忘天不忘啊",
     "key": "i4",
     "title": "年龄大了退不算",
@@ -3602,7 +3602,7 @@
   {
     "id": 527,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/K1_0a7515847d.mp3",
+    "src": "audio/K1_0a7515847d.mp3",
     "ttp": "您不用担心，是在大纪元网上帮您声明的，对您生活没影响",
     "key": "k1",
     "title": "在大纪元网上声明",
@@ -3614,7 +3614,7 @@
   {
     "id": 528,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/CN_b4ccb0578a.mp3",
+    "src": "audio/CN_b4ccb0578a.mp3",
     "ttp": "那我就用刚才送您的化名，帮您退出来好吗？",
     "key": "cn",
     "title": "刚才的化名，退出来？",
@@ -3626,7 +3626,7 @@
   {
     "id": 529,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_5d5f680a28.mp3",
+    "src": "audio/_5d5f680a28.mp3",
     "ttp": "那我就用刚才送您的化名，帮您退出来好吗？",
     "key": "cn",
     "title": "用刚才化名退好嗎",
@@ -3638,7 +3638,7 @@
   {
     "id": 530,
     "speaker": "XY",
-    "src": "http://sowetalk.cf:1338/uploads/_2792e7a4ab.mp3",
+    "src": "audio/_2792e7a4ab.mp3",
     "ttp": "用化名幫您聲明好嗎",
     "key": "k3",
     "title": "用化名聲明好嗎",
@@ -3650,7 +3650,7 @@
   {
     "id": 531,
     "speaker": "tina",
-    "src": "http://sowetalk.cf:1338/uploads/New_K3_34262448b4.mp3",
+    "src": "audio/New_K3_34262448b4.mp3",
     "ttp": "您能明白我的意思嗎 我知道您沒有加入過任何組織 我說的這個聲明不是幫你辦理三退 這個聲明是一種表態從內心與共產邪黨劃清界線 既然你已經了解了共產黨是邪惡的 那麼為什麼不表態與共產邪黨劃清界線呢 那您就記住我剛剛給您的那個化名幫你聲明好嗎",
     "key": "k3",
     "title": "用化名帮您声明好吗？",
