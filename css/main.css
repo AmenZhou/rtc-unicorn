@@ -12,9 +12,14 @@
   margin: 1em auto;
 }
 
-.phrase-boxes {
-  display: flex;
-  flex-wrap: wrap;
+.phrase-buttons {
+  margin-top: 11em;
+}
+
+.phrase-buttons h1 {
+  padding: 1em 0 0 0;
+  width: 50%;
+  margin: auto;
 }
 
 .outputSelector {
@@ -43,6 +48,13 @@
   margin: 0.1em 0.2em;
 }
 
+.index-letter-selection {
+  font-size: 13px;
+  padding: 0.5em 1.5em;
+  text-transform: uppercase;
+  margin: 0.1em 0.2em;
+}
+
 .voice-type {
   font-size: 1.3em;
 }
@@ -51,4 +63,13 @@
   display: flex;
   flex-wrap: wrap;
   margin: 1em 0;
+}
+
+.menu-bar {
+  background-color: lightgray;
+  padding: 1em 3em;
+  position: fixed;
+  top: 0;
+  left: 1em;
+  right: 1em;
 }

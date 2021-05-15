@@ -6,7 +6,7 @@ const VoiceTypeSelection = ({ voiceType, setVoiceType }) => {
   }
 
   return <div className="voice-type">
-    <label for="voice_type">語音類型:&nbsp;</label>
+    <label htmlFor="voice_type">語音類型:&nbsp;</label>
     <select id="voice_type" value={voiceType} onChange={changeHandler}>
       <option value="MALE">男聲</option>
       <option value="FEMALE">女聲</option>
