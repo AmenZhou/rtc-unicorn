@@ -1,21 +1,21 @@
-import mp3List from '../../config/mp3_list.json';
+import femaleVoiceMp3 from '../../config/mp3_female.json';
+import maleVoiceMp3 from '../../config/mp3_male.json';
 import React from 'react';
-import groupBy from 'lodash/groupBy';
-import reduce from 'lodash/reduce';
-import sortBy from 'lodash/sortBy';
 import ButtonGroup from './button_group';
+import { audioManufacture } from '../utils/button_utils';
 
-const PhraseButtons = () => {
-  let groupedButtons = groupBy(mp3List, mp3 => 
-    mp3.key[0]
-  );
-  groupedButtons = reduce(groupedButtons, (result, buttons, indexLetter) => (
-    result.concat({ indexLetter: indexLetter, buttonGroup: buttons })
-  ), []);
-  groupedButtons = sortBy(groupedButtons, 'indexLetter');
+const PhraseButtons = ({ voiceType }) => {
+  let mp3List;
 
-  console.log(groupedButtons);
-  return groupedButtons.map(({ indexLetter, buttonGroup }) => (
+  if (voiceType === 'MALE') {
+     mp3List = maleVoiceMp3;
+  } else if (voiceType === 'FEMALE') {
+     mp3List = femaleVoiceMp3;
+  } else {
+    throw "Unknown voice type";
+  }
+
+  return audioManufacture(mp3List).map(({ indexLetter, buttonGroup }) => (
     <ButtonGroup indexLetter={indexLetter} buttons={buttonGroup} />
   ));
 }

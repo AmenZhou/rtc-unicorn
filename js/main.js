@@ -7,15 +7,15 @@
  */
 
 'use strict';
-import PhraseButtons from './components/phrase_buttons.js';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import { gotDevices } from './utils/audio_utils';
+import Container from './components/container.js';
 
 const init = () => {
   navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
   ReactDOM.render(
-    <PhraseButtons />, document.querySelector(".dynamic-phrases-boxes")
+    <Container />, document.querySelector("#react_entry")
   );
 }
 

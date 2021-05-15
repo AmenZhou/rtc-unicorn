@@ -18,9 +18,8 @@
 }
 
 .outputSelector {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2em 0
+  margin: 0 1em 0 0;
+  font-size: 1.3em;
 }
 
 .group {
@@ -41,4 +40,13 @@
   padding: 0.5em 1.5em;
   background: cornflowerblue;
   text-transform: uppercase;
+}
+
+.voice-type {
+  font-size: 1.3em;
+}
+
+.menu-bar {
+  display: flex;
+  flex-wrap: wrap;
 }
