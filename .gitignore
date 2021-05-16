@@ -2,5 +2,5 @@ node_modules
 package-lock.json
 yarn-error.log
 .DS_Store
-app.bundle.js
+app.bundle.*.js
 audio/*
