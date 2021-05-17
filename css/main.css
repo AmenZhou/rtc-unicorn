@@ -13,11 +13,11 @@
 }
 
 .phrase-buttons {
-  margin-top: 11em;
+  margin: 5em 8em 0 0;
 }
 
 .phrase-buttons h1 {
-  padding: 1em 0 0 0;
+  margin: 5em 8em 0 0;
   width: 50%;
   margin: auto;
 }
@@ -67,9 +67,15 @@
 
 .menu-bar {
   background-color: lightgray;
-  padding: 1em 3em;
+  padding: 0 3em;
   position: fixed;
   top: 0;
-  left: 1em;
+  left: 0;
+  right: 0;
+}
+
+.side-bar {
+  position: fixed;
   right: 1em;
+  margin: 1em;
 }
