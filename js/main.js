@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom';
 import React from 'react';
 import { gotDevices } from './utils/audio_utils';
 import Container from './components/container.js';
+import '../css/main.css';
 
 const init = () => {
   navigator.mediaDevices.enumerateDevices().then(gotDevices).catch(handleError);
