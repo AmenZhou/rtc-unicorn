@@ -3,7 +3,7 @@ import reduce from 'lodash/reduce';
 import sortBy from 'lodash/sortBy';
 import uniq from 'lodash/uniq';
 import femaleVoiceMp3 from '../../config/mp3_female.json';
-import maleVoiceMp3 from '../../config/mp3_male.json';
+import maleVoiceMp3 from '../../config/mp3_male_short.json';
 
 export const audioManufacture = (mp3List) => {
   let groupedButtons = groupBy(mp3List, mp3 => 

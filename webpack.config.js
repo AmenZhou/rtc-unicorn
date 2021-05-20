@@ -19,17 +19,18 @@ module.exports = {
   mode: 'development',
   entry: './js/main.js',
   output: {
-    path: path.resolve(__dirname),
-    filename: './js/app.bundle.[contenthash].js',
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'app.bundle.[contenthash].js',
+    clean: true
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'template/index.html',
       inject: 'body',
-      filename: 'index.html'
+      filename: '../index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: './css/app.bundle.[contenthash].css'
+      filename: 'app.bundle.[contenthash].css'
     })
   ],
   module: {
