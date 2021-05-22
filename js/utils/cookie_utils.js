@@ -20,6 +20,6 @@ export const setVoiceTypeToCookie = voiceType => (
   Cookies.set('voiceType', voiceType, { expires: 365 })
 )
 
-export const getVoiceTypeToCookie = () => {
-  
-}
+export const getVoiceTypeFromCookie = () => (
+  Cookies.get('voiceType')
+)

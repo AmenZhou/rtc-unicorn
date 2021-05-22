@@ -43,7 +43,7 @@ export const gotDevices = (deviceInfos) => {
     getAudioSelectElement()
   );
 
-  useDefaultDevice()
+  useDefaultDevice();
 }
 
 export const stopPreviousAudio = () => {
@@ -74,16 +74,11 @@ const getAudioSelectElement = () => (
   document.querySelector('select')
 )
 
-const useDefaultDevice = () => {
+export const useDefaultDevice = () => {
   const deviceId = getDeviceIdFromCookie();
   if (deviceId) {
     getAudioSelectElement().value = deviceId;
-    chooseDeviceForAllAudio(deviceId);
   } else {
     getAudioSelectElement().selectedIndex = 0;
   }
-}
-
-const useDefaultVoiceType = () => {
-  
 }

@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import PhraseButtons from './phrase_buttons';
 import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
+import { getVoiceTypeFromCookie } from '../utils/cookie_utils';
 
 const Container = () => {
-  const [voiceType, setVoiceType] = useState('FEMALE');
+  const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
+  const [voiceType, setVoiceType] = useState(defaultVoiceType);
   const [selectedGroup, setGroup] = useState('ALL');
   const mp3List = getMp3List({ voiceType });
   
