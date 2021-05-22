@@ -1,7 +1,8 @@
 import React from 'react'
 import { playCurrentAudio, stopPreviousAudio } from '../utils/audio_utils';
+import Tooltip from '@material-ui/core/Tooltip';
 
-const Button = ({ phraseKey, src, text, id }) => {
+const Button = ({ phraseKey, src, text, id, ttp }) => {
   const buttonHandler = e => {
     const audio = e.target.nextElementSibling;
 
@@ -10,7 +11,9 @@ const Button = ({ phraseKey, src, text, id }) => {
   }
 
   return <div className="box" key={id} >
-    <button className="phrase" onClick={buttonHandler}>{phraseKey}&nbsp;&nbsp;{text}</button>
+    <Tooltip title={<span style={{ fontSize: "1.7vmax"}}>{ttp}</span>}>
+      <button className="phrase" onClick={buttonHandler}>{phraseKey}&nbsp;&nbsp;{text}</button>
+    </Tooltip>
     <audio preload="auto" src={src}></audio>
   </div>
 }
