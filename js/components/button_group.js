@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './button';
-import map from '../../config/index_key_name_map.json';
+import map from '../../config/index_key_name_map_short.json';
 
 const ButtonGroup = ({ indexLetter, buttons }) => (
   <div className="group" key={indexLetter}>

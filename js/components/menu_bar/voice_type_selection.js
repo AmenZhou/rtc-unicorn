@@ -1,8 +1,10 @@
 import React from 'react';
+import { setVoiceTypeToCookie } from '../../utils/cookie_utils';
 
 const VoiceTypeSelection = ({ voiceType, setVoiceType }) => {
   const changeHandler = e => {
     setVoiceType(e.target.value);
+    setVoiceTypeToCookie(e.target.value);
   }
 
   return <div className="voice-type">

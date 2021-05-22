@@ -17,35 +17,37 @@
 }
 
 .phrase-buttons h1 {
-  margin: 5em 8em 0 0;
+  margin: 5em 7em 0 0;
   width: 50%;
   margin: auto;
+  font-size: 3vmax;
 }
 
 .outputSelector {
   margin: 0 1em 0 0;
-  font-size: 1.3em;
+  font-size: 2vmax;
 }
 
 .group {
   display: flex;
   flex-wrap: wrap;
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 .phrase {
-  font-size: 1em;
+  font-size: 1.7vmax;
   padding: 0.5em;
   margin: 0.2em;
 }
 
 .index-letter-box {
   border: thin solid black;
-  font-size: 20px;
+  font-size: 1.8vmax;
   padding: 0.5em 1.5em;
   background: cornflowerblue;
   text-transform: uppercase;
   margin: 0.1em 0.2em;
+  color: white;
 }
 
 .index-letter-selection {
@@ -56,7 +58,7 @@
 }
 
 .voice-type {
-  font-size: 1.3em;
+  font-size: 2vmax;
 }
 
 .menu-row {

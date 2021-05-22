@@ -83,3 +83,7 @@ const useDefaultDevice = () => {
     getAudioSelectElement().selectedIndex = 0;
   }
 }
+
+const useDefaultVoiceType = () => {
+  
+}

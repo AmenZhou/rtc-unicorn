@@ -20,6 +20,7 @@
     "browserslist": "> 0.25%, not dead",
     "css-loader": "^5.2.4",
     "html-webpack-plugin": "4",
+    "js-cookie": "^2.2.1",
     "jsxobj": "^1.1.0",
     "mini-css-extract-plugin": "^1.6.0",
     "webpack": "^5.36.2",

@@ -1,5 +1,5 @@
 import React from 'react'
-import map from '../../../config/index_key_name_map.json';
+import map from '../../../config/index_key_name_map_short.json';
 
 const IndexButton = ({ indexLetter, setGroup }) => {
   const clickHandler = e => {
