@@ -20,12 +20,12 @@
   margin: 5em 7em 0 0;
   width: 50%;
   margin: auto;
-  font-size: 3vmax;
+  font-size: min(3vmax, 1.5em);
 }
 
 .outputSelector {
   margin: 0 1em 0 0;
-  font-size: 2vmax;
+  font-size: min(2vmax, 1em);
 }
 
 .group {
@@ -35,14 +35,14 @@
 }
 
 .phrase {
-  font-size: 1.7vmax;
+  font-size: min(1.7vmax, 1em);
   padding: 0.5em;
   margin: 0.2em;
 }
 
 .index-letter-box {
   border: thin solid black;
-  font-size: 1.8vmax;
+  font-size: min(1.8vmax, 1.1em);
   padding: 0.5em 1.5em;
   background: cornflowerblue;
   text-transform: uppercase;
@@ -58,7 +58,7 @@
 }
 
 .voice-type {
-  font-size: 2vmax;
+  font-size: min(2vmax, 1.2em);
 }
 
 .menu-row {

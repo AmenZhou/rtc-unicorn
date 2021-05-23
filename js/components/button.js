@@ -11,7 +11,7 @@ const Button = ({ phraseKey, src, text, id, ttp }) => {
   }
 
   return <div className="box" key={id} >
-    <Tooltip title={<span style={{ fontSize: "1.7vmax"}}>{ttp}</span>}>
+    <Tooltip title={<span style={{ fontSize: "min(1.7vmax, 12px)"}}>{ttp}</span>}>
       <button className="phrase" onClick={buttonHandler}>{phraseKey}&nbsp;&nbsp;{text}</button>
     </Tooltip>
     <audio preload="auto" src={src}></audio>
