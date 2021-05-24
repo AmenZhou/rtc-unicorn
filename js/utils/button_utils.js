@@ -2,7 +2,7 @@ import groupBy from 'lodash/groupBy';
 import reduce from 'lodash/reduce';
 import sortBy from 'lodash/sortBy';
 import uniq from 'lodash/uniq';
-import femaleVoiceMp3 from '../../config/mp3_female.json';
+import femaleVoiceMp3 from '../../config/mp3_female_short.json';
 import maleVoiceMp3 from '../../config/mp3_male_short.json';
 
 export const audioManufacture = (mp3List) => {

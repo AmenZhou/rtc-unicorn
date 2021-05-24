@@ -13,13 +13,12 @@
 }
 
 .phrase-buttons {
-  margin: 5em 8em 0 0;
+  margin: 4em 0 0 0;
 }
 
 .phrase-buttons h1 {
-  margin: 5em 7em 0 0;
   width: 50%;
-  margin: auto;
+  margin: 4em auto 0 auto;
   font-size: min(3vmax, 1.5em);
 }
 
@@ -38,16 +37,29 @@
   font-size: min(1.7vmax, 1em);
   padding: 0.5em;
   margin: 0.2em;
+  height: 3em;
+  overflow: hidden;
+  line-height: 2em;
+  min-width: 7em;
+  max-width: 7em;
+  transition: max-width 0.3s;
+}
+
+.box:hover .phrase {
+  max-width: 100%;
 }
 
 .index-letter-box {
-  border: thin solid black;
   font-size: min(1.8vmax, 1.1em);
-  padding: 0.5em 1.5em;
+  border: thin solid black;
+  padding: 0.5em 1.3em;
   background: cornflowerblue;
   text-transform: uppercase;
-  margin: 0.1em 0.2em;
+  margin: 0.2em;
   color: white;
+  height: 1.7em;
+  width: 4em;
+  text-align: center;
 }
 
 .index-letter-selection {
