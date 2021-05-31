@@ -6,7 +6,16 @@ const ButtonGroup = ({ indexLetter, buttons }) => (
   <div className="group" key={indexLetter}>
     <div className="index-letter-box">{map[indexLetter.toUpperCase()]}</div>
     {
-      buttons.map(({ src, title, id, key, ttp }) => <Button phraseKey={key} id={id} src={src} text={title} ttp={ttp} />)
+      buttons.map(({ src, title, id, key, ttp, ttp_file }) =>
+        <Button
+          phraseKey={key}
+          id={id}
+          src={src}
+          text={title}
+          ttp={ttp}
+          ttpFile={ttp_file}
+        />
+      )
     }
   </div>
 )
