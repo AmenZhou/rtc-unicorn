@@ -6,3 +6,4 @@ app.bundle.*.*
 audio/*
 /index.html
 dist
+text/*
