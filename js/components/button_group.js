@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './button';
 import map from '../../config/index_key_name_map_short.json';
 
-const ButtonGroup = ({ indexLetter, buttons }) => (
+const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio }) => (
   <div className="group" key={indexLetter}>
     <div className="index-letter-box">{map[indexLetter.toUpperCase()]}</div>
     {
@@ -14,6 +14,7 @@ const ButtonGroup = ({ indexLetter, buttons }) => (
           text={title}
           ttp={ttp}
           ttpFile={ttp_file}
+          setCurrentAudio={setCurrentAudio}
         />
       )
     }

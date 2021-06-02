@@ -2,7 +2,7 @@ import React from 'react';
 import ButtonGroup from './button_group';
 import { audioManufacture } from '../utils/button_utils';
 
-const PhraseButtons = ({ mp3List, selectedGroup }) => (
+const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio }) => (
   <div className="phrase-buttons">
     <h1>講真相語音點播系統</h1>
     {
@@ -10,7 +10,7 @@ const PhraseButtons = ({ mp3List, selectedGroup }) => (
         if(selectedGroup === 'ALL') return true;
         return selectedGroup === indexLetter
       }).map(({ indexLetter, buttonGroup }) => (
-        <ButtonGroup indexLetter={indexLetter} buttons={buttonGroup} />
+        <ButtonGroup indexLetter={indexLetter} buttons={buttonGroup} setCurrentAudio={setCurrentAudio} />
       ))
     }
   </div>

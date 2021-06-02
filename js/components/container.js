@@ -8,6 +8,7 @@ const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
   const [voiceType, setVoiceType] = useState(defaultVoiceType);
   const [selectedGroup, setGroup] = useState('ALL');
+  const [currentAudio, setCurrentAudio] = useState(null);
   const mp3List = getMp3List({ voiceType });
   
   return <div>
@@ -17,8 +18,9 @@ const Container = () => {
       mp3List={mp3List}
       setGroup={setGroup}
       selectedGroup={selectedGroup}
+      currentAudio={currentAudio}
     />
-    <PhraseButtons mp3List={mp3List} selectedGroup={selectedGroup} />
+    <PhraseButtons mp3List={mp3List} selectedGroup={selectedGroup} setCurrentAudio={setCurrentAudio} />
   </div>
 }
 

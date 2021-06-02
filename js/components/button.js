@@ -10,14 +10,13 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const Button = ({ phraseKey, src, text, id, ttp, ttpFile }) => {
+const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => {
   const truncateTtp = truncate(ttp, { length: 2000 });
   const [ttpText, setTtpText] = useState(truncateTtp);
   const buttonHandler = e => {
-    const audio = e.target.nextElementSibling;
+    const audioSrc = e.target.nextElementSibling.src;
 
-    stopPreviousAudio();
-    playCurrentAudio(audio);
+    setCurrentAudio(audioSrc);
   }
   const classes = useStyles();
 
