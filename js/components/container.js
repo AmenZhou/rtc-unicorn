@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PhraseButtons from './phrase_buttons';
 import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
@@ -9,7 +9,12 @@ const Container = () => {
   const [voiceType, setVoiceType] = useState(defaultVoiceType);
   const [selectedGroup, setGroup] = useState('ALL');
   const [currentAudio, setCurrentAudio] = useState(null);
-  const mp3List = getMp3List({ voiceType });
+  const [mp3List, setMp3List] = useState([]);
+
+  useEffect(() => {
+    getMp3List({ voiceType, setMp3List });
+  }, [voiceType])
+
   
   return <div>
     <MenuBar

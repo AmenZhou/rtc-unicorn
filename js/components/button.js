@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { playCurrentAudio, stopPreviousAudio } from '../utils/audio_utils';
 import Tooltip from '@material-ui/core/Tooltip';
 import truncate from 'lodash/truncate';
 import { makeStyles } from '@material-ui/core/styles';
@@ -29,7 +28,6 @@ const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => 
   return <div className="box" key={`${phraseKey}/${id}`} >
     <Tooltip
       title={<span style={{ fontSize: "min(1.8vmax, 13px)"}}>{ttpText}</span>}
-      placement="right"
       classes={{ tooltip: classes.tooltip }}
     >
       <button className="phrase" onClick={buttonHandler}>{text}</button>

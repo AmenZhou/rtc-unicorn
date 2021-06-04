@@ -2,8 +2,6 @@ import groupBy from 'lodash/groupBy';
 import reduce from 'lodash/reduce';
 import sortBy from 'lodash/sortBy';
 import uniq from 'lodash/uniq';
-import femaleVoiceMp3 from '../../config/mp3_female_short.json';
-import maleVoiceMp3 from '../../config/mp3_male_short.json';
 
 export const audioManufacture = (mp3List) => {
   let groupedButtons = groupBy(mp3List, mp3 => 
@@ -19,16 +17,20 @@ export const buttonIndexList = (mp3List) => (
   uniq(mp3List.map(({ key }) => key[0])).sort()
 )
 
-export const getMp3List = ({ voiceType }) => {
-  let mp3List;
+export const getMp3List = ({ voiceType, setMp3List }) => {
+  const femaleVoiceMp3  = 'config/mp3_female_short.json';
+  const maleVoiceMp3 = 'config/mp3_male_short.json';
+  let filePath;
 
   if (voiceType === 'MALE') {
-     mp3List = maleVoiceMp3;
+    filePath = maleVoiceMp3;
   } else if (voiceType === 'FEMALE') {
-     mp3List = femaleVoiceMp3;
+    filePath = femaleVoiceMp3;
   } else {
     throw "Unknown voice type";
-  }
-
-  return mp3List;
+  } 
+  
+  fetch(filePath)
+    .then(r => r.text())
+    .then(text => { console.log(JSON.parse(text)); setMp3List(JSON.parse(text)) });
 }
