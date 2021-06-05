@@ -13,7 +13,7 @@
 }
 
 .phrase-buttons {
-  margin: 4em 0 0 0;
+  margin: 6em 0 0 0;
 }
 
 .phrase-buttons h1 {
@@ -30,16 +30,16 @@
 .group {
   display: flex;
   flex-wrap: wrap;
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 
 .phrase {
   font-size: min(1.7vmax, 1em);
   padding: 0.5em;
   margin: 0.2em;
-  height: 3em;
+  height: 2.5em;
   overflow: hidden;
-  line-height: 2em;
+  line-height: 1.5em;
   min-width: 7em;
   max-width: 7em;
   transition: max-width 0.3s;
@@ -52,12 +52,12 @@
 .index-letter-box {
   font-size: min(1.8vmax, 1.1em);
   border: thin solid black;
-  padding: 0.5em 1.3em;
+  padding: 0.3em 1.1em;
   background: cornflowerblue;
   text-transform: uppercase;
   margin: 0.2em;
   color: white;
-  height: 1.7em;
+  height: 1.5em;
   width: 4em;
   text-align: center;
 }

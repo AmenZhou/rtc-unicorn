@@ -8,6 +8,7 @@ const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio }) => (
     {
       buttons.map(({ src, title, id, key, ttp, ttp_file }) =>
         <Button
+          key={Math.floor(Math.random() * 10000)}
           phraseKey={key}
           id={id}
           src={src}
