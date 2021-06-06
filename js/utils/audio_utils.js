@@ -1,10 +1,10 @@
 import { setDeviceIdToCookie, getDeviceIdFromCookie } from "./cookie_utils";
 
-export const attachSinkId = (element) => {
+export const attachSinkId = ({ element, sinkId }) => {
   if (typeof element.sinkId !== 'undefined') {
-    element.setSinkId(sinkId())
+    element.setSinkId(sinkId)
         .then(() => {
-          console.log(`Success, audio output device attached: ${sinkId()} to element with ${element.title} as source.`);
+          console.log(`Success, audio output device attached: ${sinkId} to element with ${element.title} as source.`);
         })
         .catch(error => {
           let errorMessage = error;
@@ -36,14 +36,14 @@ export const gotDevices = (deviceInfos) => {
     }
   }
 
-  const newOutputSelector = masterOutputSelector.cloneNode(true);
-  newOutputSelector.addEventListener('change', changeAudioDestination);
-  getAudioSelectElement().parentNode.replaceChild(
-    newOutputSelector,
-    getAudioSelectElement()
-  );
+  // const newOutputSelector = masterOutputSelector.cloneNode(true);
+  // newOutputSelector.addEventListener('change', changeAudioDestination);
+  // getAudioSelectElement().parentNode.replaceChild(
+  //   newOutputSelector,
+  //   getAudioSelectElement()
+  // );
 
-  useDefaultDevice();
+  // useDefaultDevice();
 }
 
 export const stopPreviousAudio = () => {

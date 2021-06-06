@@ -9,7 +9,12 @@ const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio }) => (
         if(selectedGroup === 'ALL') return true;
         return selectedGroup === indexLetter
       }).map(({ indexLetter, buttonGroup }) => (
-        <ButtonGroup indexLetter={indexLetter} buttons={buttonGroup} setCurrentAudio={setCurrentAudio} key={Math.floor(Math.random() * 10000)} />
+        <ButtonGroup
+          indexLetter={indexLetter}
+          buttons={buttonGroup}
+          setCurrentAudio={setCurrentAudio}
+          key={Math.floor(Math.random() * 10000)}
+        />
       ))
     }
   </div>
