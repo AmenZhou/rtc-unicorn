@@ -3,6 +3,7 @@ import Tooltip from '@material-ui/core/Tooltip';
 import truncate from 'lodash/truncate';
 import { makeStyles } from '@material-ui/core/styles';
 
+
 const useStyles = makeStyles((theme) => ({
   tooltip: {
     maxWidth: 500,
@@ -25,12 +26,14 @@ const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => 
       .then(text => setTtpText(truncate(text, { length: 2000 })))
   }
 
-  return <div className="box" key={`${phraseKey}/${id}`} >
+  return <div className="box">
     <Tooltip
-      title={<span style={{ fontSize: "min(1.8vmax, 13px)"}}>{ttpText}</span>}
+      title={<span style={{ fontSize: "min(1.8vmax, 13px)"}}>{phraseKey} {ttpText}</span>}
       classes={{ tooltip: classes.tooltip }}
     >
-      <button className="phrase" onClick={buttonHandler}>{text}</button>
+      <button className="phrase" onClick={buttonHandler}>
+        {text}
+      </button>
     </Tooltip>
     <audio preload="auto" src={src}></audio>
   </div>

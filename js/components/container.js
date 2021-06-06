@@ -10,12 +10,17 @@ const Container = () => {
   const [selectedGroup, setGroup] = useState('ALL');
   const [currentAudio, setCurrentAudio] = useState(null);
   const [mp3List, setMp3List] = useState([]);
+  const [deviceInfos, setDeviceInfos] = useState(null);
 
   useEffect(() => {
     getMp3List({ voiceType, setMp3List });
   }, [voiceType])
 
-  
+  useEffect(() => {
+    if (!deviceInfos)
+      navigator.mediaDevices.enumerateDevices().then(setDeviceInfos);
+  }, [])
+
   return <div>
     <MenuBar
       voiceType={voiceType}
@@ -24,6 +29,7 @@ const Container = () => {
       setGroup={setGroup}
       selectedGroup={selectedGroup}
       currentAudio={currentAudio}
+      deviceInfos={deviceInfos}
     />
     <PhraseButtons mp3List={mp3List} selectedGroup={selectedGroup} setCurrentAudio={setCurrentAudio} />
   </div>
