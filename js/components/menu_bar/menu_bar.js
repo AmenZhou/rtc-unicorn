@@ -32,7 +32,7 @@ const MenuBar = (props) => {
     <div className="menu-bar">
       <div className='menu-row'>
         <Button aria-describedby={id} variant="contained" color="primary" onClick={handleClick}>
-          Open Popover
+          設置
         </Button>
         <Popover
           id={id}
@@ -53,6 +53,7 @@ const MenuBar = (props) => {
             <VoiceTypeSelection {...props} />
           </Typography>
         </Popover>
+        <div className="menu-title">講真相語音點播系統</div>
       </div>
     </div>
     <SideBar {...props} />
