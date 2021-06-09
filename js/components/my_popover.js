@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Poper = ({ buttonText, children }) => {
+const MyPopover = ({ buttonText, children }) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const classes = useStyles();
 
@@ -32,7 +32,7 @@ const Poper = ({ buttonText, children }) => {
     <Popover
       id={id}
       open={open}
-      // anchorEl={anchorEl}
+      anchorEl={anchorEl}
       onClose={handleClose}
       anchorOrigin={{
         vertical: 'bottom',
@@ -50,4 +50,4 @@ const Poper = ({ buttonText, children }) => {
   </div>
 }
 
-export default Poper;
+export default MyPopover;

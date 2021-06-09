@@ -1,6 +1,7 @@
 import React from 'react';
 import ButtonGroup from './button_group';
 import { audioManufacture } from '../utils/button_utils';
+import { randomKey } from '../utils/common_utils';
 
 const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio }) => (
   <div className="phrase-buttons">
@@ -13,7 +14,7 @@ const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio }) => (
           indexLetter={indexLetter}
           buttons={buttonGroup}
           setCurrentAudio={setCurrentAudio}
-          key={Math.floor(Math.random() * 10000)}
+          key={randomKey()}
         />
       ))
     }

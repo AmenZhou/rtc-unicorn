@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './button';
 import map from '../../config/index_key_name_map_short.json';
+import { randomKey } from '../utils/common_utils';
 
 const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio }) => (
   <div className="group" key={indexLetter}>
@@ -8,7 +9,7 @@ const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio }) => (
     {
       buttons.map(({ src, title, id, key, ttp, ttp_file }) =>
         <Button
-          key={Math.floor(Math.random() * 10000)}
+          key={randomKey()}
           phraseKey={key}
           id={id}
           src={src}
