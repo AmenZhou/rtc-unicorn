@@ -43,7 +43,7 @@ const MyPopover = ({ buttonText, children }) => {
         horizontal: 'center',
       }}
     >
-      <Typography className={classes.typography}>
+      <Typography className={classes.typography} component={'div'}>
         {children}
       </Typography>
     </Popover>

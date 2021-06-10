@@ -4,7 +4,7 @@ import GroupSelection from './group_selection';
 
 const SideBar = (props) => (
   <div className='side-bar'>
-    <AudioControl currentAudio={props.currentAudio} />
+    <AudioControl {...props} />
   </div>
 )
 
