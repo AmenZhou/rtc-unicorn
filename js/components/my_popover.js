@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -11,28 +11,26 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const MyPopover = ({ buttonText, children }) => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [open, setOpen] = useState(false);
   const classes = useStyles();
+  const buttonRef = useRef(null);
 
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
+  const handleClick = _ => {
+    setOpen(true);
   };
 
   const handleClose = () => {
-    setAnchorEl(null);
+    setOpen(false);
   };
 
-  const open = Boolean(anchorEl);
-  const id = open ? 'simple-popover' : undefined;
-
   return <div>
-    <Button aria-describedby={id} variant="contained" color="primary" onClick={handleClick}>
+    <Button aria-describedby="simple-popover" variant="contained" color="primary" onClick={handleClick} ref={buttonRef}>
       {buttonText}
     </Button>
     <Popover
-      id={id}
+      id="simple-popover"
       open={open}
-      anchorEl={anchorEl}
+      anchorEl={buttonRef.current}
       onClose={handleClose}
       anchorOrigin={{
         vertical: 'bottom',

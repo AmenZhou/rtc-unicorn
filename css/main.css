@@ -94,3 +94,12 @@
   margin: 1em;
   width: 15em;
 }
+
+.popup-open {
+  position: absolute;
+}
+
+.popup-close {
+  display: none;
+  position: absolute;
+}

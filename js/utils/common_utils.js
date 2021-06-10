@@ -1,1 +1,3 @@
-export const randomKey = () => Math.floor(Math.random() * 10000);
+import { v4 as uuidv4 } from 'uuid';
+
+export const randomKey = () => uuidv4();
