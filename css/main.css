@@ -103,3 +103,7 @@
   display: none;
   position: absolute;
 }
+
+.empty-menu {
+  width: 2em;
+}

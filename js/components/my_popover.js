@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const MyPopover = ({ buttonText, children }) => {
+const MyPopover = ({ buttonText, children, ButtonIconComponent }) => {
   const [open, setOpen] = useState(false);
   const classes = useStyles();
   const buttonRef = useRef(null);
@@ -25,6 +25,7 @@ const MyPopover = ({ buttonText, children }) => {
 
   return <div>
     <Button aria-describedby="simple-popover" variant="contained" color="primary" onClick={handleClick} ref={buttonRef}>
+      <ButtonIconComponent />
       {buttonText}
     </Button>
     <Popover
