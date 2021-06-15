@@ -45,6 +45,11 @@
   transition: max-width 0.3s;
 }
 
+.phrase.highlight {
+  background: darkslateblue;
+  color: white;
+}
+
 .box:hover .phrase {
   max-width: 100%;
 }
