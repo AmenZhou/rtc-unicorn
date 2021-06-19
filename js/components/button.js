@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => {
+const Button = ({ phraseKey, src, text, ttp, ttpFile, setCurrentAudio, highlight }) => {
   const truncateTtp = truncate(ttp, { length: 2000 });
   const [ttpText, setTtpText] = useState(truncateTtp);
   const buttonHandler = e => {
@@ -19,6 +19,7 @@ const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => 
     setCurrentAudio(audioSrc);
   }
   const classes = useStyles();
+  const buttonClassName = highlight ? 'phrase highlight' : 'phrase';
 
   if (ttpFile) {
     fetch(ttpFile)
@@ -31,7 +32,7 @@ const Button = ({ phraseKey, src, text, id, ttp, ttpFile, setCurrentAudio }) => 
       title={<span style={{ fontSize: "min(1.8vmax, 13px)"}}>{phraseKey} {ttpText}</span>}
       classes={{ tooltip: classes.tooltip }}
     >
-      <button className="phrase" onClick={buttonHandler}>
+      <button className={buttonClassName} onClick={buttonHandler}>
         {text}
       </button>
     </Tooltip>
