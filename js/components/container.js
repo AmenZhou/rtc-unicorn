@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PhraseButtons from './phrase_buttons';
 import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
-import { getVoiceTypeFromCookie } from '../utils/cookie_utils';
+import { getDeviceIdFromCookie, getVoiceTypeFromCookie } from '../utils/cookie_utils';
 
 const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
@@ -11,6 +11,7 @@ const Container = () => {
   const [currentAudio, setCurrentAudio] = useState(null);
   const [mp3List, setMp3List] = useState([]);
   const [deviceInfos, setDeviceInfos] = useState(null);
+  const [currentDeviceId, setCurrentDeviceId] = useState(getDeviceIdFromCookie())
 
   useEffect(() => {
     getMp3List({ voiceType, setMp3List });
@@ -30,8 +31,14 @@ const Container = () => {
       selectedGroup={selectedGroup}
       currentAudio={currentAudio}
       deviceInfos={deviceInfos}
+      currentDeviceId={currentDeviceId}
+      setCurrentDeviceId={setCurrentDeviceId}
     />
-    <PhraseButtons mp3List={mp3List} selectedGroup={selectedGroup} setCurrentAudio={setCurrentAudio} />
+    <PhraseButtons
+      mp3List={mp3List}
+      selectedGroup={selectedGroup}
+      setCurrentAudio={setCurrentAudio}
+    />
   </div>
 }
 

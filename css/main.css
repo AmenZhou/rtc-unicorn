@@ -45,6 +45,11 @@
   transition: max-width 0.3s;
 }
 
+.phrase.highlight {
+  background: darkslateblue;
+  color: white;
+}
+
 .box:hover .phrase {
   max-width: 100%;
 }
@@ -76,12 +81,11 @@
 .menu-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 1em 0;
+  margin: 1em 3em;
 }
 
 .menu-bar {
   background-color: lightgray;
-  padding: 0 3em;
   position: fixed;
   top: 1em;
   left: 0;
@@ -94,4 +98,21 @@
   top: 1em;
   margin: 1em;
   width: 15em;
+}
+
+.popup-open {
+  position: absolute;
+}
+
+.popup-close {
+  display: none;
+  position: absolute;
+}
+
+.empty-menu {
+  width: 2em;
+}
+
+.rhap_container {
+  width: 17em;
 }
