@@ -30,7 +30,7 @@ export const getMp3List = ({ voiceType, setMp3List }) => {
     throw "Unknown voice type";
   } 
   
-  fetch(filePath)
+  fetch(filePath, { cache: "no-store" })
     .then(r => r.text())
     .then(text => { console.log(JSON.parse(text)); setMp3List(JSON.parse(text)) });
 }
