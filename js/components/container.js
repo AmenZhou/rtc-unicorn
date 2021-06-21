@@ -24,8 +24,12 @@ const Container = () => {
 
   useEffect(() => {
     if (!deviceInfos)
-      navigator.mediaDevices.enumerateDevices().then(setDeviceInfos);
+      navigator.mediaDevices.getUserMedia({audio: true}).then(() =>
+        navigator.mediaDevices.enumerateDevices().then(setDeviceInfos)
+      );
   }, [])
+
+  console.log(deviceInfos, 'deviceInfos')
 
   if (deviceInfoNotFound())
     return <MyAlertDialog title="請注意" body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。" open/>
