@@ -81,13 +81,13 @@
 .menu-row {
   display: flex;
   flex-wrap: wrap;
-  margin: 1em 3em;
+  margin: 0.5em 3em;
 }
 
 .menu-bar {
   background-color: lightgray;
   position: fixed;
-  top: 1em;
+  top: 0;
   left: 0;
   width: 100%;
 }

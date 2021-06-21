@@ -3,10 +3,11 @@ import compact from 'lodash/compact';
 import { setDeviceIdToCookie } from '../../utils/cookie_utils';
 import { randomKey } from '../../utils/common_utils';
 
-const DeviceSelection = ({ deviceInfos, setCurrentDeviceId, currentDeviceId }) => {
+const DeviceSelection = ({ deviceInfos, setCurrentDeviceId, currentDeviceId, isSetCookie }) => {
   const changeHandler = e => {
     setCurrentDeviceId(e.target.value);
-    setDeviceIdToCookie(e.target.value);
+    isSetCookie
+      && setDeviceIdToCookie(e.target.value);
   }
 
   const deviceOptions = () => {
