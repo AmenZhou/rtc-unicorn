@@ -18,14 +18,7 @@ const MenuBar = (props) => (
           <VoiceTypeSelection {...props} />
         </MyPopover>
         <EmptyMenu />
-        <PopupLongevity
-          buttonTextOpen="播放器"
-          buttonTextClose="播放器"
-          IconOpen={MusicIcon}
-          IconClose={CloseIcon}
-        >
-          <AudioControl {...props} />
-        </PopupLongevity>
+        <AudioControl {...props} />
       </div>
     </div>
   </Fragment>
