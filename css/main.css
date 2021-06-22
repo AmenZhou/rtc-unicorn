@@ -116,3 +116,20 @@
 .rhap_container {
   width: 17em;
 }
+
+.rhap_container {
+  width: 25em;
+  height: 3em;
+  padding: 0 1em;
+  background-color: #ecebf3;
+}
+
+.rhap_stacked .rhap_controls-section {
+  margin: 0;
+}
+
+.rhap_main {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
