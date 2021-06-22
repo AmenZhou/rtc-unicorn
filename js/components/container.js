@@ -6,6 +6,7 @@ import { getDeviceIdFromCookie, getVoiceTypeFromCookie, needToSetCookie } from '
 import MyAlertDialog from './common/my_alert_dialog';
 import isEmpty from 'lodash/isEmpty';
 import FirstTimeSetup from './first_time_setup';
+import { readJsonFile } from '../utils/common_utils';
 
 const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
@@ -17,6 +18,12 @@ const Container = () => {
   const [deviceInfos, setDeviceInfos] = useState(null);
   const [currentDeviceId, setCurrentDeviceId] = useState(defaultDeviceId);
   const deviceInfoNotFound = () => !deviceInfos || deviceInfos.filter(device => !isEmpty(device.deviceId)).length === 0;
+  const [buttonMap, setButtonMap] = useState([]);
+
+  useEffect(() => {
+    if (!buttonMap.length)
+      readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
+  }, []);
 
   useEffect(() => {
     getMp3List({ voiceType, setMp3List });
@@ -59,6 +66,7 @@ const Container = () => {
       mp3List={mp3List}
       selectedGroup={selectedGroup}
       setCurrentAudio={setCurrentAudio}
+      buttonMap={buttonMap}
     />
   </div>
 }
