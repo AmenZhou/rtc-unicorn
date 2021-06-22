@@ -14,8 +14,8 @@ const MenuBar = (props) => (
     <div className="menu-bar">
       <div className='menu-row'>
         <MyPopover buttonText="設置" ButtonIconComponent={SettingsIcon}>
-          <DeviceSelection {...props} />
-          <VoiceTypeSelection {...props} />
+          <DeviceSelection {...props} isSetCookie />
+          <VoiceTypeSelection {...props} isSetCookie />
         </MyPopover>
         <EmptyMenu />
         <PopupLongevity
