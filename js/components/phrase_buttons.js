@@ -3,7 +3,7 @@ import ButtonGroup from './button_group';
 import { audioManufacture } from '../utils/button_utils';
 import { randomKey } from '../utils/common_utils';
 
-const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio, buttonMap }) => (
+const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio, buttonMap, setCurrentAudioId }) => (
   <div className="phrase-buttons">
     {
       audioManufacture(mp3List).filter(({ indexLetter }) => {
@@ -16,6 +16,7 @@ const PhraseButtons = ({ mp3List, selectedGroup, setCurrentAudio, buttonMap }) =
           setCurrentAudio={setCurrentAudio}
           key={randomKey()}
           buttonMap={buttonMap}
+          setCurrentAudioId={setCurrentAudioId}
         />
       ))
     }

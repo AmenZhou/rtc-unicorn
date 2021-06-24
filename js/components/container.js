@@ -4,7 +4,6 @@ import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
 import { getDeviceIdFromCookie, getVoiceTypeFromCookie, needToSetCookie } from '../utils/cookie_utils';
 import MyAlertDialog from './common/my_alert_dialog';
-import isEmpty from 'lodash/isEmpty';
 import FirstTimeSetup from './first_time_setup';
 import { readJsonFile } from '../utils/common_utils';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -18,8 +17,10 @@ const Container = () => {
   const [mp3List, setMp3List] = useState([]);
   const [deviceInfos, setDeviceInfos] = useState(null);
   const [currentDeviceId, setCurrentDeviceId] = useState(defaultDeviceId);
-  const deviceInfoNotFound = () => deviceInfos.filter(device => !isEmpty(device.deviceId)).length === 0;
   const [buttonMap, setButtonMap] = useState([]);
+  const [currentAudioId, setCurrentAudioId] = useState(null);
+  const [deviceLoading, setDeviceLoading] = useState(true);
+  const [showError, setShowError] = useState(false);
 
   useEffect(() => {
     if (!buttonMap.length)
@@ -33,16 +34,19 @@ const Container = () => {
   useEffect(() => {
     if (!deviceInfos)
       navigator.mediaDevices.getUserMedia({ audio: true }).then(() =>
-        navigator.mediaDevices.enumerateDevices().then(setDeviceInfos)
-      );
+        navigator.mediaDevices.enumerateDevices().then(devices => {
+          setDeviceLoading(false)
+          setDeviceInfos(devices)
+        }).catch(_=> setShowError(true))
+      ).catch(_ => setShowError(true));
   }, [])
 
   console.log(deviceInfos, 'deviceInfos')
 
-  if (!deviceInfos)
+  if (deviceLoading)
     return <CircularProgress />
 
-  if (deviceInfoNotFound())
+  if (showError)
     return <MyAlertDialog title="請注意" body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。" open/>
 
   return <div>
@@ -65,12 +69,14 @@ const Container = () => {
       deviceInfos={deviceInfos}
       currentDeviceId={currentDeviceId}
       setCurrentDeviceId={setCurrentDeviceId}
+      currentAudioId={currentAudioId}
     />
     <PhraseButtons
       mp3List={mp3List}
       selectedGroup={selectedGroup}
       setCurrentAudio={setCurrentAudio}
       buttonMap={buttonMap}
+      setCurrentAudioId={setCurrentAudioId}
     />
   </div>
 }

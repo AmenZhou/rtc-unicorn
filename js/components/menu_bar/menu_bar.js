@@ -3,11 +3,9 @@ import DeviceSelection from './device_selection'
 import VoiceTypeSelection from './voice_type_selection'
 import MyPopover from '../my_popover';
 import AudioControl from './audio_control';
-import PopupLongevity from '../popup_longevity';
 import EmptyMenu from './empty_menu';
 import SettingsIcon from '@material-ui/icons/Settings';
-import MusicIcon from '@material-ui/icons/MusicNote';
-import CloseIcon from '@material-ui/icons/Close';
+import AudioLabel from './audio_label';
 
 const MenuBar = (props) => (
   <Fragment>
@@ -18,6 +16,7 @@ const MenuBar = (props) => (
           <VoiceTypeSelection {...props} isSetCookie />
         </MyPopover>
         <EmptyMenu />
+        <AudioLabel {...props} />
         <AudioControl {...props} />
       </div>
     </div>

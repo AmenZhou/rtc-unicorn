@@ -10,13 +10,14 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-const Button = ({ phraseKey, src, text, ttp, ttpFile, setCurrentAudio, highlight }) => {
+const Button = ({ phraseKey, src, text, ttp, ttpFile, setCurrentAudio, highlight, setCurrentAudioId }) => {
   const truncateTtp = truncate(ttp, { length: 2000 });
   const [ttpText, setTtpText] = useState(truncateTtp);
   const buttonHandler = e => {
     const audioSrc = e.target.nextElementSibling.src;
 
     setCurrentAudio(audioSrc);
+    setCurrentAudioId(phraseKey);
   }
   const classes = useStyles();
   const buttonClassName = highlight ? 'phrase highlight' : 'phrase';
