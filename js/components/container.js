@@ -42,11 +42,15 @@ const Container = () => {
     if (!deviceInfos)
       navigator.mediaDevices.getUserMedia({ audio: true }).then(() =>
         navigator.mediaDevices.enumerateDevices().then(devices => {
-          setDeviceLoading(false)
           setDeviceInfos(devices)
         }).catch(_=> setShowError(true))
       ).catch(_ => setShowError(true));
   }, [])
+
+  useEffect(() => {
+    if (deviceInfos)
+      setDeviceLoading(false);
+  }, [deviceInfos])
 
   console.log(deviceInfos, 'deviceInfos')
 

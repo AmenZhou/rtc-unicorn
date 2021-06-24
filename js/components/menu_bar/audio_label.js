@@ -18,7 +18,7 @@ const AudioLabel = ({ currentAudioId, mp3List }) => {
 
   const audioTitle = currentAudio[0].title;
 
-  return <Button variant="outlined" size="small" color="primary"><MusicNoteIcon />{audioTitle}</Button>;
+  return <Button variant="contained" size="small"><MusicNoteIcon />{audioTitle}</Button>;
 }
 
 export default AudioLabel;
