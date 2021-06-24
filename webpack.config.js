@@ -14,7 +14,6 @@ module.exports = {
   },
 };
 
-
 module.exports = {
   mode: 'development',
   entry: './js/main.js',

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import PhraseButtons from './phrase_buttons';
 import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
@@ -21,15 +21,22 @@ const Container = () => {
   const [currentAudioId, setCurrentAudioId] = useState(null);
   const [deviceLoading, setDeviceLoading] = useState(true);
   const [showError, setShowError] = useState(false);
-
-  useEffect(() => {
+  const loadButtonMap = useCallback(async () => {
     if (!buttonMap.length)
-      readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
+      await readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
   }, []);
+  const loadMp3List = useCallback(async () => {
+    await getMp3List({ voiceType, setMp3List });
+  }, [voiceType]);
+
 
   useEffect(() => {
-    getMp3List({ voiceType, setMp3List });
-  }, [voiceType])
+    loadButtonMap();
+  }, [loadButtonMap]);
+
+  useEffect(() => {
+    loadMp3List();
+  }, [loadMp3List])
 
   useEffect(() => {
     if (!deviceInfos)
