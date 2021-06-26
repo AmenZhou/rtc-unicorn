@@ -61,7 +61,7 @@ const Container = () => {
     return <MyAlertDialog title="請注意" body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。" open/>
 
   return <div>
-    {needToSetCookie()
+    {needToSetCookie({ deviceInfos })
       && <FirstTimeSetup
           deviceInfos={deviceInfos}
           setCurrentDeviceId={setCurrentDeviceId}
@@ -80,7 +80,6 @@ const Container = () => {
       deviceInfos={deviceInfos}
       currentDeviceId={currentDeviceId}
       setCurrentDeviceId={setCurrentDeviceId}
-      currentAudioId={currentAudioId}
     />
     <PhraseButtons
       mp3List={mp3List}
@@ -88,6 +87,8 @@ const Container = () => {
       setCurrentAudio={setCurrentAudio}
       buttonMap={buttonMap}
       setCurrentAudioId={setCurrentAudioId}
+      currentAudioId={currentAudioId}
+      currentAudio={currentAudio}
     />
   </div>
 }

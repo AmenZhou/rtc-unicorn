@@ -1,5 +1,6 @@
 import Cookies from 'js-cookie'
 import isEmpty from 'lodash/isEmpty';
+import find from 'lodash/find';
 
 export const getDeviceIdFromCookie = () => {
   const deviceKeyPair = document.cookie && document.cookie.split(';')[0];
@@ -25,4 +26,16 @@ export const getVoiceTypeFromCookie = () => (
   Cookies.get('voiceType')
 )
 
-export const needToSetCookie = () => isEmpty(getVoiceTypeFromCookie()) || isEmpty(getDeviceIdFromCookie());
+export const needToSetCookie = ({ deviceInfos }) => {
+  if (isEmpty(getVoiceTypeFromCookie()))
+    return true;
+
+  if (isEmpty(getDeviceIdFromCookie()))
+    return true;
+
+  console.log(getDeviceIdFromCookie(), "getDeviceIdFromCookie()");
+  if (!find(deviceInfos, device => device.deviceId === getDeviceIdFromCookie()))
+    return true
+
+  return false;
+};

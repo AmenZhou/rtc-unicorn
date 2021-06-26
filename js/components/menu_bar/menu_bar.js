@@ -16,8 +16,6 @@ const MenuBar = (props) => (
           <VoiceTypeSelection {...props} isSetCookie />
         </MyPopover>
         <EmptyMenu />
-        <AudioLabel {...props} />
-        <AudioControl {...props} />
       </div>
     </div>
   </Fragment>
