@@ -10,7 +10,7 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 
 const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
-  const defaultDeviceId = getDeviceIdFromCookie() || 'Default';
+  const defaultDeviceId = getDeviceIdFromCookie() || 'default';
   const [voiceType, setVoiceType] = useState(defaultVoiceType);
   const [selectedGroup, setGroup] = useState('ALL');
   const [currentAudio, setCurrentAudio] = useState(null);

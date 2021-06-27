@@ -7,7 +7,7 @@ const DeviceSelection = ({ deviceInfos, setCurrentDeviceId, currentDeviceId, isS
   const changeHandler = e => {
     setCurrentDeviceId(e.target.value);
     isSetCookie
-      && setDeviceIdToCookie(e.target.value);
+      && setDeviceIdToCookie({ deviceId: e.target.value, deviceInfos });
   }
 
   const deviceOptions = () => {
