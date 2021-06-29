@@ -8,7 +8,7 @@ const FirstTimeSetup = props => {
   const buttonHandler = _ => {
     const { voiceType, currentDeviceId, deviceInfos } = props;
 
-    setDeviceIdToCookie({ currentDeviceId, deviceInfos });
+    setDeviceIdToCookie({ deviceId: currentDeviceId, deviceInfos });
     setVoiceTypeToCookie(voiceType);
   }
 

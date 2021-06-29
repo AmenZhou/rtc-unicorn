@@ -89,6 +89,7 @@ const Container = () => {
       setCurrentAudioId={setCurrentAudioId}
       currentAudioId={currentAudioId}
       currentAudio={currentAudio}
+      currentDeviceId={currentDeviceId}
     />
   </div>
 }
