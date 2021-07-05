@@ -6,7 +6,7 @@ const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio, buttonMap, setCurr
   <div className="group" key={indexLetter}>
     <div className="index-letter-box">{buttonMap[indexLetter.toUpperCase()]}</div>
     {
-      buttons.map(({ src, title, id, key, ttp, ttp_file, highlight }) =>
+      buttons.map(({ src, title, id, key, ttp, ttp_file, highlight, nick_name_file }) =>
         <Button
           key={randomKey()}
           phraseKey={key}
@@ -18,6 +18,7 @@ const ButtonGroup = ({ indexLetter, buttons, setCurrentAudio, buttonMap, setCurr
           setCurrentAudio={setCurrentAudio}
           highlight={highlight}
           setCurrentAudioId={setCurrentAudioId}
+          nickNameFile={nick_name_file}
         />
       )
     }
