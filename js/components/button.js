@@ -1,9 +1,10 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState } from 'react'
 import Tooltip from '@material-ui/core/Tooltip';
 import truncate from 'lodash/truncate';
 import { makeStyles } from '@material-ui/core/styles';
 import split from 'lodash/split';
 import random from 'lodash/random';
+import indexOf from 'lodash/indexOf';
 
 
 const useStyles = makeStyles(_ => ({
@@ -35,6 +36,14 @@ const Button = ({
   }
   const classes = useStyles();
   const buttonClassName = highlight ? 'phrase highlight' : 'phrase';
+  const buttonText = () => {
+    if (!srcFile || !nickNameFile)
+      return text;
+
+    const indexOfSlash = indexOf(srcFile, '/');
+    const nickNameButtonText = srcFile[indexOfSlash + 5] + srcFile[indexOfSlash + 6];
+    return `${text}@${nickNameButtonText}`;
+  }
 
   useEffect(() => {
     if (ttpFile) {
@@ -77,7 +86,7 @@ const Button = ({
       classes={{ tooltip: classes.tooltip }}
     >
       <button className={buttonClassName} onClick={buttonHandler}>
-        {text}
+        {buttonText()}
       </button>
     </Tooltip>
     <audio preload="auto" src={srcFile}></audio>
