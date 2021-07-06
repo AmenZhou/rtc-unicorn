@@ -23,6 +23,9 @@ const Button = ({
   highlight,
   setCurrentAudioId,
   nickNameFile,
+  setRefreshNickName,
+  refreshNickName,
+  isRefreshNickNameButton
 }) => {
   const truncateTtp = truncate(ttp, { length: 2000 });
   const [ttpText, setTtpText] = useState(truncateTtp);
@@ -31,8 +34,15 @@ const Button = ({
   const buttonHandler = e => {
     const audioSrc = e.target.nextElementSibling.src;
 
-    setCurrentAudio(audioSrc);
-    setCurrentAudioId(phraseKey);
+    if (audioSrc) {
+      setCurrentAudio(audioSrc);
+      setCurrentAudioId(phraseKey);
+    }
+
+    if (isRefreshNickNameButton) {
+      global.nickNameSrcFileCache = {};
+      setRefreshNickName(!refreshNickName)
+    }
   }
   const classes = useStyles();
   const buttonClassName = highlight ? 'phrase highlight' : 'phrase';
@@ -55,7 +65,7 @@ const Button = ({
 
   useEffect(() => {
     if (nickNameFile && !nickNameList.length) {
-      console.log('fetch nick name file global nickName');
+      console.log('fetch nick name file');
 
       if (global.nickNameListCache[nickNameList]) {
         setNickNameList(global.nickNameListCache[nickNameList]);
@@ -72,17 +82,31 @@ const Button = ({
   }, [nickNameFile])
 
   useEffect(() => {
-    if (nickNameFile && nickNameList.length && !srcFile) {
-      const randomNum = random(nickNameList.length);
-      setSrcFile(`audio_nick/${nickNameList[randomNum]}`);
+    let file;
 
-      console.log('nickName', nickNameList[randomNum]);
+    if (!nickNameFile || !nickNameList.length || srcFile)
+      return null;
+
+    console.log('select a nick name');
+
+    if (global.nickNameSrcFileCache[phraseKey]) {
+      setSrcFile(global.nickNameSrcFileCache[phraseKey]);
+      return null;
     }
+
+    while (!file) {
+      const randomNum = random(nickNameList.length);
+      file = `audio_nick/${nickNameList[randomNum]}`;
+      !file && console.error('Found a invalid nick name file', file);
+    }
+
+    setSrcFile(file);
+    global.nickNameSrcFileCache[phraseKey] = file;
   }, [nickNameList])
 
   return <div className="box">
     <Tooltip
-      title={<span style={{ fontSize: "min(1.8vmax, 13px)"}}>{phraseKey} {ttpText}</span>}
+      title={<span style={{ fontSize: "min(1.8vmax, 13px)" }}>{phraseKey} {ttpText}</span>}
       classes={{ tooltip: classes.tooltip }}
     >
       <button className={buttonClassName} onClick={buttonHandler}>

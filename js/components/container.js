@@ -21,6 +21,7 @@ const Container = () => {
   const [currentAudioId, setCurrentAudioId] = useState(null);
   const [deviceLoading, setDeviceLoading] = useState(true);
   const [showError, setShowError] = useState(false);
+  const [refreshNickName, setRefreshNickName] = useState(false);
   const loadButtonMap = useCallback(async () => {
     if (!buttonMap.length)
       await readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
@@ -90,6 +91,8 @@ const Container = () => {
       currentAudioId={currentAudioId}
       currentAudio={currentAudio}
       currentDeviceId={currentDeviceId}
+      refreshNickName={refreshNickName}
+      setRefreshNickName={setRefreshNickName}
     />
   </div>
 }
