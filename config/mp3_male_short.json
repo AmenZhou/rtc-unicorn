@@ -152,12 +152,12 @@
     "ttp": "",
     "key": "b10",
     "title": ""
-  }, 
+  },
 
   {
     "id": 494,
     "src": "audio/jbzx-1-m-0626.mp3",
-    "ttp_file": "text/3-1.txt", 
+    "ttp_file": "text/3-1.txt",
     "ttp": "",
     "key": "c0",
     "title": "何为法轮功"
@@ -165,7 +165,7 @@
   {
     "id": 495,
     "src": "audio/jbzx-2-m-0626.mp3",
-    "ttp_file": "text/3-2.txt", 
+    "ttp_file": "text/3-2.txt",
     "ttp_ttp": "",
     "key": "c1",
     "title": "大陆迅速传播"
@@ -173,7 +173,7 @@
   {
     "id": 496,
     "src": "audio/jbzx-3-m-0626.mp3",
-    "ttp_file": "text/3-3.txt", 
+    "ttp_file": "text/3-3.txt",
     "ttp": "",
     "key": "c2",
     "title": "洪传和褒奖"
@@ -181,7 +181,7 @@
   {
     "id": 497,
     "src": "audio/jbzx-4-m-0626.mp3",
-    "ttp_file": "text/3-4.txt", 
+    "ttp_file": "text/3-4.txt",
     "ttp": "",
     "key": "c3",
     "title": "功效乔石调查"
@@ -189,7 +189,7 @@
   {
     "id": 498,
     "src": "audio/jbzx-5-m-0626.mp3",
-    "ttp_file": "text/3-5.txt", 
+    "ttp_file": "text/3-5.txt",
     "ttp": "",
     "key": "c4",
     "title": "功效关贵敏"
@@ -197,7 +197,7 @@
   {
     "id": 499,
     "src": "audio/jbzx-6-m-0626.mp3",
-    "ttp_file": "text/3-6.txt", 
+    "ttp_file": "text/3-6.txt",
     "ttp": "",
     "key": "c5",
     "title": "功效这么神奇"
@@ -205,7 +205,7 @@
   {
     "id": 500,
     "src": "audio/jbzx-7-m-0626.mp3",
-    "ttp_file": "text/3-7.txt", 
+    "ttp_file": "text/3-7.txt",
     "ttp": "",
     "key": "c6",
     "title": "自焚真相1"
@@ -213,44 +213,44 @@
   {
     "id": 501,
     "src": "audio/jbzx-8-m-0626.mp3",
-    "ttp_file": "text/3-8.txt", 
+    "ttp_file": "text/3-8.txt",
     "ttp": "",
     "key": "c7",
     "title": "自焚真相2"
   },
   {
     "src": "audio/jbzx-9-m-0626.mp3",
-    "ttp_file": "text/3-9.txt", 
+    "ttp_file": "text/3-9.txt",
     "ttp": "",
     "key": "c8",
     "title": "自焚真相3"
   },
   {
     "src": "audio/jbzx-10-m-0626.mp3",
-    "ttp_file": "text/3-10.txt", 
+    "ttp_file": "text/3-10.txt",
     "ttp": "",
     "key": "c9",
     "title": "迫害真相"
   },
  {
     "src": "audio/jbzx-11-m-0626.mp3",
-    "ttp_file": "text/3-11.txt", 
+    "ttp_file": "text/3-11.txt",
     "ttp": "",
     "key": "c10",
     "title": "善恶有报 "
-  }, 
+  },
 
  {
     "src": "audio/jbzx-12-m-0626.mp3",
-    "ttp_file": "text/3-12.txt", 
+    "ttp_file": "text/3-12.txt",
     "ttp": "",
     "key": "c11",
     "title": "瘟疫九字真言 "
-  }, 
+  },
   {
     "id": 426,
     "src": "audio/qt-1-m-0626.mp3",
-    "ttp_file": "text/4-1.txt", 
+    "ttp_file": "text/4-1.txt",
     "ttp": "",
     "key": "d0",
     "title": "直接劝退1",
@@ -259,7 +259,7 @@
   {
     "id": 427,
     "src": "audio/qt-2-m-0626.mp3",
-    "ttp_file": "text/4-2.txt", 
+    "ttp_file": "text/4-2.txt",
     "ttp": "",
     "key": "d1",
     "title": "直接劝退2"
@@ -267,7 +267,7 @@
   {
     "id": 428,
     "src": "audio/qt-3-m-0626.mp3",
-    "ttp_file": "text/4-3.txt", 
+    "ttp_file": "text/4-3.txt",
     "ttp": "",
     "key": "d2",
     "title": "直接劝退3"
@@ -275,7 +275,7 @@
   {
     "id": 429,
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d3",
     "title": ""
@@ -283,7 +283,7 @@
   {
     "id": 430,
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d4",
     "title": ""
@@ -291,7 +291,7 @@
   {
     "id": 431,
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d5",
     "title": ""
@@ -299,7 +299,7 @@
   {
     "id": 432,
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d6",
     "title": ""
@@ -307,7 +307,7 @@
   {
     "id": 433,
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d7",
     "title": ""
@@ -315,66 +315,54 @@
   },
   {
    "src": "",
-    "ttp_file": "", 
-    "ttp": "", 
+    "ttp_file": "",
+    "ttp": "",
     "key": "d8",
     "title": ""
   },
   {
     "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d9",
     "title": ""
   },
  {
    "src": "",
-    "ttp_file": "", 
+    "ttp_file": "",
     "ttp": "",
     "key": "d10",
     "title": ""
-  }, 
+  },
   {
-    "id": 434,
     "src": "audio/ghm-1-m-0626.mp3",
-    "ttp_file": "text/5-1.txt", 
+    "ttp_file": "text/5-1.txt",
     "ttp": "",
     "key": "f0",
     "title": "化名提示"
   },
   {
-    "id": 442,
-    "src": "audio_nick/f-m-东海-0628.mp3",
-    "ttp_file": "text/5-2.txt", 
-    "ttp": "",
     "key": "f1",
-    "title": "給化名@东海"
+    "nick_name_file": "audio_nick/m-m.txt",
+    "ttp_file": "text/5-2.txt",
+    "title": "男化名"
   },
   {
-    "src": "audio_nick/f-m-光明-0628.mp3",
-    "ttp_file": "text/5-2.txt", 
-    "ttp": "",
     "key": "f2",
-    "title": "給化名@光明"
+    "nick_name_file": "audio_nick/m-f.txt",
+    "ttp_file": "text/5-2.txt",
+    "title": "女化名"
   },
   {
-    "src": "audio_nick/f-m-光祥-0628.mp3",
-    "ttp_file": "text/5-2.txt", 
-    "ttp": "",
     "key": "f3",
-    "title": "給化名@光祥"
-
+    "title": "更新化名",
+    "ttp": "點擊獲取新化名",
+    "refresh_nick_name": true
   },
-  {
-   "src": "audio_nick/f-m-光耀-0628.mp3",
-    "ttp_file": "text/5-2.txt", 
-    "ttp": "",
-    "key": "f4",
-    "title": "給化名@光耀"  },
   {
     "id": 515,
      "src": "audio/js-1-m-0626.mp3",
-    "ttp_file": "text/6-1.txt", 
+    "ttp_file": "text/6-1.txt",
     "ttp": "",
     "key": "g1",
     "title": "含九字再见"
@@ -382,7 +370,7 @@
   {
     "id": 519,
     "src": "audio/js-2-m-0626.mp3",
-    "ttp_file": "text/6-2.txt", 
+    "ttp_file": "text/6-2.txt",
     "key": "g2",
     "title": "再见"
   },
