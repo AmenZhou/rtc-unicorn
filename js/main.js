@@ -18,8 +18,8 @@ const init = () => {
   );
 }
 
-global.currentAudioElement;
-global.currentSinkId;
+global.nickNameListCache = {};
+global.nickNameSrcFileCache = {};
 
 function handleError(error) {
   console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);

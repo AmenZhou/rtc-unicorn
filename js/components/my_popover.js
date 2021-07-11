@@ -24,7 +24,14 @@ const MyPopover = ({ buttonText, children, ButtonIconComponent }) => {
   };
 
   return <div>
-    <Button aria-describedby="simple-popover" variant="contained" color="primary" onClick={handleClick} ref={buttonRef}>
+    <Button
+      size="small"
+      aria-describedby="simple-popover"
+      variant="contained"
+      color="primary"
+      onClick={handleClick}
+      ref={buttonRef}
+    >
       <ButtonIconComponent />
       {buttonText}
     </Button>

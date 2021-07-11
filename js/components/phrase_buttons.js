@@ -5,7 +5,7 @@ import { randomKey } from '../utils/common_utils';
 import AudioControl from './menu_bar/audio_control';
 
 const PhraseButtons = props => {
-  const { mp3List, selectedGroup, setCurrentAudio, buttonMap, setCurrentAudioId } = props;
+  const { mp3List, selectedGroup, setCurrentAudio, buttonMap, setCurrentAudioId, setRefreshNickName, refreshNickName } = props;
 
   return <div className="phrase-buttons">
     <AudioControl {...props} />
@@ -21,6 +21,8 @@ const PhraseButtons = props => {
           key={randomKey()}
           buttonMap={buttonMap}
           setCurrentAudioId={setCurrentAudioId}
+          setRefreshNickName={setRefreshNickName}
+          refreshNickName={refreshNickName}
         />
       ))
     }
