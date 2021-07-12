@@ -81,6 +81,7 @@ const Container = () => {
       deviceInfos={deviceInfos}
       currentDeviceId={currentDeviceId}
       setCurrentDeviceId={setCurrentDeviceId}
+      currentAudioId={currentAudioId}
     />
     <PhraseButtons
       mp3List={mp3List}

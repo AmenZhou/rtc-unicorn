@@ -12,10 +12,6 @@
   margin: 1em auto;
 }
 
-.phrase-buttons {
-  margin: 4em 0 0 0;
-}
-
 .menu-title {
   font-size: 1.4em;
   margin: 0 auto;
@@ -85,11 +81,7 @@
 }
 
 .menu-bar {
-  background-color: lightgray;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: flex;
 }
 
 .side-bar {
@@ -137,4 +129,5 @@
 
 .audio-bar {
   display: flex;
+  width: 100%;
 }

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles((theme) => ({
@@ -9,6 +9,14 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
   },
 }));
+
+const SettingButton = withStyles((theme) => ({
+  root: {
+    display: 'flex',
+    width:   '7em',
+    height:  '100%'
+  },
+}))(Button);
 
 const MyPopover = ({ buttonText, children, ButtonIconComponent }) => {
   const [open, setOpen] = useState(false);
@@ -24,8 +32,8 @@ const MyPopover = ({ buttonText, children, ButtonIconComponent }) => {
   };
 
   return <div>
-    <Button
-      size="small"
+    <SettingButton
+      size="medium"
       aria-describedby="simple-popover"
       variant="contained"
       color="primary"
@@ -34,7 +42,7 @@ const MyPopover = ({ buttonText, children, ButtonIconComponent }) => {
     >
       <ButtonIconComponent />
       {buttonText}
-    </Button>
+    </SettingButton>
     <Popover
       id="simple-popover"
       open={open}
