@@ -1,6 +1,13 @@
 import React from 'react'
 import MusicNoteIcon from '@material-ui/icons/MusicNote';
 import Button from '@material-ui/core/Button';
+import { withStyles } from '@material-ui/core/styles';
+
+const Label = withStyles(_ => ({
+  root: {
+    flex: '1 0 auto'
+  },
+}))(Button);
 
 const AudioLabel = ({ currentAudioId, mp3List }) => {
   if (!currentAudioId)
@@ -18,7 +25,7 @@ const AudioLabel = ({ currentAudioId, mp3List }) => {
 
   const audioTitle = currentAudio[0].title;
 
-  return <Button variant="contained" size="small"><MusicNoteIcon />{audioTitle}</Button>;
+  return <Label variant="contained" size="small"><MusicNoteIcon />{audioTitle}</Label>;
 }
 
 export default AudioLabel;
