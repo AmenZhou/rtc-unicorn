@@ -6,10 +6,11 @@ import { setDeviceIdToCookie, setVoiceTypeToCookie } from '../utils/cookie_utils
 
 const FirstTimeSetup = props => {
   const buttonHandler = _ => {
-    const { voiceType, currentDeviceId, deviceInfos } = props;
+    const { voiceType, currentDeviceId, deviceInfos, setOpenSettings } = props;
 
     setDeviceIdToCookie({ deviceId: currentDeviceId, deviceInfos });
     setVoiceTypeToCookie(voiceType);
+    setOpenSettings(false);
   }
 
   return <MyAlertDialog

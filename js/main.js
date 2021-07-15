@@ -20,6 +20,7 @@ const init = () => {
 
 global.nickNameListCache = {};
 global.nickNameSrcFileCache = {};
+global.deviceInfosCache = [];
 
 function handleError(error) {
   console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);

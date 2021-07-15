@@ -22,6 +22,7 @@ const Container = () => {
   const [deviceLoading, setDeviceLoading] = useState(true);
   const [showError, setShowError] = useState(false);
   const [refreshNickName, setRefreshNickName] = useState(false);
+  const [openSettings, setOpenSettings] = useState(false);
   const loadButtonMap = useCallback(async () => {
     if (!buttonMap.length)
       await readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
@@ -40,12 +41,19 @@ const Container = () => {
   }, [loadMp3List])
 
   useEffect(() => {
-    if (!deviceInfos)
+    if (deviceInfos)
+      return;
+
+    if (global.deviceInfosCache.length) {
+      setDeviceInfos(global.deviceInfosCache)
+    } else {
       navigator.mediaDevices.getUserMedia({ audio: true }).then(() =>
         navigator.mediaDevices.enumerateDevices().then(devices => {
-          setDeviceInfos(devices)
+          setDeviceInfos(devices);
+          global.deviceInfosCache = devices;
         }).catch(_=> setShowError(true))
       ).catch(_ => setShowError(true));
+    }
   }, [])
 
   useEffect(() => {
@@ -62,13 +70,14 @@ const Container = () => {
     return <MyAlertDialog title="請注意" body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。" open/>
 
   return <div>
-    {needToSetCookie({ deviceInfos })
+    {(needToSetCookie({ deviceInfos }) || openSettings)
       && <FirstTimeSetup
           deviceInfos={deviceInfos}
           setCurrentDeviceId={setCurrentDeviceId}
           currentDeviceId={currentDeviceId}
           voiceType={voiceType}
           setVoiceType={setVoiceType}
+          setOpenSettings={setOpenSettings}
         />
     }
     <MenuBar
@@ -82,6 +91,7 @@ const Container = () => {
       currentDeviceId={currentDeviceId}
       setCurrentDeviceId={setCurrentDeviceId}
       currentAudioId={currentAudioId}
+      setOpenSettings={setOpenSettings}
     />
     <PhraseButtons
       mp3List={mp3List}
