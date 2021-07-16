@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './button';
-import { randomKey } from '../utils/common_utils';
+import { getButtonId } from '../utils/common_utils';
 
 const ButtonGroup = ({
   indexLetter,
@@ -16,9 +16,9 @@ const ButtonGroup = ({
     {
       buttons.map(({ src, title, key, ttp, ttp_file, highlight, nick_name_file, refresh_nick_name }) =>
         <Button
-          key={`${key}-${src}-${nick_name_file}`}
+          key={getButtonId({ key, src, nick_name_file })}
           phraseKey={key}
-          id={`${key}-${src}-${nick_name_file}`}
+          id={getButtonId({ key, src, nick_name_file })}
           src={src}
           text={title}
           ttp={ttp}
