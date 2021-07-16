@@ -14,11 +14,11 @@ const ButtonGroup = ({
   <div className="group" key={indexLetter}>
     <div className="index-letter-box">{buttonMap[indexLetter.toUpperCase()]}</div>
     {
-      buttons.map(({ src, title, id, key, ttp, ttp_file, highlight, nick_name_file, refresh_nick_name }) =>
+      buttons.map(({ src, title, key, ttp, ttp_file, highlight, nick_name_file, refresh_nick_name }) =>
         <Button
-          key={randomKey()}
+          key={`${key}-${src}-${nick_name_file}`}
           phraseKey={key}
-          id={id}
+          id={`${key}-${src}-${nick_name_file}`}
           src={src}
           text={title}
           ttp={ttp}

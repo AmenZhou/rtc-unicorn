@@ -19,7 +19,6 @@ const MyAlertDialog = ({ title, body, open: defaultOpen, buttonText, children, b
     <div>
       <Dialog
         open={open}
-        onClose={handleClose}
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
@@ -34,7 +33,7 @@ const MyAlertDialog = ({ title, body, open: defaultOpen, buttonText, children, b
           {
             buttonText && <Button onClick={handleClose} color="primary">
               {buttonText}
-            </Button> 
+            </Button>
           }
         </DialogActions>
       </Dialog>

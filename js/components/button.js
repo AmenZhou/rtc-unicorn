@@ -5,8 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import split from 'lodash/split';
 import random from 'lodash/random';
 import indexOf from 'lodash/indexOf';
-import { allNickNameListFromCache, getOneNickNameListFromCache, setOneNickNameListToCache } from '../utils/cache';
-
+import { getOneNickNameListFromCache, getOneNickNameSrcFromCache, resetNickNameSrcCache, setOneNickNameListToCache, setOneNickNameSrcToCache } from '../utils/cache';
 
 const useStyles = makeStyles(_ => ({
   tooltip: {
@@ -16,6 +15,7 @@ const useStyles = makeStyles(_ => ({
 
 const Button = ({
   phraseKey,
+  id,
   src,
   text,
   ttp,
@@ -41,7 +41,7 @@ const Button = ({
     }
 
     if (isRefreshNickNameButton) {
-      global.nickNameSrcFileCache = {};
+      resetNickNameSrcCache();
       setRefreshNickName(!refreshNickName)
     }
   }
@@ -88,19 +88,18 @@ const Button = ({
 
     console.log('select a nick name');
 
-    if (global.nickNameSrcFileCache[phraseKey]) {
-      setSrcFile(global.nickNameSrcFileCache[phraseKey]);
+    if (getOneNickNameSrcFromCache(id)) {
+      setSrcFile(getOneNickNameSrcFromCache(id));
       return null;
     }
 
     while (!file) {
       const randomNum = random(nickNameList.length);
-      file = `audio_nick/${nickNameList[randomNum]}`;
-      !file && console.error('Found a invalid nick name file', file);
+      file = nickNameList[randomNum];
     }
 
-    setSrcFile(file);
-    global.nickNameSrcFileCache[phraseKey] = file;
+    setSrcFile(`audio_nick/${file}`);
+    setOneNickNameSrcToCache({ id, src: `audio_nick/${file}` });
   }, [nickNameList])
 
   return <div className="box">

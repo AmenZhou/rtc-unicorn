@@ -4,7 +4,7 @@ import MenuBar from './menu_bar';
 import { getMp3List } from '../utils/button_utils';
 import { getDeviceIdFromCookie, getVoiceTypeFromCookie, needToSetCookie } from '../utils/cookie_utils';
 import MyAlertDialog from './common/my_alert_dialog';
-import FirstTimeSetup from './first_time_setup';
+import SettingsPopUp from './settings_pop_up';
 import { readJsonFile } from '../utils/common_utils';
 import CircularProgress from '@material-ui/core/CircularProgress';
 
@@ -71,7 +71,7 @@ const Container = () => {
 
   return <div>
     {(needToSetCookie({ deviceInfos }) || openSettings)
-      && <FirstTimeSetup
+      && <SettingsPopUp
           deviceInfos={deviceInfos}
           setCurrentDeviceId={setCurrentDeviceId}
           currentDeviceId={currentDeviceId}
