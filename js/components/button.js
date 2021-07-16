@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import split from 'lodash/split';
 import random from 'lodash/random';
 import indexOf from 'lodash/indexOf';
+import { allNickNameListFromCache, getOneNickNameListFromCache, setOneNickNameListToCache } from '../utils/cache';
 
 
 const useStyles = makeStyles(_ => ({
@@ -65,17 +66,15 @@ const Button = ({
 
   useEffect(() => {
     if (nickNameFile && !nickNameList.length) {
-      console.log('fetch nick name file');
 
-      if (global.nickNameListCache[nickNameList]) {
-        setNickNameList(global.nickNameListCache[nickNameList]);
+      if (getOneNickNameListFromCache(nickNameFile)) {
+        setNickNameList(getOneNickNameListFromCache(nickNameFile));
       } else {
         fetch(nickNameFile)
           .then(r => r.text())
           .then(text => {
             setNickNameList(split(text, "\n"));
-            global.nickNameListCache[nickNameList] = split(text, "\n");
-            console.log('set NickNameList');
+            setOneNickNameListToCache({ nickNameFile, list: split(text, "\n") });
           })
       }
     }

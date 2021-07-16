@@ -19,7 +19,11 @@ const init = () => {
 }
 
 global.nickNameListCache = {};
+
+// Cache nick name file src to prevent auto-refreshing
+// Do not refresh nick name files unless the refresh button is clicked
 global.nickNameSrcFileCache = {};
+
 global.deviceInfosCache = [];
 
 function handleError(error) {
