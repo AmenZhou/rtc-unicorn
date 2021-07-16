@@ -14,3 +14,7 @@ export const setOneNickNameSrcToCache = ({ id, src }) => global.nickNameSrcFileC
 export const resetNickNameSrcCache = _ => global.nickNameSrcFileCache = {};
 
 export const resetNickNameListCache = _ => global.nickNameListCache = {};
+
+export const setTtpFileToCache = ({ ttpFile, text }) => global.ttpFileCache[ttpFile] = text;
+
+export const getTtpFileFromCache = (ttpFile) => global.ttpFileCache[ttpFile];

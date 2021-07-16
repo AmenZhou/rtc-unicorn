@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import split from 'lodash/split';
 import random from 'lodash/random';
 import indexOf from 'lodash/indexOf';
-import { getOneNickNameListFromCache, getOneNickNameSrcFromCache, resetNickNameSrcCache, setOneNickNameListToCache, setOneNickNameSrcToCache } from '../utils/cache';
+import { getOneNickNameListFromCache, getOneNickNameSrcFromCache, getTtpFileFromCache, resetNickNameSrcCache, setOneNickNameListToCache, setOneNickNameSrcToCache, setTtpFileToCache } from '../utils/cache';
 
 const useStyles = makeStyles(_ => ({
   tooltip: {
@@ -57,10 +57,18 @@ const Button = ({
   }
 
   useEffect(() => {
-    if (ttpFile) {
+    if (!ttpFile)
+      return null;
+
+    if (getTtpFileFromCache(ttpFile)) {
+      setTtpText(truncate(getTtpFileFromCache(ttpFile), { length: 2000 }));
+    } else {
       fetch(ttpFile)
         .then(r => r.text())
-        .then(text => setTtpText(truncate(text, { length: 2000 })));
+        .then(text => {
+          setTtpText(truncate(text, { length: 2000 }));
+          setTtpFileToCache({ ttpFile, text });
+        });
     }
   }, [])
 

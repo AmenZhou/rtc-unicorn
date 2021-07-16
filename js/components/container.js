@@ -23,9 +23,9 @@ const Container = () => {
   const [showError, setShowError] = useState(false);
   const [refreshNickName, setRefreshNickName] = useState(false);
   const [openSettings, setOpenSettings] = useState(false);
-  const loadButtonMap = useCallback(async () => {
+  const loadButtonMap = useCallback(() => {
     if (!buttonMap.length)
-      await readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
+      readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
   }, []);
   const loadMp3List = useCallback(async () => {
     await getMp3List({ voiceType, setMp3List });
