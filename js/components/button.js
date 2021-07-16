@@ -119,7 +119,7 @@ const Button = ({
         {buttonText()}
       </button>
     </Tooltip>
-    <audio preload="auto" src={srcFile}></audio>
+    <audio preload="none" src={srcFile}></audio>
   </div>
 }
 
