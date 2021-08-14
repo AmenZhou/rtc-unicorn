@@ -6,7 +6,7 @@ import { getDeviceIdFromCookie, getVoiceTypeFromCookie, needToSetCookie } from '
 import MyAlertDialog from './common/my_alert_dialog';
 import SettingsPopUp from './settings_pop_up';
 import { readJsonFile } from '../utils/common_utils';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import { audioOutput, noAudioOutput } from '../utils/audio_utils';
 
 const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
@@ -15,11 +15,10 @@ const Container = () => {
   const [selectedGroup, setGroup] = useState('ALL');
   const [currentAudio, setCurrentAudio] = useState(null);
   const [mp3List, setMp3List] = useState([]);
-  const [deviceInfos, setDeviceInfos] = useState(null);
+  const [deviceInfos, setDeviceInfos] = useState([]);
   const [currentDeviceId, setCurrentDeviceId] = useState(defaultDeviceId);
   const [buttonMap, setButtonMap] = useState([]);
   const [currentAudioId, setCurrentAudioId] = useState(null);
-  const [deviceLoading, setDeviceLoading] = useState(true);
   const [showError, setShowError] = useState(false);
   const [refreshNickName, setRefreshNickName] = useState(false);
   const [openSettings, setOpenSettings] = useState(false);
@@ -41,7 +40,7 @@ const Container = () => {
   }, [loadMp3List])
 
   useEffect(() => {
-    if (deviceInfos)
+    if (deviceInfos.length)
       return;
 
     if (global.deviceInfosCache.length) {
@@ -49,27 +48,30 @@ const Container = () => {
     } else {
       navigator.mediaDevices.getUserMedia({ audio: true }).then(() =>
         navigator.mediaDevices.enumerateDevices().then(devices => {
-          setDeviceInfos(devices);
-          global.deviceInfosCache = devices;
+          if (noAudioOutput(devices)) {
+            setShowError(true);
+          } else {
+            const outputDevices = audioOutput(devices);
+
+            setDeviceInfos(outputDevices);
+            global.deviceInfosCache = outputDevices;
+          }
         }).catch(_=> setShowError(true))
       ).catch(_ => setShowError(true));
     }
   }, [])
 
-  useEffect(() => {
-    if (deviceInfos)
-      setDeviceLoading(false);
-  }, [deviceInfos])
-
   console.log(deviceInfos, 'deviceInfos')
 
-  if (deviceLoading)
-    return <CircularProgress />
-
-  if (showError)
-    return <MyAlertDialog title="請注意" body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。" open/>
-
   return <div>
+    {showError &&
+      <MyAlertDialog
+        title="請注意"
+        body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。"
+        buttonText="Ok"
+        open
+      />
+    }
     {(needToSetCookie({ deviceInfos }) || openSettings)
       && <SettingsPopUp
           deviceInfos={deviceInfos}

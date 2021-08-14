@@ -8,6 +8,10 @@ export const getDeviceIdFromCookie = () => (
 
 export const setDeviceIdToCookie = ({ deviceId, deviceInfos }) => {
   console.log(deviceId, 'setDeviceIdToCookie');
+
+  if (!deviceInfos.length)
+    return;
+
   if (validDeviceId({ deviceId, deviceInfos }))
     Cookies.set('deviceId', deviceId, { expires: 365 });
   else {

@@ -1,3 +1,5 @@
+import filter from 'lodash/filter';
+
 export const attachSinkId = ({ element, sinkId }) => {
   element.setSinkId(sinkId)
     .then(() => {
@@ -11,3 +13,12 @@ export const attachSinkId = ({ element, sinkId }) => {
       console.error(errorMessage);
     });
 }
+
+export const noAudioOutput = deviceInfos => {
+  const outputDevices = audioOutput(deviceInfos);
+
+  return !outputDevices || !outputDevices.length
+}
+
+export const audioOutput = deviceInfos =>
+  deviceInfos && deviceInfos.length && filter(deviceInfos, device => device.kind == 'audiooutput')
