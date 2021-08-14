@@ -7,6 +7,7 @@ import MyAlertDialog from './common/my_alert_dialog';
 import SettingsPopUp from './settings_pop_up';
 import { readJsonFile } from '../utils/common_utils';
 import { audioOutput, noAudioOutput } from '../utils/audio_utils';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const Container = () => {
   const defaultVoiceType = getVoiceTypeFromCookie() || 'FEMALE';
@@ -22,10 +23,16 @@ const Container = () => {
   const [showError, setShowError] = useState(false);
   const [refreshNickName, setRefreshNickName] = useState(false);
   const [openSettings, setOpenSettings] = useState(false);
+  const [loading, setLoading] = useState(true);
   const loadButtonMap = useCallback(() => {
     if (!buttonMap.length)
       readJsonFile({ filePath: 'config/index_key_name_map_short.json', setFunc: setButtonMap });
   }, []);
+  const deviceLoadFail = () => {
+    setShowError(true);
+    setLoading(false);
+  }
+
   const loadMp3List = useCallback(async () => {
     await getMp3List({ voiceType, setMp3List });
   }, [voiceType]);
@@ -38,6 +45,16 @@ const Container = () => {
   useEffect(() => {
     loadMp3List();
   }, [loadMp3List])
+
+  useEffect(() => {
+    if (showError)
+    setLoading(false);
+  }, [showError])
+
+  useEffect(() => {
+    if (deviceInfos.length)
+      setLoading(false);
+  }, [deviceInfos])
 
   useEffect(() => {
     if (deviceInfos.length)
@@ -53,25 +70,26 @@ const Container = () => {
           } else {
             const outputDevices = audioOutput(devices);
 
+            console.log(deviceInfos, 'deviceInfos')
             setDeviceInfos(outputDevices);
             global.deviceInfosCache = outputDevices;
           }
         }).catch(_=> setShowError(true))
-      ).catch(_ => setShowError(true));
+      ).catch(_=> setShowError(true));
     }
   }, [])
 
-  console.log(deviceInfos, 'deviceInfos')
+  if (loading)
+    return <CircularProgress />
+
+  if (showError)
+    return <MyAlertDialog
+      title="請注意"
+      body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。"
+      open
+    />
 
   return <div>
-    {showError &&
-      <MyAlertDialog
-        title="請注意"
-        body="無法檢測到語音設備。請使用Chrome瀏覽器，並且給予瀏覽器權限。"
-        buttonText="Ok"
-        open
-      />
-    }
     {(needToSetCookie({ deviceInfos }) || openSettings)
       && <SettingsPopUp
           deviceInfos={deviceInfos}

@@ -13,7 +13,7 @@ const AudioControl = ({ currentAudio, currentDeviceId, currentAudioId, mp3List }
       customAdditionalControls={[]}
       onPlay={e => {
         console.log(e);
-        currentDeviceId && attachSinkId({ element: e.target, sinkId: currentDeviceId })
+        attachSinkId({ element: e.target, sinkId: currentDeviceId })
       }}
     />
   </div>
