@@ -28,18 +28,9 @@ export const getVoiceTypeFromCookie = () => (
   Cookies.get('voiceType')
 )
 
-export const needToSetCookie = ({ deviceInfos }) => {
-  if (!deviceInfos)
-    return false
-
+export const needToSetCookie = () => {
   if (isEmpty(getVoiceTypeFromCookie()))
     return true;
-
-  if (isEmpty(getDeviceIdFromCookie()))
-    return true;
-
-  if (!find(deviceInfos, device => device.deviceId === getDeviceIdFromCookie()))
-    return true
 
   return false;
 };

@@ -27,6 +27,7 @@ global.nickNameSrcFileCache = {};
 global.deviceInfosCache = [];
 
 global.ttpFileCache = {};
+
 function handleError(error) {
   console.log('navigator.MediaDevices.getUserMedia error: ', error.message, error.name);
 }
