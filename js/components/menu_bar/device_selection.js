@@ -25,6 +25,9 @@ const DeviceSelection = ({ deviceInfos, setCurrentDeviceId, currentDeviceId, isS
     return compact(options);
   }
 
+  if(!deviceInfos.length)
+    return null;
+
   return <div className="outputSelector">
     <label>請選擇音頻輸出設備:&nbsp;</label>
     <select onChange={changeHandler} value={currentDeviceId}>

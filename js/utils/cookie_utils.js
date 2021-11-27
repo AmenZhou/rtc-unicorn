@@ -29,7 +29,7 @@ export const getVoiceTypeFromCookie = () => (
 )
 
 export const needToSetCookie = ({ deviceInfos }) => {
-  if (!deviceInfos)
+  if (!deviceInfos.length)
     return false
 
   if (isEmpty(getVoiceTypeFromCookie()))
